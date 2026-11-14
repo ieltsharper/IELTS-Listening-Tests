@@ -1,0 +1,2338 @@
+{
+ "1": [
+  {
+   "type": "section",
+   "n": 1
+  },
+  {
+   "type": "block",
+   "from": 1,
+   "to": 10,
+   "mode": "text",
+   "inst": [
+    "Complete the notes below.",
+    "Write NO MORE THAN ONE WORD AND/OR A NUMBER in each gap."
+   ],
+   "html": "<p>BANK ACCOUNT OPENING FORM</p><p>Type of account: deposit account</p><p>Name of account decided on: <span class=\"gap\">1</span></p><p>Customer’s name: <span class=\"gap\">2</span> Fox</p><p>Date of Birth: <span class=\"gap\">3</span> 1970</p><p>Current address: 10, <span class=\"gap\">4</span> House South Quay</p><p>Duration of time living there: about <span class=\"gap\">5</span> month(s)</p><p>Address(before): Flat 3, Canada House</p><p><span class=\"gap\">6</span> Street, Edinburgh</p><p>Office number: 02072356735</p><p>Home number: <span class=\"gap\">7</span></p><p>Occupation: <span class=\"gap\">8</span></p><p>Identity (security): Name of his <span class=\"gap\">9</span> Monica</p><p>The account opening sum: £ <span class=\"gap\">10</span></p>"
+  },
+  {
+   "type": "section",
+   "n": 2
+  },
+  {
+   "type": "block",
+   "from": 11,
+   "to": 14,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letters A - C"
+   ],
+   "html": "<p>The Elizabeth House</p><p class='q'><span class='qn'>11</span> Jonathan Owen bought the house in 1965 as it was built in the way of</p><ul class='opts'><li><b>A</b> The standard European building style</li><li><b>B</b> The Asian style of middle ages in the UK</li><li><b>C</b> The traditional middle ages of the Britain</li></ul><p class='q'><span class='qn'>12</span> Jonathan Owen has been employed in the university of Canterbury as</p><ul class='opts'><li><b>A</b> A head master of ceramic</li><li><b>B</b> A head carpenter</li><li><b>C</b> A supervisor of accounting</li></ul><p class='q'><span class='qn'>13</span> Jonathan Owen succeeded in his business so much, but he suffered from</p><ul class='opts'><li><b>A</b> Private household affairs</li><li><b>B</b> Personal diseases</li><li><b>C</b> Public relations</li></ul><p class='q'><span class='qn'>14</span> Where did he gather his building material from?</p><ul class='opts'><li><b>A</b> The local area</li><li><b>B</b> The garden</li><li><b>C</b> The backyard</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 15,
+   "to": 20,
+   "mode": "text",
+   "inst": [
+    "Complete the sentences below:",
+    "Write NO MORE THAN TWO WORDS in each gap"
+   ],
+   "html": "<p class='bullet'>Sun Rainbow was designed by Owen’s brother who had studied <span class=\"gap\">15</span> in Paris</p><p class='bullet'>There is a <span class=\"gap\">16</span> tree with 200 years old near the entrance</p><p class='bullet'>You can find the shop between the path and <span class=\"gap\">17</span></p><p class='bullet'>In the snack bar, you will be able to take rest and get <span class=\"gap\">18</span></p><p class='bullet'>Through <span class=\"gap\">19</span> there is a beautiful walk</p><p class='bullet'>Both <span class=\"gap\">20</span> and grapes are the local products that are promoted and marketed every year with a variety of events and festivals.</p>"
+  },
+  {
+   "type": "section",
+   "n": 3
+  },
+  {
+   "type": "block",
+   "from": 21,
+   "to": 24,
+   "mode": "image",
+   "image": "t01-b6.webp"
+  },
+  {
+   "type": "block",
+   "from": 25,
+   "to": 30,
+   "mode": "text",
+   "inst": [
+    "Complete the summary below:",
+    "Write NO MORE THAN TWO WORDS in each gap"
+   ],
+   "html": "<p>Ceramics</p><p>Of the countries chosen ceramic of <span class=\"gap\">25</span> is a unique kind that the researchers are interested in. On <span class=\"gap\">26</span> Of ceramic, the decoration is compared with artwork of the present time.</p><p>The natives made the ceramic from <span class=\"gap\">27</span> , like mountain, basement, and the bottom of the lake. From <span class=\"gap\">28</span> plants, the natives made various colours through the process of</p><p><span class=\"gap\">29</span> The tones of ceramic were used by <span class=\"gap\">30</span></p>"
+  },
+  {
+   "type": "section",
+   "n": 4
+  },
+  {
+   "type": "block",
+   "from": 31,
+   "to": 36,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letters A - C"
+   ],
+   "html": "<p>Waste issues in the UK</p><p class='q'><span class='qn'>31</span> The waste collection in the UK compared to other European nations</p><ul class='opts'><li><b>A</b> is lower than 15%</li><li><b>B</b> will be lower in the next coming years</li><li><b>C</b> is lower</li></ul><p class='q'><span class='qn'>32</span> What did the local government do to reduce waste?</p><ul class='opts'><li><b>A</b> support green campaign and flea markets</li><li><b>B</b> enact a severe regulation</li><li><b>C</b> investing in flea markets</li></ul><p class='q'><span class='qn'>33</span> What kinds of flea markets is in the UK?</p><ul class='opts'><li><b>A</b> indoors and outdoors</li><li><b>B</b> warehouse and school gymnasium</li><li><b>C</b> an open field with many small tents</li></ul><p class='q'><span class='qn'>34</span> What did the UK flea market vendors sell?</p><ul class='opts'><li><b>A</b> second hand tables and food</li><li><b>B</b> unwanted household products</li><li><b>C</b> fast food and beverages</li></ul><p class='q'><span class='qn'>35</span> What hindrance in opening more flea markets is in the UK?</p><ul class='opts'><li><b>A</b> Customers cannot access the internet</li><li><b>B</b> There is not enough space and money</li><li><b>C</b> the information and marketing are deficient</li></ul><p class='q'><span class='qn'>36</span> How much waste (electronic and furniture goods) is recycled annually in the UK flea markets?</p><ul class='opts'><li><b>A</b> 20%</li><li><b>B</b> 15%</li><li><b>C</b> 50%</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 37,
+   "to": 38,
+   "mode": "text",
+   "inst": [
+    "Choose two letters A- E"
+   ],
+   "html": "<p class='q'><span class='qn'>37 & 38</span> Which two solutions in handling the recycling problems of office papers in the UK?</p><ul class='opts'><li><b>A</b> manufacture high-quality paper to reuse</li><li><b>B</b> classify paper before selling.</li><li><b>C</b> sell paper to farmers as fertilizer.</li><li><b>D</b> put paper through a sorting process</li><li><b>E</b> Use high tech machine to produce paper</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 39,
+   "to": 40,
+   "mode": "text",
+   "inst": [
+    "Choose two letters A- E"
+   ],
+   "html": "<p class='q'><span class='qn'>39 & 40</span> Which TWO reasons are encouraging UK people to reuse waste?</p><ul class='opts'><li><b>A</b> for later use</li><li><b>B</b> saving resources</li><li><b>C</b> using for other purposes</li><li><b>D</b> environmental protection</li><li><b>E</b> can be used by others.</li></ul>"
+  }
+ ],
+ "2": [
+  {
+   "type": "section",
+   "n": 1
+  },
+  {
+   "type": "block",
+   "from": 1,
+   "to": 10,
+   "mode": "text",
+   "inst": [
+    "Complete the form below.",
+    "Write ONE WORD AND/OR A NUMBER in each gap"
+   ],
+   "html": "<p>Hostel accommodation</p><p>Top End Backpackers Price per person: $19</p><p>Comments and reviews: + parking available, + staff are</p><p><span class=\"gap\">1</span></p><p>+ nice pool</p><p>+ air-conditioning is too <span class=\"gap\">2</span></p><p>Gum tree lodge</p><p>Price per person: $ <span class=\"gap\">3</span></p><p>Comments and reviews: + good quiet location</p><p>+ pools and gardens</p><p>+ <span class=\"gap\">4</span> In the dormitories</p><p>Kangaroo lodge</p><p>Price per person: $22</p><p>Comments and reviews: + downtown location</p><p>+ reception at the lodge is always open</p><p>+ no lockers in the rooms</p><p>+ the <span class=\"gap\">5</span> are very clean</p><p>+ seems to be a <span class=\"gap\">6</span> every night</p><p>Address: on <span class=\"gap\">7</span> lane</p><p>Hostel information: + sheets are provided</p><p>+can hire a/an <span class=\"gap\">8</span></p><p>+ <span class=\"gap\">9</span> is included</p><p>+ a shared <span class=\"gap\">10</span> Is available</p>"
+  },
+  {
+   "type": "section",
+   "n": 2
+  },
+  {
+   "type": "block",
+   "from": 11,
+   "to": 16,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letters A, B or C"
+   ],
+   "html": "<p>Anglia Sculpture Park</p><p class='q'><span class='qn'>11</span> The land where the sculpture is located was previously completely covered by forest is</p><ul class='opts'><li><b>A</b> completely covered by forest</li><li><b>B</b> the site of a private house</li><li><b>C</b> occupied by a factory</li></ul><p class='q'><span class='qn'>12</span> What is unusual about the Anglia Sculpture Park?</p><ul class='opts'><li><b>A</b> artists have made sculptures especially for it</li><li><b>B</b> some of its sculptures were donated by the artists</li><li><b>C</b> It only shows contemporary sculptures</li></ul><p class='q'><span class='qn'>13</span> What is the theme of Joe Tremain’s sculptures?</p><ul class='opts'><li><b>A</b> The contract between nature and urban life</li><li><b>B</b> The effect of man on the environment</li><li><b>C</b> the violence of nature</li></ul><p class='q'><span class='qn'>14</span> The path by the lower lake</p><ul class='opts'><li><b>A</b> is rather wet in some places</li><li><b>B</b> has recently been repaired</li><li><b>C</b> is difficult to walk on</li></ul><p class='q'><span class='qn'>15</span> What does the speaker say about the visitor centre?</p><ul class='opts'><li><b>A</b> It is being enlarged at present</li><li><b>B</b> It has received an international award</li><li><b>C</b> It was designed by a Canadian architect</li></ul><p class='q'><span class='qn'>16</span> Today, visitors can buy snacks and sandwiches</p><ul class='opts'><li><b>A</b> at the kiosk</li><li><b>B</b> in the terrace room</li><li><b>C</b> at the Lower Lake café</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 17,
+   "to": 20,
+   "mode": "image",
+   "image": "t02-b4.webp"
+  },
+  {
+   "type": "section",
+   "n": 3
+  },
+  {
+   "type": "block",
+   "from": 21,
+   "to": 26,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letters A, B or C"
+   ],
+   "html": "<p>Making Report</p><p class='q'><span class='qn'>21</span> Why did Leo choose instant coffee as the topic for his marketing report?</p><ul class='opts'><li><b>A</b> he found plenty of material on the topic</li><li><b>B</b> he has some practical experience in the area</li><li><b>C</b> he had an idea of a brand he wanted to target</li></ul><p class='q'><span class='qn'>22</span> Leo discovered that in Australia, recent technological developments</p><ul class='opts'><li><b>A</b> are producing less healthy types of instant coffee</li><li><b>B</b> are reducing the demand for instant coffee</li><li><b>C</b> are improving the quality of instant coffee</li></ul><p class='q'><span class='qn'>23</span> What do the speakers agree about the Leo’s table of coffee products?</p><ul class='opts'><li><b>A</b> it needs more explanation in the text</li><li><b>B</b> it is factually inaccurate in some places</li><li><b>C</b> it would be best to put this in the appendix</li></ul><p class='q'><span class='qn'>24</span> What do they decide about Shaffer&#x27;s coffee as a market follower?</p><ul class='opts'><li><b>A</b> Leo needs to define his terms</li><li><b>B</b> Leo needs to provide more evidence</li><li><b>C</b> Leo needs to put it in a different section</li></ul><p class='q'><span class='qn'>25</span> What does Anna say about originality in someone’s first marketing report?</p><ul class='opts'><li><b>A</b> Clear analysis of data can be considered original</li><li><b>B</b> graphs and diagrams should be original, not copied</li><li><b>C</b> reports should contain some original data collected by the student</li></ul><p class='q'><span class='qn'>26</span> What difference between school assignments and this report has surprised Leo?</p><ul class='opts'><li><b>A</b> not knowing the criteria for getting a good mark</li><li><b>B</b> being required to produce work without evidence</li><li><b>C</b> having to do a great deal of research</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 27,
+   "to": 30,
+   "mode": "text",
+   "inst": [
+    "Write ONE WORD ONLY in each gap."
+   ],
+   "html": "<p>Notes on specific section of marketing report</p><p>Executive summary: give a brief overview including the <span class=\"gap\">27</span></p><p>Problems: Link each problem to a/an <span class=\"gap\">28</span> which explains it.</p><p>Implementation: practical solutions to problems</p><p>Includes details such as participants, <span class=\"gap\">29</span> and sequence section is often poorly done because of lack of</p><p><span class=\"gap\">30</span></p><p>Conclusion: Don’t use raw material here</p>"
+  },
+  {
+   "type": "section",
+   "n": 4
+  },
+  {
+   "type": "block",
+   "from": 31,
+   "to": 40,
+   "mode": "text",
+   "inst": [
+    "Complete the notes below:",
+    "Write ONE WORD ONLY in each gap"
+   ],
+   "html": "<p>History of fireworks in Europe</p><p>13th - 16th centuries</p><p class='bullet'>fireworks were introduced from china</p><p class='bullet'>Their use was mainly to do with:</p><p>+ war</p><p>+ <span class=\"gap\">31</span> (in plays as festivals)</p><p>17th century:</p><p>Various features of <span class=\"gap\">32</span> were shown in fireworks</p><p>Scientists were interested in using from fireworks displays</p><p>To make human <span class=\"gap\">33</span> possible</p><p>To show the formation of <span class=\"gap\">34</span></p><p>London:</p><p>Scientists were distrustful at first</p><p>Later they investigated <span class=\"gap\">35</span> uses of fireworks (Eg: for sailors) St.</p><p>Petersburg:</p><p>Fireworks were seen as method of <span class=\"gap\">36</span> for people Paris:</p><p>Displays emphasised the power of <span class=\"gap\">37</span></p><p>Scientists aimed to provide <span class=\"gap\">38</span> 18th century:</p><p>Italian fireworks specialists became influential Servandoni’s firework display followed the same pattern as a/an <span class=\"gap\">39</span> The appeal of fireworks extended to the middle classes</p><p>Some displays demonstrated new scientific discoveries such as <span class=\"gap\">40</span></p>"
+  }
+ ],
+ "3": [
+  {
+   "type": "section",
+   "n": 1
+  },
+  {
+   "type": "block",
+   "from": 1,
+   "to": 10,
+   "mode": "text",
+   "inst": [
+    "Complete the notes below.",
+    "Write ONE WORD AND/OR A NUMBER in each gap"
+   ],
+   "html": "<p>Competition of Writing a Short Story</p><p>Entry Details</p><p class='bullet'>cost of entry: 5 pounds</p><p class='bullet'>Length of story: approximately <span class=\"gap\">1</span></p><p class='bullet'>Requirement: Must include a/an <span class=\"gap\">2</span> ending</p><p class='bullet'>Minimum age: <span class=\"gap\">3</span></p><p class='bullet'>Last entry date: <span class=\"gap\">4</span></p><p class='bullet'>Web address: www <span class=\"gap\">5</span> com</p><p class='bullet'>Rule: do not <span class=\"gap\">6</span> the story to the organisms</p><p>Judging and prize details</p><p class='bullet'>Assessments: The story is judged by well known <span class=\"gap\">7</span></p><p class='bullet'>Prizes: + top five stories will be available <span class=\"gap\">8</span></p><p>+the top story will be chosen by the <span class=\"gap\">9</span></p><p>+ the first prize is a place at a writer’s workshop in <span class=\"gap\">10</span></p>"
+  },
+  {
+   "type": "section",
+   "n": 2
+  },
+  {
+   "type": "block",
+   "from": 11,
+   "to": 17,
+   "mode": "text",
+   "inst": [
+    "Complete the sentences below:",
+    "Write ONE WORD ONLY in each gap"
+   ],
+   "html": "<p>Information of Sea Life Centre</p><p class='bullet'>The Sea Life centre was previously called as the World of <span class=\"gap\">11</span> - The newest attraction at the centre is the splash <span class=\"gap\">12</span></p><p class='bullet'>The main feeding time at the centre is at <span class=\"gap\">13</span></p><p class='bullet'>Visitors can feed the <span class=\"gap\">14</span> with a VIP ticket</p><p class='bullet'>A small party will be arranged by the centre for visitor’s <span class=\"gap\">15</span></p><p class='bullet'>The petition for animal conservation will be sent to <span class=\"gap\">16</span></p><p class='bullet'>A/An <span class=\"gap\">17</span> can be used to test what visitor has learnt</p>"
+  },
+  {
+   "type": "block",
+   "from": 18,
+   "to": 20,
+   "mode": "text",
+   "inst": [],
+   "html": "<p class='q'><span class='qn'>18 & 19 & 20</span> What does the guide say about each attraction?</p><p>Choose THREE answers from the list below and write the correct letter A - E, next to questions 18 -</p><p class='q'><span class='qn'>20</span> .</p><p>List of attractions: Comments:</p><p>A. Aquarium must not miss <span class=\"gap\">18</span></p><p>B. Crocodile cave temporarily closed <span class=\"gap\">19</span></p><p>C. Penguin park large queues <span class=\"gap\">20</span></p><ul class='opts'><li><b>D</b> Seal centre</li><li><b>E</b> Turtle town</li></ul>"
+  },
+  {
+   "type": "section",
+   "n": 3
+  },
+  {
+   "type": "block",
+   "from": 21,
+   "to": 22,
+   "mode": "text",
+   "inst": [
+    "Choose two letters A - E,"
+   ],
+   "html": "<p class='q'><span class='qn'>21 & 22</span> Which TWO subjects did Martina like best before going to university?</p><ul class='opts'><li><b>A</b> Art</li><li><b>B</b> English</li><li><b>C</b> French D. History</li><li><b>E</b> Science</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 23,
+   "to": 26,
+   "mode": "text",
+   "inst": [
+    "Complete the summary below:",
+    "Write ONE WORD ONLY in each gap"
+   ],
+   "html": "<p>George’s Experience of University</p><p>George is studying Mechanical Engineering which involves several disciplines. He is finding</p><p><span class=\"gap\">23</span> the most difficult. At the moment, his course is only <span class=\"gap\">24</span></p><p>He will soon have an assignment which involves a study of jet <span class=\"gap\">25</span> He thinks there are too many <span class=\"gap\">26</span> and would like less of them.</p>"
+  },
+  {
+   "type": "block",
+   "from": 27,
+   "to": 30,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letters A, B or C"
+   ],
+   "html": "<p class='q'><span class='qn'>27</span> Martina thinks that the students at her university are</p><ul class='opts'><li><b>A</b> sociable</li><li><b>B</b> intelligent</li><li><b>C</b> energetic</li></ul><p class='q'><span class='qn'>28</span> George hopes that his tutor will help him</p><ul class='opts'><li><b>A</b> lose his shyness</li><li><b>B</b> settle into university</li><li><b>C</b> get to know his subject better</li></ul><p class='q'><span class='qn'>29</span> What does Martina know about her first assignment?</p><ul class='opts'><li><b>A</b> the topic</li><li><b>B</b> the length</li><li><b>C</b> the deadline</li></ul><p class='q'><span class='qn'>30</span> George would like to live</p><ul class='opts'><li><b>A</b> In a hall of residence</li><li><b>B</b> in a flat of his own</li><li><b>C</b> with a host family</li></ul>"
+  },
+  {
+   "type": "section",
+   "n": 4
+  },
+  {
+   "type": "block",
+   "from": 31,
+   "to": 35,
+   "mode": "text",
+   "inst": [
+    "Complete the notes below:",
+    "Write ONE WORD ONLY in each gap:"
+   ],
+   "html": "<p>Preparation Process of Making a Presentation</p><p>Initial thoughts:</p><p>Most important consideration: your audience</p><p>Three points to bear in mind</p><p>+ what they need to know</p><p>+ how <span class=\"gap\">31</span> they will be</p><p>+ how big the audience will be Structure:</p><p>Start with information that draws the audience’s <span class=\"gap\">32</span> end with next <span class=\"gap\">33</span></p><p>Design:</p><p>The presentation needs to be <span class=\"gap\">34</span></p><p>Vary content by using a mix of words and <span class=\"gap\">35</span></p>"
+  },
+  {
+   "type": "block",
+   "from": 36,
+   "to": 40,
+   "mode": "text",
+   "inst": [],
+   "html": "<p>Presenting:</p><p>Look at the audience, be enthusiastic and energetic</p><p>Voice - vary speed and <span class=\"gap\">36</span></p><p>Occasionally add <span class=\"gap\">37</span></p><p>Do not use weak <span class=\"gap\">38</span> (e.g: appears, seems)</p><p>Questions and interruptions:</p><p>When asked a question, first of all you should <span class=\"gap\">39</span> it</p><p>Minimise interruptions by <span class=\"gap\">40</span> them.</p>"
+  }
+ ],
+ "4": [
+  {
+   "type": "section",
+   "n": 1
+  },
+  {
+   "type": "block",
+   "from": 1,
+   "to": 10,
+   "mode": "text",
+   "inst": [
+    "Complete the notes below.",
+    "Write NO MORE THAN ONE WORD AND/OR A NUMBER in each gap Goodbye party for John"
+   ],
+   "html": "<p>Venue: College Dining room</p><p>Invitations (Tony) Who - John and his <span class=\"gap\">1</span> to invite: -Director</p><p class='bullet'>the office <span class=\"gap\">2</span></p><p class='bullet'>all the teachers</p><p class='bullet'>all the <span class=\"gap\">3</span></p><p>Date for sending invitations: <span class=\"gap\">4</span></p><p>Present (Lisa)</p><p>Collect money: - coffee breaks</p><p>-$ <span class=\"gap\">5</span></p><p class='bullet'>CD players</p><p>Check prices for:</p><p class='bullet'>set of <span class=\"gap\">6</span></p><p class='bullet'>coffee <span class=\"gap\">7</span></p><p>Ask guests to bring: -snacks</p><p>-music <span class=\"gap\">8</span></p><p class='bullet'><span class=\"gap\">9</span></p><p>Ask students to prepare a - <span class=\"gap\">10</span></p>"
+  },
+  {
+   "type": "section",
+   "n": 2
+  },
+  {
+   "type": "block",
+   "from": 11,
+   "to": 15,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letters A - C"
+   ],
+   "html": "<p class='q'><span class='qn'>11</span> To find out how much holidays cost, you should press button</p><ul class='opts'><li><b>A</b> one</li><li><b>B</b> two</li><li><b>C</b> three</li></ul><p class='q'><span class='qn'>12</span> Travelite currently offer walking holidays</p><ul class='opts'><li><b>A</b> only in Western Europe</li><li><b>B</b> all over Europe</li><li><b>C</b> Outside Europe</li></ul><p class='q'><span class='qn'>13</span> The walks offered by Travelite</p><ul class='opts'><li><b>A</b> cater for a range of walking abilities</li><li><b>B</b> are planned by guides from the local area</li><li><b>C</b> are for people with good fitness levels</li></ul><p class='q'><span class='qn'>14</span> On travelite holidays people holidaying alone play</p><ul class='opts'><li><b>A</b> the same as other clients</li><li><b>B</b> only a little more than other clients C. extra only if they stay in a large room.</li></ul><p class='q'><span class='qn'>15</span> Entertainment is provided</p><ul class='opts'><li><b>A</b> When guests request it</li><li><b>B</b> most nights</li><li><b>C</b> every night</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 16,
+   "to": 20,
+   "mode": "image",
+   "image": "t04-b4.webp"
+  },
+  {
+   "type": "section",
+   "n": 3
+  },
+  {
+   "type": "block",
+   "from": 21,
+   "to": 26,
+   "mode": "image",
+   "image": "t04-b6.webp"
+  },
+  {
+   "type": "block",
+   "from": 27,
+   "to": 30,
+   "mode": "text",
+   "inst": [],
+   "html": "<p>What problems do the speakers identify for each experiment?</p><p>Match your answers A - H from the box next to questions 27 - 30</p><p>A. too messy Experiment 1: <span class=\"gap\">27</span></p><ul class='opts'><li><b>B</b> too boring</li></ul><p>C. too difficult Experiment 2: <span class=\"gap\">28</span></p><ul class='opts'><li><b>D</b> too much equipment</li></ul><p>E. too long Experiment 3: <span class=\"gap\">29</span></p><ul class='opts'><li><b>F</b> too easy</li><li><b>G</b> too noisy Experiment 4: F</li></ul><p>H. too dangerous Experiment 5: <span class=\"gap\">30</span></p>"
+  },
+  {
+   "type": "section",
+   "n": 4
+  },
+  {
+   "type": "block",
+   "from": 31,
+   "to": 34,
+   "mode": "text",
+   "inst": [
+    "Complete the note below",
+    "Write NO MORE THAN ONE WORD AND/OR A NUMBER in each gap"
+   ],
+   "html": "<p>Shark in Australia</p><p>Length: largest caught 16 metres</p><p>Weight: Heaviest <span class=\"gap\">31</span> kg</p><p>Skeleton: Cartilage</p><p>Skin texture: Rough barbs</p><p>Swimming aids: fins and <span class=\"gap\">32</span></p><p>Food: gathered from the ocean</p><p><span class=\"gap\">33</span></p><p>Sharks locate food by using their sense of</p><p><span class=\"gap\">34</span></p>"
+  },
+  {
+   "type": "block",
+   "from": 35,
+   "to": 38,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letters A - C"
+   ],
+   "html": "<p class='q'><span class='qn'>35</span> Sharks meshing uses nets laid</p><ul class='opts'><li><b>A</b> along the coastline</li><li><b>B</b> At an angle to the beach</li><li><b>C</b> from the beach to the sea</li></ul><p class='q'><span class='qn'>36</span> Other places that have taken up shark meshing include</p><ul class='opts'><li><b>A</b> South Africa</li><li><b>B</b> New Zealand</li><li><b>C</b> Tahiti</li></ul><p class='q'><span class='qn'>37</span> The average number of sharks caught in nets each year is</p><ul class='opts'><li><b>A</b> 15</li><li><b>B</b> 150</li><li><b>C</b> 1500</li></ul><p class='q'><span class='qn'>38</span> Most sharks are caught in</p><ul class='opts'><li><b>A</b> spring</li><li><b>B</b> summer</li><li><b>C</b> winter</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 39,
+   "to": 40,
+   "mode": "text",
+   "inst": [
+    "Choose TWO letters A - G"
+   ],
+   "html": "<p class='q'><span class='qn'>39 & 40</span> Which TWO factors reduce the benefits of shark nets?</p><ul class='opts'><li><b>A</b> net wrongly positioned</li><li><b>B</b> strong waves and currents</li><li><b>C</b> too many fish</li><li><b>D</b> sharks eat holes in nets</li><li><b>E</b> moving sands</li><li><b>F</b> nets too short</li><li><b>G</b> holes in nets scare sharks</li></ul>"
+  }
+ ],
+ "5": [
+  {
+   "type": "section",
+   "n": 1
+  },
+  {
+   "type": "block",
+   "from": 1,
+   "to": 10,
+   "mode": "text",
+   "inst": [
+    "Complete the notes below.",
+    "Write ONE WORD AND/OR A NUMBER in each gap"
+   ],
+   "html": "<p>Bankside Recruiting Agency</p><p>Address: 497, Eastside, Docklands</p><p>Name of agent: Becky <span class=\"gap\">1</span></p><p>Phone number: 07866510333</p><p>Time to contact: Best time to call her in the <span class=\"gap\">2</span></p><p>Typical jobs:</p><p>Clerical and admin roles, mainly in the finance industry</p><p>Must have good <span class=\"gap\">3</span> skills</p><p>Jobs are usually for at least one <span class=\"gap\">4</span> Pay is usually £ <span class=\"gap\">5</span> per hour</p><p>Registration process:</p><p>Wear a <span class=\"gap\">6</span> to the interview</p><p>Must bring your <span class=\"gap\">7</span> to the interview</p><p>They will ask questions about each applicant’s <span class=\"gap\">8</span></p><p>Further information:</p><p>The <span class=\"gap\">9</span> you receive at interview will benefit you. Will get access to vacancies which are not advertised.</p><p>Less <span class=\"gap\">10</span> is involved in applying for jobs.</p>"
+  },
+  {
+   "type": "section",
+   "n": 2
+  },
+  {
+   "type": "block",
+   "from": 11,
+   "to": 14,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letters A - C"
+   ],
+   "html": "<p>Matthews Island Holidays</p><p class='q'><span class='qn'>11</span> According to the speaker, the company</p><ul class='opts'><li><b>A</b> has been in business for longer than most of its competitors</li><li><b>B</b> arranges holidays to more destinations than its competitors</li><li><b>C</b> has more customers than its competitors</li></ul><p class='q'><span class='qn'>12</span> Where can customers meet the tour manager before travelling to the Isle of Man?</p><ul class='opts'><li><b>A</b> Liverpool</li><li><b>B</b> Heysham</li><li><b>C</b> Luton</li></ul><p class='q'><span class='qn'>13</span> How many lunches are included in the price of holidays?</p><ul class='opts'><li><b>A</b> three</li><li><b>B</b> four</li><li><b>C</b> five</li></ul><p class='q'><span class='qn'>14</span> Customers have to pay extra for</p><ul class='opts'><li><b>A</b> guaranteeing themselves a larger room</li><li><b>B</b> booking at short notice</li><li><b>C</b> transferring to another date</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 15,
+   "to": 20,
+   "mode": "text",
+   "inst": [
+    "Write ONE WORD AND/OR A NUMBER in each gap"
+   ],
+   "html": "<p>Time table for Isle of Man Holiday</p><p>Activity Notes</p><p class='bullet'>Introduction by</p><p>Day 1 Arrive manager</p><p class='bullet'>Hotel dining room has view of the <span class=\"gap\">15</span></p><p>Tynwald may have been</p><p>Day 2 Tynwald Exhibition and Peel founded in <span class=\"gap\">16</span> not 979.</p><p>Travel along promenade in a</p><p>Day 3 Trip to Snaifell tram; train to Laxey; train to</p><p><span class=\"gap\">17</span> of Snaifell</p><p>Company provides a</p><p>Day 4 Free day <span class=\"gap\">18</span> for local transport and heritage sites.</p><p>Take the <span class=\"gap\">19</span> railway Free time, then coach to</p><p>Day 5 train from Douglas to Port Erin Castletwon- former <span class=\"gap\">20</span> has old castle.</p><p>Leave the island by Ferry or</p><p>Day 6 Leave plane.</p>"
+  },
+  {
+   "type": "section",
+   "n": 3
+  },
+  {
+   "type": "block",
+   "from": 21,
+   "to": 26,
+   "mode": "text",
+   "inst": [],
+   "html": "<p>What did findings of previous research claim about the personality traits a child is likely to have because of their position in the family?</p><p>Choose SIX answers from the list below and match the correct letter, A - H to question 21 - 26</p><p>Personality traits Position in the family</p><p>A. outgoing the eldest child <span class=\"gap\">21</span></p><p>B. selfish a middle child <span class=\"gap\">22</span></p><p>C. independent the youngest child <span class=\"gap\">23</span></p><p>D. attention-seeking a twin <span class=\"gap\">24</span></p><p>E introverted an only child <span class=\"gap\">25</span></p><p>F. co-operative a child with much older siblings <span class=\"gap\">26</span></p><ul class='opts'><li><b>G</b> caring</li><li><b>H</b> competitive</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 27,
+   "to": 28,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letters A - C."
+   ],
+   "html": "<p class='q'><span class='qn'>27</span> What do the speakers say about the evidence relating to birth order and academic success?</p><ul class='opts'><li><b>A</b> There is conflicting evidence about whether oldest children perform best in intelligence tests.</li><li><b>B</b> There is little doubt that birth order has less influence on academic achievement than socioeconomic status</li><li><b>C</b> Some studies have neglected to include important factors such as family size.</li></ul><p class='q'><span class='qn'>28</span> What does Ruth think is surprising about the difference in oldest children’s academic performance?</p><ul class='opts'><li><b>A</b> It is mainly thanks to their role as teachers for their younger siblings.</li><li><b>B</b> The advantages they have only lead to a slightly higher level of achievement.</li><li><b>C</b> The extra parental attention they receive at a young age makes little difference.</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 29,
+   "to": 30,
+   "mode": "text",
+   "inst": [
+    "Choose TWO letters A - E"
+   ],
+   "html": "<p class='q'><span class='qn'>29 & 30</span> Which TWO experiences of sibling rivalry do the speakers agree has been valuable for them?</p><ul class='opts'><li><b>A</b> learning to share</li><li><b>B</b> learning to stand up for oneself</li><li><b>C</b> learning to be a good loser</li><li><b>D</b> learning to be tolerant</li><li><b>E</b> learning to say sorry</li></ul>"
+  },
+  {
+   "type": "section",
+   "n": 4
+  },
+  {
+   "type": "block",
+   "from": 31,
+   "to": 40,
+   "mode": "text",
+   "inst": [
+    "Complete the notes below",
+    "Write ONE WORD ONLY in each gap"
+   ],
+   "html": "<p>The Eucalyptus Tree in Australia</p><p>Importance:</p><p>It provides <span class=\"gap\">31</span> And food for a wide range of species</p><p>Its leaves provide <span class=\"gap\">32</span> Which is used to make a disinfectant</p><p>Reasons for present decline in number:</p><p>Diseases (i) ‘Mundulla Yellow’</p><p class='bullet'>Cause - lime used for making <span class=\"gap\">33</span> Was absorbed.</p><p class='bullet'>Trees were unable to take in necessary iron through their roots.</p><p>(ii) ‘Bell miner associated Dieback’</p><p class='bullet'>Cause <span class=\"gap\">34</span> feed on Eucalyptus leaves</p><p class='bullet'>They secrete a substance containing sugar</p><p class='bullet'>Bell miner birds are attracted by this and keep away other species</p><p>Bushfires</p><p>William Jackson’s theory:</p><p class='bullet'>High frequency bushfires have an impact on vegetation resulting in the growth of <span class=\"gap\">35</span> - Mid frequency bushfires result in the growth of eucalyptus forests because they make more</p><p><span class=\"gap\">36</span> Available to the trees.</p><p class='bullet'>Maintain the quality of the <span class=\"gap\">37</span></p><p class='bullet'>Low frequency bushfires result in the growth of <span class=\"gap\">38</span> rainforest’s which is: a</p><p><span class=\"gap\">39</span> ecosystem, an ideal environment for the <span class=\"gap\">40</span> of the bell miner.</p>"
+  }
+ ],
+ "6": [
+  {
+   "type": "section",
+   "n": 1
+  },
+  {
+   "type": "block",
+   "from": 1,
+   "to": 5,
+   "mode": "image",
+   "image": "t06-b1.webp"
+  },
+  {
+   "type": "block",
+   "from": 6,
+   "to": 8,
+   "mode": "text",
+   "inst": [
+    "Choose three letters A - F"
+   ],
+   "html": "<p class='q'><span class='qn'>6 & 7 & 8</span> What type of films does Louise like?</p><ul class='opts'><li><b>A</b> Action</li><li><b>B</b> Comedies</li><li><b>C</b> Musicals</li><li><b>D</b> Romance</li><li><b>E</b> Westerns</li><li><b>F</b> Wildlife</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 9,
+   "to": 10,
+   "mode": "text",
+   "inst": [
+    "Write NO MORE THAN TWO WORDS for each answer."
+   ],
+   "html": "<p>How much does it cost to join the library? <span class=\"gap\">9</span></p><p>When will Louise’s card be ready? <span class=\"gap\">10</span></p>"
+  },
+  {
+   "type": "section",
+   "n": 2
+  },
+  {
+   "type": "block",
+   "from": 11,
+   "to": 13,
+   "mode": "text",
+   "inst": [
+    "Complete the note below",
+    "Write NO MORE THAN TWO WORDS in each gap"
+   ],
+   "html": "<p>Expedition across Attora mountains</p><p>Leader: Charles Owen</p><p>Prepared a <span class=\"gap\">11</span> for the trip</p><p>Total length of the trip <span class=\"gap\">12</span></p><p>Climbed highest peak in <span class=\"gap\">13</span></p>"
+  },
+  {
+   "type": "block",
+   "from": 14,
+   "to": 15,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letters A - C"
+   ],
+   "html": "<p class='q'><span class='qn'>14</span> What took the group by surprise?</p><ul class='opts'><li><b>A</b> the amount of rain</li><li><b>B</b> the number of possible routes</li><li><b>C</b> the length of the journey</li></ul><p class='q'><span class='qn'>15</span> How did Charles feel about having to change routes?</p><ul class='opts'><li><b>A</b> He reluctantly accepted to it</li><li><b>B</b> He was irritated by the diversion</li><li><b>C</b> It made no difference to his enjoyment.</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 16,
+   "to": 18,
+   "mode": "text",
+   "inst": [
+    "Choose THREE letters A - F"
+   ],
+   "html": "<p class='q'><span class='qn'>16 & 17 & 18</span> What does Charles say about his friends?</p><ul class='opts'><li><b>A</b> He met them at one stage on the trip</li><li><b>B</b> They kept all their meeting arrangements</li><li><b>C</b> One of them helped arrange the transport</li><li><b>D</b> One of them owned the hostel they stayed in</li><li><b>E</b> Some of them travelled with him</li><li><b>F</b> Only one group lasted the 96 days</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 19,
+   "to": 20,
+   "mode": "text",
+   "inst": [],
+   "html": "<p class='q'><span class='qn'>19 & 20</span> Choose TWO letters A - E What does Charles say about the donkeys?</p><ul class='opts'><li><b>A</b> He rode them when he was tired</li><li><b>B</b> He named them after places C. One of them died</li><li><b>D</b> They behaved unpredictably</li><li><b>E</b> They were very small</li></ul>"
+  },
+  {
+   "type": "section",
+   "n": 3
+  },
+  {
+   "type": "block",
+   "from": 21,
+   "to": 25,
+   "mode": "image",
+   "image": "t06-b10.webp"
+  },
+  {
+   "type": "block",
+   "from": 26,
+   "to": 30,
+   "mode": "text",
+   "inst": [
+    "Write NO MORE THAN THREE WORDS for each answer"
+   ],
+   "html": "<p>What is Jane’s study strategy in lectures? <span class=\"gap\">26</span></p><p><span class=\"gap\">27</span></p><p>What is Tim’s study strategy for reading?</p><p>What is the subject of Tim’s first lecture? <span class=\"gap\">28</span></p><p>What is the title of Tim’s first essay? <span class=\"gap\">29</span></p><p>What is the subject of Jane’s first essay? <span class=\"gap\">30</span></p>"
+  },
+  {
+   "type": "section",
+   "n": 4
+  },
+  {
+   "type": "block",
+   "from": 31,
+   "to": 35,
+   "mode": "image",
+   "image": "t06-b13.webp"
+  },
+  {
+   "type": "block",
+   "from": 36,
+   "to": 40,
+   "mode": "text",
+   "inst": [],
+   "html": "<p>What is the main role of each job? Choose the correct answer and move it into the gap.</p><p>Job Main role</p><p>Physical fitness instructor <span class=\"gap\">36</span> A the coaching of teams</p><p>Sports administrator <span class=\"gap\">37</span> B the support of elite athletes</p><p>Sports psychologist <span class=\"gap\">38</span> C guidance of ordinary individuals</p><p>Physical education trainer <span class=\"gap\">39</span> D community health</p><p>Recreation officer <span class=\"gap\">40</span> E the treatment of injuries</p><ul class='opts'><li><b>F</b> arranging matches and venues</li><li><b>G</b> the rounded development of children</li></ul>"
+  }
+ ],
+ "7": [
+  {
+   "type": "section",
+   "n": 1
+  },
+  {
+   "type": "block",
+   "from": 1,
+   "to": 10,
+   "mode": "text",
+   "inst": [
+    "Complete the form below.",
+    "Write ONE WORD AND/OR A NUMBER in each gap."
+   ],
+   "html": "<p>Properties in Accommodation</p><p>Name: Jane Ryder</p><p>Phone number: (0044) <span class=\"gap\">1</span></p><p>Email address: richard@ <span class=\"gap\">2</span> co.uk</p><p>Occupation: a local <span class=\"gap\">3</span></p><p>Type of accommodation: - a 2-bedroom apartment wanted (must have its own <span class=\"gap\">4</span> )</p><p>-no <span class=\"gap\">5</span> Required (family bringing theirs)</p><p class='bullet'>a/an <span class=\"gap\">6</span> in the kitchen is preferable</p><p>Preferred location: near a/an <span class=\"gap\">7</span></p><p>Maximum rent: <span class=\"gap\">8</span> per month</p><p>Other requests: the accommodation has to be <span class=\"gap\">9</span> In the daytime</p><p>How did you hear? Through a/an <span class=\"gap\">10</span></p>"
+  },
+  {
+   "type": "section",
+   "n": 2
+  },
+  {
+   "type": "block",
+   "from": 11,
+   "to": 15,
+   "mode": "text",
+   "inst": [
+    "Complete the sentences below",
+    "Write ONE WORD ONLY in each gap"
+   ],
+   "html": "<p>Safety Guidelines</p><p class='bullet'>The police officer suggests neighbours give each other their details of</p><p><span class=\"gap\">11</span></p><p class='bullet'>Neighbours should discuss what to do if there’s any kind of <span class=\"gap\">12</span> - It’s a good idea to leave on the <span class=\"gap\">13</span></p><p class='bullet'>Think carefully about where you put any <span class=\"gap\">14</span></p><p class='bullet'>It’s a good idea to buy good quality <span class=\"gap\">15</span></p>"
+  },
+  {
+   "type": "block",
+   "from": 16,
+   "to": 20,
+   "mode": "text",
+   "inst": [
+    "Choose FIVE answers from the list below and write the correct letter, A - G, next to questions 16 -"
+   ],
+   "html": "<p class='q'><span class='qn'>20</span> .</p><p>Proposed crime prevention measures List of jobs:</p><p>A. install more lighting skate park <span class=\"gap\">16</span></p><p>B. have more police officers on patrol local primary schools <span class=\"gap\">17</span></p><p>C. remove surrounding vegetation Abbotsford street <span class=\"gap\">18</span></p><p>D. Contact local police Shops on Victoria street <span class=\"gap\">19</span></p><p>E. fix damage quickly supermarket car park <span class=\"gap\">20</span></p><ul class='opts'><li><b>F</b> change road design</li><li><b>G</b> use security cameras</li></ul>"
+  },
+  {
+   "type": "section",
+   "n": 3
+  },
+  {
+   "type": "block",
+   "from": 21,
+   "to": 25,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letters A, B or C"
+   ],
+   "html": "<p>Food Waste</p><p class='q'><span class='qn'>21</span> What point does Robert make about the 2013 study in Britain?</p><ul class='opts'><li><b>A</b> it is focused more on packaging than wasted food</li><li><b>B</b> it proved that households produced more waste than restaurants.</li><li><b>C</b> it included liquid waste as well as solid waste</li></ul><p class='q'><span class='qn'>22</span> The speakers agree that food waste reports should emphasize the connection between carbon dioxide emissions and</p><ul class='opts'><li><b>A</b> food production</li><li><b>B</b> transport of food to landfill sites</li><li><b>C</b> distribution of food products</li></ul><p class='q'><span class='qn'>23</span> Television programs now tend to focus on</p><ul class='opts'><li><b>A</b> the nutritional value of food products</li><li><b>B</b> the origin of food products</li><li><b>C</b> the chemicals found in food products</li></ul><p class='q'><span class='qn'>24</span> For Anna, the most significant point about food waste is</p><ul class='opts'><li><b>A</b> the moral aspect</li><li><b>B</b> the environmental impact</li><li><b>C</b> the economic effect</li></ul><p class='q'><span class='qn'>25</span> Anna and Robert decide to begin their presentation by</p><ul class='opts'><li><b>A</b> handing out a questionnaire</li><li><b>B</b> providing statistical evidence</li><li><b>C</b> showing images of wasted food.</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 26,
+   "to": 30,
+   "mode": "text",
+   "inst": [],
+   "html": "<p>What advantages do the speakers identify for each of the following projects?</p><p>Choose FIVE answers from the list below and write the correct letter, A - G next to questions 26 - 30</p><p>List of advantages: List of projects:</p><p>A it should save time edible patch <span class=\"gap\">26</span></p><p>B it will create new jobs ripeness sensor <span class=\"gap\">27</span></p><p>C it will benefit local communities waste tracking technology <span class=\"gap\">28</span></p><p>D it will make money smartphone application <span class=\"gap\">29</span></p><p>E it will encourage personal responsibility food waste composting <span class=\"gap\">30</span> F it will be easy to advertise</p><ul class='opts'><li><b>G</b> it will involve very little cost</li></ul>"
+  },
+  {
+   "type": "section",
+   "n": 4
+  },
+  {
+   "type": "block",
+   "from": 31,
+   "to": 40,
+   "mode": "text",
+   "inst": [
+    "Write ONE WORD ONLY in each gap"
+   ],
+   "html": "<p>Kite-making by the Maori people of New Zealand</p><p>Making and appearance of the kites:</p><p class='bullet'>the priests who made the kites had rules for size and scale</p><p class='bullet'><span class=\"gap\">31</span> was not allowed during a kite’s preparation</p><p>Kites:</p><p class='bullet'>often represented a bird, a god, or a/an <span class=\"gap\">32</span></p><p class='bullet'>had frames that were decorated with grasses and <span class=\"gap\">33</span></p><p class='bullet'>had a line of noisy <span class=\"gap\">34</span> attached to them</p><p class='bullet'>could be triangular, rectangular or <span class=\"gap\">35</span> shaped</p><p class='bullet'>Had patterns from clay mixed with <span class=\"gap\">36</span> oil</p><p class='bullet'>sometimes had human head masks with <span class=\"gap\">37</span> and a tattoo Purpose and function of kites:</p><p class='bullet'>a way of sending <span class=\"gap\">38</span> to gods</p><p class='bullet'>a way of telling other villages that a/an <span class=\"gap\">39</span> was necessary</p><p class='bullet'>a mean of <span class=\"gap\">40</span> If enemies were coming</p>"
+  }
+ ],
+ "8": [
+  {
+   "type": "section",
+   "n": 1
+  },
+  {
+   "type": "block",
+   "from": 1,
+   "to": 7,
+   "mode": "text",
+   "inst": [
+    "Complete the form below.",
+    "Write ONE WORD AND/OR A NUMBER in each gap."
+   ],
+   "html": "<p>English courses for international students</p><p>Course available: - writing in first term</p><p>- <span class=\"gap\">1</span> in second term</p><p class='bullet'><span class=\"gap\">2</span> and grammar throughout the year</p><p class='bullet'><span class=\"gap\">3</span> cases during long vacation</p><p>Class sizes: maximum capacity is</p><p><span class=\"gap\">4</span></p><p>Costs: often paid by the <span class=\"gap\">5</span> Exams: available in <span class=\"gap\">6</span></p><p>Enrollment: must enroll by <span class=\"gap\">7</span></p>"
+  },
+  {
+   "type": "block",
+   "from": 8,
+   "to": 10,
+   "mode": "text",
+   "inst": [
+    "Write THREE letters, A - G"
+   ],
+   "html": "<p class='q'><span class='qn'>8 & 9 & 10</span> Which THREE items does the student need to bring to the first class?</p><ul class='opts'><li><b>A</b> passport</li><li><b>B</b> computer disk</li><li><b>C</b> note from tutor</li><li><b>D</b> notebook</li><li><b>E</b> student identity card</li><li><b>F</b> dictionary</li><li><b>G</b> registration form</li></ul>"
+  },
+  {
+   "type": "section",
+   "n": 2
+  },
+  {
+   "type": "block",
+   "from": 11,
+   "to": 15,
+   "mode": "image",
+   "image": "t08-b4.webp"
+  },
+  {
+   "type": "section",
+   "n": 3
+  },
+  {
+   "type": "block",
+   "from": 21,
+   "to": 23,
+   "mode": "text",
+   "inst": [],
+   "html": "<p>What is the advantage of each course?</p><p>Choose THREE answers from the box and write the correct letter A - E next to questions 21 - 23</p><p>Advantages of the course Courses</p><p>A. will be tested in the final exams Science and ethics <span class=\"gap\">21</span> B. will be useful for a future job Pharmacology prelim <span class=\"gap\">22</span></p><p>C. will help with research skills Reporting test results <span class=\"gap\">23</span> D. will improve writing skills</p><ul class='opts'><li><b>E</b> will support material already covered</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 24,
+   "to": 30,
+   "mode": "text",
+   "inst": [
+    "Complete the sentences below",
+    "Write ONLY ONE WORD in each gap"
+   ],
+   "html": "<p class='bullet'>The Maths course will run in the <span class=\"gap\">24</span> term</p><p class='bullet'>The tutor for Pharmacology is visiting from <span class=\"gap\">25</span></p><p class='bullet'><span class=\"gap\">26</span> for the project must be submitted by the end of January - Resources for experiments are available in the newly built <span class=\"gap\">27</span></p><p class='bullet'>Extra <span class=\"gap\">28</span> will be held in December</p><p class='bullet'>Students are allowed to do presentations in <span class=\"gap\">29</span></p><p class='bullet'>Course assessment will be based on a/an <span class=\"gap\">30</span></p>"
+  },
+  {
+   "type": "section",
+   "n": 4
+  },
+  {
+   "type": "block",
+   "from": 31,
+   "to": 37,
+   "mode": "image",
+   "image": "t08-b9.webp"
+  },
+  {
+   "type": "block",
+   "from": 38,
+   "to": 40,
+   "mode": "text",
+   "inst": [
+    "Choose THREE letters, A - F"
+   ],
+   "html": "<p class='q'><span class='qn'>38 & 39 & 40</span> Which THREE types of accommodation does the speaker say will increase in the city centres?</p><ul class='opts'><li><b>A</b> flats for rent</li><li><b>B</b> social housing</li><li><b>C</b> homes for retired people</li><li><b>D</b> private housing</li><li><b>E</b> buildings for a company and residing</li><li><b>F</b> smart apartments</li></ul>"
+  }
+ ],
+ "9": [
+  {
+   "type": "section",
+   "n": 1
+  },
+  {
+   "type": "block",
+   "from": 1,
+   "to": 10,
+   "mode": "text",
+   "inst": [
+    "Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer."
+   ],
+   "html": "<p>Wildlife conservation society</p><p>Application for membership</p><p>Heard of WCS from:</p><p><span class=\"gap\">1</span></p><p>Address: 21, Beel street, Leeds</p><p>Postcode: <span class=\"gap\">2</span></p><p>Phone number: 01173 58642</p><p>Email address: mj@ <span class=\"gap\">3</span></p><p>Length of membership: Type of membership:</p><p>Fee <span class=\"gap\">4</span> years</p><p><span class=\"gap\">5</span></p><p class='q'><span class='qn'>6</span> £…………………….</p><p>Payment details: direct debit</p><p>Name of bank: <span class=\"gap\">7</span></p><p>Account name: Michael Jones</p><p>Account number: 01059612</p><p>Date of first payment: <span class=\"gap\">8</span></p><p>Reference number: <span class=\"gap\">9</span></p><p>Other requests: - extra information pack</p><p>- <span class=\"gap\">10</span></p>"
+  },
+  {
+   "type": "section",
+   "n": 2
+  },
+  {
+   "type": "block",
+   "from": 11,
+   "to": 18,
+   "mode": "image",
+   "image": "t09-b3.webp"
+  },
+  {
+   "type": "block",
+   "from": 19,
+   "to": 20,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letter A, B or C"
+   ],
+   "html": "<p class='q'><span class='qn'>19</span> In the Spring Festival competition, you can win</p><ul class='opts'><li><b>A</b> A family pass to “Balloon down under”</li><li><b>B</b> A cheque for $200.</li><li><b>C</b> A flight in a hot air balloon.</li></ul><p class='q'><span class='qn'>20</span> You can get an entry form for the competition from</p><ul class='opts'><li><b>A</b> the radio station</li><li><b>B</b> the newspaper</li><li><b>C</b> the festival’s website</li></ul>"
+  },
+  {
+   "type": "section",
+   "n": 3
+  },
+  {
+   "type": "block",
+   "from": 21,
+   "to": 30,
+   "mode": "text",
+   "inst": [
+    "Write NO MORE THAN THREE WORDS for each answer."
+   ],
+   "html": "<p>Archeology course:</p><p class='bullet'>Can be combined with any other subject except with <span class=\"gap\">21</span></p><p class='bullet'>Has three <span class=\"gap\">22</span> modules in first semester</p><p>Module 1</p><p>Title:</p><p><span class=\"gap\">23</span></p><p>Lecturer: Dr. Morris</p><p>Learning method: Lectures and practical sessions</p><p>Based on processes Recording</p><p>Content:</p><p><span class=\"gap\">24</span></p><p>Interpretation</p><p>Display</p><p>Assessment: By <span class=\"gap\">25</span></p><p>Module 2</p><p>Title: <span class=\"gap\">26</span></p><p>Lecturer: Prof.Elliot</p><p>Content: <span class=\"gap\">27</span> And development of built environments</p><p>Assessment: By <span class=\"gap\">28</span> examination</p><p>Module 3</p><p>Title: Method and Science</p><p>Lecturer: Dr. Thompson</p><p>Content: Standard techniques in fieldworks and analysis</p><p>Learning method: 50% lab work, 50% <span class=\"gap\">29</span></p><p>Site survey at the end of module: (the <span class=\"gap\">30</span> is to be announced later)</p>"
+  },
+  {
+   "type": "section",
+   "n": 4
+  },
+  {
+   "type": "block",
+   "from": 31,
+   "to": 33,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letter, A, B or C"
+   ],
+   "html": "<p class='q'><span class='qn'>31</span> What impact does Marc Prensky believe that digital technology has had on young people?</p><ul class='opts'><li><b>A</b> It has altered their thinking patterns</li><li><b>B</b> It has harmed their physical development</li><li><b>C</b> It has limited their brain capacity</li></ul><p class='q'><span class='qn'>32</span> “Digital immigrants” tend to access computers</p><ul class='opts'><li><b>A</b> using their native language</li><li><b>B</b> less efficiency than young people</li><li><b>C</b> for less important information</li></ul><p class='q'><span class='qn'>33</span> What example is given of having a “digital accent”?</p><ul class='opts'><li><b>A</b> Having less effective typing skills</li><li><b>B</b> Doing thing the old-fashioned way</li><li><b>C</b> Being unable to understand instructions</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 34,
+   "to": 40,
+   "mode": "text",
+   "inst": [],
+   "html": "<p>Which theorist makes each of the following points?</p><p>Choose the correct letter, A, B or C next to questions 34 - 40</p><p>Theorists</p><ul class='opts'><li><b>A</b> Allen</li><li><b>B</b> James</li><li><b>C</b> Vander</li></ul><p>Points made:</p><p class='q'><span class='qn'>34</span> Current teaching methods don’t work …………………….</p><p class='q'><span class='qn'>35</span> Many students don’t understand computers…………….</p><p class='q'><span class='qn'>36</span> Computer technology doesn’t interest all students……….</p><p class='q'><span class='qn'>37</span> Students can still learn the traditional way ……………….</p><p class='q'><span class='qn'>38</span> Students still need to learn research skills ……………….</p><p class='q'><span class='qn'>39</span> We should use computer games to teach ……………………</p><p class='q'><span class='qn'>40</span> Computers can’t replace educators ………………….</p>"
+  }
+ ],
+ "10": [
+  {
+   "type": "section",
+   "n": 1
+  },
+  {
+   "type": "block",
+   "from": 1,
+   "to": 10,
+   "mode": "text",
+   "inst": [
+    "Write ONE WORD AND/OR A NUMBER in each gap"
+   ],
+   "html": "<p>Advertisement for Old Laptop</p><p>Condition: Almost new</p><p>Weight: <span class=\"gap\">1</span> Make: Allegro</p><p>Memory: <span class=\"gap\">2</span> GB</p><p>Screen: <span class=\"gap\">3</span></p><p>Touchpad: With cordless mouse Number of ports: 02</p><p>Battery: Lasts around <span class=\"gap\">4</span></p><p>Lab test programs: Not <span class=\"gap\">5</span> Extras:</p><p class='bullet'>webcam</p><p>-printer with scanner and <span class=\"gap\">6</span></p><p class='bullet'>smart case</p><p>Price: £ <span class=\"gap\">7</span></p><p>Contact details:</p><p>Name: David <span class=\"gap\">8</span></p><p>E-mail address: DIB-7791@hotmail.com</p><p>Mobile number: <span class=\"gap\">9</span></p><p>Advert placed on: <span class=\"gap\">10</span></p>"
+  },
+  {
+   "type": "section",
+   "n": 2
+  },
+  {
+   "type": "block",
+   "from": 11,
+   "to": 12,
+   "mode": "text",
+   "inst": [
+    "Choose TWO letters A - E"
+   ],
+   "html": "<p class='q'><span class='qn'>11 & 12</span> What TWO changes to the organization of this year’s festival are mentioned?</p><ul class='opts'><li><b>A</b> free parking</li><li><b>B</b> free refreshments</li><li><b>C</b> new uniforms</li><li><b>D</b> free concert</li><li><b>E</b> large tents</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 13,
+   "to": 15,
+   "mode": "image",
+   "image": "t10-b4.webp"
+  },
+  {
+   "type": "block",
+   "from": 16,
+   "to": 20,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letters A, B or C"
+   ],
+   "html": "<p class='q'><span class='qn'>16</span> What does the speakers say about the judges in the competitors?</p><ul class='opts'><li><b>A</b> Most people judging will have some experience</li><li><b>B</b> None of the judges will have experience</li><li><b>C</b> Every judge will be experienced</li></ul><p class='q'><span class='qn'>17</span> The winner in each of the competitions will</p><ul class='opts'><li><b>A</b> be given vouchers</li><li><b>B</b> be awarded a cash prize</li><li><b>C</b> receive book-tokens</li></ul><p class='q'><span class='qn'>18</span> The profits from the marathon will be given to the Children’s hospital to help</p><ul class='opts'><li><b>A</b> buy new specialist equipment</li><li><b>B</b> decorate the hospital wards</li><li><b>C</b> provide the books for the children</li></ul><p class='q'><span class='qn'>19</span> Wardens will be needed at the car park</p><ul class='opts'><li><b>A</b> they helped organize the parking well last year</li><li><b>B</b> The parking last year was dis-organized</li><li><b>C</b> They will be needed to collect parking fees</li></ul><p class='q'><span class='qn'>20</span> Bags will be provided by the council</p><ul class='opts'><li><b>A</b> for all the rubbish</li><li><b>B</b> Only for the food rubbish</li><li><b>C</b> only for the material that can be recycled</li></ul>"
+  },
+  {
+   "type": "section",
+   "n": 3
+  },
+  {
+   "type": "block",
+   "from": 21,
+   "to": 22,
+   "mode": "text",
+   "inst": [
+    "Complete the sentences below:",
+    "Write NO MORE THAN TWO WORDS in each gap"
+   ],
+   "html": "<p>Study methods</p><p>People usually spend approximately <span class=\"gap\">21</span> on concentrating their lectures</p><p>The optimal method to approach lectures is to do the necessary <span class=\"gap\">22</span> in advance.</p>"
+  },
+  {
+   "type": "block",
+   "from": 23,
+   "to": 26,
+   "mode": "text",
+   "inst": [],
+   "html": "<p>What were students’ opinions on the study techniques?</p><p>Choose FOUR answers from the box and write the correct letter A - C next to questions 23 - 26</p><p>Opinions Technique</p><p>A good method writing essay plans: <span class=\"gap\">23</span></p><p>B no strong opinion discussing ideas: <span class=\"gap\">24</span></p><p>C was not good method reading whole chapters <span class=\"gap\">25</span></p><p>Skim reading <span class=\"gap\">26</span></p>"
+  },
+  {
+   "type": "block",
+   "from": 27,
+   "to": 30,
+   "mode": "text",
+   "inst": [],
+   "html": "<p class='q'><span class='qn'>27</span> According to the research that Susan conducted, most students believe</p><ul class='opts'><li><b>A</b> time management is generally quite important</li><li><b>B</b> time management isn’t very important</li><li><b>C</b> time management is very important to young students</li></ul><p class='q'><span class='qn'>28</span> What did students complain about their studies?</p><ul class='opts'><li><b>A</b> They had to get up early in the morning.</li><li><b>B</b> They had to earn money to support their studies</li><li><b>C</b> They had to work part time on weekends</li></ul><p class='q'><span class='qn'>29</span> Susan discovered that most of the students she surveyed</p><ul class='opts'><li><b>A</b> would prefer it if they didn’t have exams</li><li><b>B</b> actually quite liked exams</li><li><b>C</b> actually dreaded the exams</li></ul><p class='q'><span class='qn'>30</span> What were Susan’s findings on exam prediction techniques?</p><ul class='opts'><li><b>A</b> All the younger students like to prepare the exams in a short time,</li><li><b>B</b> Few older students spent much time on revising</li><li><b>C</b> A few younger students study the whole night.</li></ul>"
+  },
+  {
+   "type": "section",
+   "n": 4
+  },
+  {
+   "type": "block",
+   "from": 31,
+   "to": 40,
+   "mode": "text",
+   "inst": [
+    "Complete the notes below:",
+    "Write ONE WORD ONLY in each gap"
+   ],
+   "html": "<p>Architecture roles in people’s lives Implementation plan:</p><p class='bullet'>The purpose of data collection was to test people’s <span class=\"gap\">31</span> , i.e. unhappy, happy</p><p class='bullet'>The initial plan to use a questionnaire was abandoned, because it was extremely <span class=\"gap\">32</span></p><p class='bullet'>The scale method was rather <span class=\"gap\">33</span> to collect people’s response</p><p class='bullet'>The final images were produced by aiding of <span class=\"gap\">34</span> resources</p><p class='bullet'>The chosen images were preserved by stiff <span class=\"gap\">35</span></p><p class='bullet'>People who formed part of the sample were <span class=\"gap\">36</span> from various places.</p><p class='bullet'>Appointing a leader for the group was to keep the team not going various <span class=\"gap\">37</span></p><p>Reaction of respondents:</p><p class='bullet'>The reaction of the 11- 18- year-old group was utmost <span class=\"gap\">38</span></p><p class='bullet'>The 20-40-year-old group mostly scored about <span class=\"gap\">39</span></p><p class='bullet'>Approximately <span class=\"gap\">40</span> respondents who had no response</p>"
+  }
+ ],
+ "11": [
+  {
+   "type": "section",
+   "n": 1
+  },
+  {
+   "type": "block",
+   "from": 1,
+   "to": 5,
+   "mode": "image",
+   "image": "t11-b1.webp"
+  },
+  {
+   "type": "block",
+   "from": 6,
+   "to": 10,
+   "mode": "text",
+   "inst": [
+    "Complete the notes below Write ONE WORD"
+   ],
+   "html": "<p>ONLY for each answer.</p><p>Notes on Jobs</p><p class='bullet'>Local jobs can be found in the <span class=\"gap\">6</span></p><p class='bullet'>Buy the <span class=\"gap\">7</span> to get one free magazine (Job Plus)</p><p class='bullet'>Feel stress and spend a lot of time looking for jobs</p><p class='bullet'>Advisable to go to an <span class=\"gap\">8</span> instead of the recruitment seminar • Bring a student card (10% discount)</p><p class='bullet'>Referee:</p><p class='bullet'>former boss (once had a job)</p><p class='bullet'>one of the <span class=\"gap\">9</span> (if not)</p><p class='bullet'>Intend to take the art course</p><p class='bullet'>Fill out a <span class=\"gap\">10</span> form at the end of the course.</p>"
+  },
+  {
+   "type": "section",
+   "n": 2
+  },
+  {
+   "type": "block",
+   "from": 11,
+   "to": 20,
+   "mode": "text",
+   "inst": [
+    "Complete the notes below.",
+    "Write NO MORE THAN TWO WORDS for each answer."
+   ],
+   "html": "<p>Tower Hill Pageant Londinium</p><p>Romans built <span class=\"gap\">11</span> linked by roads.</p><p>Londinium was a port.</p><p>Lundenwic</p><p>It was the port of London in <span class=\"gap\">12</span> Aldwych is a street named after ‘old port’ in Old</p><p>English.</p><p>People sold goods and <span class=\"gap\">13</span></p><p>English King Alfred moved the population to the Roman walls so as to defend against</p><p><span class=\"gap\">14</span></p><p>London prior to Norman Conquest</p><p>King Edward built a church in ‘Westminster’.</p><p>He also built a palace for <span class=\"gap\">15</span> William Conqueror built <span class=\"gap\">16</span> , including the Tower of London.</p><p>He also had the Domesday Book - it was a <span class=\"gap\">17</span> about the land and livestock in British counties.</p><p>Mediaeval London</p><p>Imports would go to the quays. Exports were taken to Customs House and <span class=\"gap\">18</span> were collected. The fire was a constant threat in mediaeval London.</p><p>Tudor London</p><p class='bullet'>Fine houses were located to the west of London.</p><p class='bullet'>The Globe Theatre was direct across from the first stone bridge.</p><p class='bullet'>Commerce was within <span class=\"gap\">19</span></p><p>The first stone bridge had 19 arches and a <span class=\"gap\">20</span> which was raised when an attack would occur.</p>"
+  },
+  {
+   "type": "section",
+   "n": 3
+  },
+  {
+   "type": "block",
+   "from": 21,
+   "to": 26,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letter, A, B or C."
+   ],
+   "html": "<p>Willows Studies</p><p class='q'><span class='qn'>21</span> What field is Willows currently focused on?</p><p>A <span class=\"gap\">&nbsp;</span> Specialising in one product</p><ul class='opts'><li><b>B</b> making a variety of products</li><li><b>C</b> adding a lot of retail outlets</li></ul><p class='q'><span class='qn'>22</span> How did the students feel about the software?</p><ul class='opts'><li><b>A</b> The professor contacted the company.</li><li><b>B</b> An article was read in a newspaper</li><li><b>C</b> A student works part-time during the vacations.</li></ul><p class='q'><span class='qn'>23</span> How did the student feel about the software?</p><ul class='opts'><li><b>A</b> It’s not easy to predict.</li><li><b>B</b> It’s slow for drawing designs</li><li><b>C</b> It had a good interface.</li></ul><p class='q'><span class='qn'>24</span> How did the students find out about the effects of the software on the company?</p><ul class='opts'><li><b>A</b> They went to the IT department.</li><li><b>B</b> They talked with the manager. C. They inspected the accounts.</li></ul><p class='q'><span class='qn'>25</span> The reason why the students have a face-to-face interview alone is that</p><ul class='opts'><li><b>A</b> they could prepare for exams.</li><li><b>B</b> there will be less disturbance.</li><li><b>C</b> it&#x27;s less realistic.</li></ul><p class='q'><span class='qn'>26</span> How did the two students perform in the exam?</p><ul class='opts'><li><b>A</b> very disappointing</li><li><b>B</b> significantly good</li><li><b>C</b> above the average</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 27,
+   "to": 28,
+   "mode": "text",
+   "inst": [
+    "Choose TWO letters, A-E."
+   ],
+   "html": "<p class='q'><span class='qn'>27 & 28</span> In which TWO ways will the new system affect the company?</p><ul class='opts'><li><b>A</b> gain more profit</li><li><b>B</b> employ more new staff</li><li><b>C</b> increase sales</li><li><b>D</b> reduce production time</li><li><b>E</b> cut labour costs</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 29,
+   "to": 30,
+   "mode": "text",
+   "inst": [
+    "Choose TWO letters."
+   ],
+   "html": "<p class='q'><span class='qn'>29 & 30</span> Which TWO effects will the new system have on new clients?</p><ul class='opts'><li><b>A</b> getting more involved in the design</li><li><b>B</b> obtaining more contacts</li><li><b>C</b> linking at home to do online work</li><li><b>D</b> wasting less time</li><li><b>E</b> decreasing labour costs</li></ul>"
+  },
+  {
+   "type": "section",
+   "n": 4
+  },
+  {
+   "type": "block",
+   "from": 31,
+   "to": 32,
+   "mode": "text",
+   "inst": [
+    "Complete the sentences below.",
+    "Write NO MORE THAN ONE WORD for each answer."
+   ],
+   "html": "<p>LED is a <span class=\"gap\">31</span> for light-emitting diode. H. J. Round discovered a <span class=\"gap\">32</span> called electroluminescence.</p>"
+  },
+  {
+   "type": "block",
+   "from": 33,
+   "to": 34,
+   "mode": "text",
+   "inst": [
+    "Circle TWO letters: A-"
+   ],
+   "html": "<p>G.</p><p class='q'><span class='qn'>33 & 34</span> Which TWO of the following items included the first commercial LEDs?</p><ul class='opts'><li><b>A</b> TVs</li><li><b>B</b> electronic test devices</li><li><b>C</b> telephones</li><li><b>D</b> interior lighting</li><li><b>E</b> radios</li><li><b>F</b> household appliances</li><li><b>G</b> lab equipment</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 35,
+   "to": 40,
+   "mode": "image",
+   "image": "t11-b12.webp"
+  }
+ ],
+ "12": [
+  {
+   "type": "section",
+   "n": 1
+  },
+  {
+   "type": "block",
+   "from": 1,
+   "to": 10,
+   "mode": "image",
+   "image": "t12-b1.webp"
+  },
+  {
+   "type": "section",
+   "n": 2
+  },
+  {
+   "type": "block",
+   "from": 11,
+   "to": 20,
+   "mode": "image",
+   "image": "t12-b3.webp"
+  },
+  {
+   "type": "section",
+   "n": 3
+  },
+  {
+   "type": "block",
+   "from": 21,
+   "to": 25,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letter, A, B or C."
+   ],
+   "html": "<p class='q'><span class='qn'>21</span> What has Irene recently done?</p><ul class='opts'><li><b>A</b> She has almost finished planning the experiment.</li><li><b>B</b> She is not applying herself enough to her work.</li><li><b>C</b> She spends a lot of time in the laboratory.</li></ul><p class='q'><span class='qn'>22</span> What is Bill’s attitude toward Kim?</p><ul class='opts'><li><b>A</b> He is grateful for Kim&#x27;s contribution.</li><li><b>B</b> He is not fond of Kim&#x27;s tastes in clothes.</li><li><b>C</b> He thinks Kim is not good at laboratory work.</li></ul><p class='q'><span class='qn'>23</span> What does Jen think of the other people in the group?</p><ul class='opts'><li><b>A</b> The boys are good at maths which is very helpful.</li><li><b>B</b> They would fail the experiment without Irene’s contribution.</li><li><b>C</b> Irene has completed the data analysis so the experiment is nearly done.</li></ul><p class='q'><span class='qn'>24</span> How did Jen and Bill feel about Linda?</p><ul class='opts'><li><b>A</b> She was always submitted her work late for the group work.</li><li><b>B</b> She was difficult to get in touch with.</li><li><b>C</b> She thought it was easy to get a high score.</li></ul><p class='q'><span class='qn'>25</span> Why was Jen invited to the professor’s individual project?</p><ul class='opts'><li><b>A</b> She was quite popular among students.</li><li><b>B</b> She always finished reading all the assignments.</li><li><b>C</b> She was close to the professor.</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 26,
+   "to": 30,
+   "mode": "text",
+   "inst": [
+    "Choose FIVE answers from the box and write the correct letter, A-G, next to questions 26-30."
+   ],
+   "html": "<p>What task has been given to each person?</p><p>Tasks</p><ul class='opts'><li><b>A</b> Abstract</li><li><b>B</b> Acknowledgement</li><li><b>C</b> Methodology</li><li><b>D</b> Bibliography</li><li><b>E</b> Literature review</li><li><b>F</b> Results</li><li><b>G</b> Discussion</li></ul><p>Person</p><p class='q'><span class='qn'>26</span> Irene …............</p><p class='q'><span class='qn'>27</span> Kim ...............</p><p class='q'><span class='qn'>28</span> Jen …............</p><p class='q'><span class='qn'>29</span> Bill ...............</p><p class='q'><span class='qn'>30</span> Linda ...............</p>"
+  },
+  {
+   "type": "section",
+   "n": 4
+  },
+  {
+   "type": "block",
+   "from": 31,
+   "to": 35,
+   "mode": "image",
+   "image": "t12-b8.webp"
+  },
+  {
+   "type": "block",
+   "from": 36,
+   "to": 36,
+   "mode": "text",
+   "inst": [
+    "Circle the correct letter A-C."
+   ],
+   "html": "<p class='q'><span class='qn'>36</span> Which of the following is an example of reaching the pain threshold?</p><ul class='opts'><li><b>A</b> spilling boiling water</li><li><b>B</b> burning your hand</li><li><b>C</b> scalding hot water</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 37,
+   "to": 37,
+   "mode": "text",
+   "inst": [
+    "Complete the sentence below. Write NO MORE THAN",
+    "TWO WORDS for your answer."
+   ],
+   "html": "<p>Pain tolerance refers to <span class=\"gap\">37</span> to pain. Patients should complete a questionnaire known as Pain Scales: Universal Pain Assessment Tool.</p>"
+  },
+  {
+   "type": "block",
+   "from": 38,
+   "to": 38,
+   "mode": "image",
+   "image": "t12-b11.webp"
+  },
+  {
+   "type": "block",
+   "from": 39,
+   "to": 40,
+   "mode": "text",
+   "inst": [
+    "Complete the sentences below. Write NO MORE THAN TWO WORDS or A NUMBER for each",
+    "answer."
+   ],
+   "html": "<p>Endorphins are a <span class=\"gap\">39</span> Their chemical structure is similar to opioids. Pain Management refers to the use of combinations of drugs, e.g. administration of paracetamol and opioids. It decreases the amount of opioids to <span class=\"gap\">40</span></p>"
+  }
+ ],
+ "13": [
+  {
+   "type": "section",
+   "n": 1
+  },
+  {
+   "type": "block",
+   "from": 1,
+   "to": 10,
+   "mode": "text",
+   "inst": [
+    "Complete the notes below. Write NO MORE THAN TWO WORDS AND/OR A"
+   ],
+   "html": "<p>NUMBER for each answer.</p><p>Job Enquiry</p><p>Example</p><p class='bullet'>name: Freddie Lea</p><p class='bullet'>location: <span class=\"gap\">1</span> Island</p><p class='bullet'>Starting date: <span class=\"gap\">2</span></p><p class='bullet'>Age: 17</p><p class='bullet'>Four vacancies for <span class=\"gap\">3</span></p><p class='bullet'>Pay: 5.52 per hour</p><p class='bullet'>Qualities required: the ability to <span class=\"gap\">4</span></p><p class='bullet'>Duties:</p><p>+ Offer table service</p><p>+ Look after <span class=\"gap\">5</span></p><p class='bullet'>Extra advantage: the ability of the candidate to <span class=\"gap\">6</span></p><p class='bullet'>Benefits:</p><p>+ free <span class=\"gap\">7</span></p><p>+ a <span class=\"gap\">8</span> will be provided</p><p class='bullet'>Interview arranged for <span class=\"gap\">9</span> at 10:00 am</p><p class='bullet'>Need to take</p><p>+ a reference letter from employer</p><p>+ a bank statement</p><p>+ the application form with a</p><p><span class=\"gap\">10</span></p>"
+  },
+  {
+   "type": "section",
+   "n": 2
+  },
+  {
+   "type": "block",
+   "from": 11,
+   "to": 15,
+   "mode": "text",
+   "inst": [
+    "Complete the notes below. Write NO MORE THAN THREE WORDS and/or A"
+   ],
+   "html": "<p>NUMBER for each answer.</p><p>Green Home</p><p>Three sections available:</p><p><span class=\"gap\">11</span> groceries</p><p>Baking Potatoes (Kg) Six <span class=\"gap\">12</span></p><p>£1.57</p><p>£0.60</p><p>Organic Food</p><p>£2.09</p><p>Organic courgettes Brussels sprouts</p><p><span class=\"gap\">13</span></p><p>Fair Trade Products -</p><p><span class=\"gap\">14</span> is destined to the farmers in developing countries</p><p>Laundry Care</p><p>You can get a crystal rain &amp; white lily washing powder if you buy two bottles of <span class=\"gap\">15</span> softener.</p>"
+  },
+  {
+   "type": "block",
+   "from": 16,
+   "to": 17,
+   "mode": "text",
+   "inst": [
+    "Circle TWO letters A-F."
+   ],
+   "html": "<p class='q'><span class='qn'>16 & 17</span> Which TWO of the following are own-label products?</p><ul class='opts'><li><b>A</b> washing powder</li><li><b>B</b> degreaser</li><li><b>C</b> plughole</li><li><b>D</b> washing-up liquid</li></ul><p>E.oven cleaner F sink cleaner</p>"
+  },
+  {
+   "type": "block",
+   "from": 18,
+   "to": 19,
+   "mode": "text",
+   "inst": [
+    "Circle TWO letters A-F."
+   ],
+   "html": "<p class='q'><span class='qn'>18 & 19</span> Which TWO of the following are given for free in the kitchenware aisle?</p><ul class='opts'><li><b>A</b> saucepan with glass lid</li><li><b>B</b> stainless steel peeler</li><li><b>C</b> sandwich tin</li><li><b>D</b> apron and oven glove</li><li><b>E</b> aluminium foil</li><li><b>F</b> 12 cup deep bun tray</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 20,
+   "to": 20,
+   "mode": "text",
+   "inst": [
+    "Complete the sentence below.",
+    "Write NO MORE THAN THREE WORDS for your answer."
+   ],
+   "html": "<p>You can get a free corkscrew if you buy a <span class=\"gap\">20</span></p>"
+  },
+  {
+   "type": "section",
+   "n": 3
+  },
+  {
+   "type": "block",
+   "from": 21,
+   "to": 26,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letter, A, B or C."
+   ],
+   "html": "<p class='q'><span class='qn'>21</span> How could ancient Africans recognize different stars?</p><ul class='opts'><li><b>A</b> by the location of the stars</li><li><b>B</b> by the way stars affect each other</li><li><b>C</b> by the distance between two stars</li></ul><p class='q'><span class='qn'>22</span> In which way do the Weyaka people like to deal with their money?</p><ul class='opts'><li><b>A</b> open bank accounts</li><li><b>B</b> assist others</li><li><b>C</b> lend money to others</li></ul><p class='q'><span class='qn'>23</span> What do the Africans obtain from their suffering?</p><ul class='opts'><li><b>A</b> ways of protecting their environment</li><li><b>B</b> approaches to improving their international status</li><li><b>C</b> reasons for conquering drought</li></ul><p class='q'><span class='qn'>24</span> What are the local people concerned with?</p><ul class='opts'><li><b>A</b> having enough food</li><li><b>B</b> getting rid of the disease</li><li><b>C</b> going back to their former environment</li></ul><p class='q'><span class='qn'>25</span> What is the reason for the declining financial condition of the African people?</p><ul class='opts'><li><b>A</b> They find it hard to trade because of the undeveloped transportation system.</li><li><b>B</b> They have difficulty in mining minerals. C. They refuse to develop a range of commercial activities.</li></ul><p class='q'><span class='qn'>26</span> When can the African people expect to stop suffering from starvation?</p><ul class='opts'><li><b>A</b> next year</li><li><b>B</b> in the long-term future</li><li><b>C</b> in the near future</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 27,
+   "to": 30,
+   "mode": "text",
+   "inst": [
+    "Complete the sentences below.",
+    "Write NO MORE THAN TWO WORDS for each answer."
+   ],
+   "html": "<p class='q'><span class='qn'>27</span> A valuable quality of the Africans is to make up for the difficulties of food transportation.</p><p class='q'><span class='qn'>28</span> The government intends to pay greater attention to their plan.</p><p class='q'><span class='qn'>29</span> Nowadays, the Africans are encouraged to in an area consistently.</p><p class='q'><span class='qn'>30</span> For the Weyaka people, it is impolite to visit someone’s home without.</p>"
+  },
+  {
+   "type": "section",
+   "n": 4
+  },
+  {
+   "type": "block",
+   "from": 31,
+   "to": 34,
+   "mode": "image",
+   "image": "t13-b11.webp"
+  },
+  {
+   "type": "block",
+   "from": 35,
+   "to": 40,
+   "mode": "image",
+   "image": "t13-b12.webp"
+  }
+ ],
+ "14": [
+  {
+   "type": "section",
+   "n": 1
+  },
+  {
+   "type": "block",
+   "from": 1,
+   "to": 10,
+   "mode": "image",
+   "image": "t14-b1.webp"
+  },
+  {
+   "type": "section",
+   "n": 2
+  },
+  {
+   "type": "block",
+   "from": 11,
+   "to": 20,
+   "mode": "text",
+   "inst": [
+    "Complete the notes below. Write NO MORE THAN TWO",
+    "WORDS for each answer."
+   ],
+   "html": "<p>Seven Sisters’ Campsite</p><p>Seven sisters are named after <span class=\"gap\">11</span> in East</p><p>Sussex</p><p>Weekly Schedule:</p><p>Monday</p><p class='bullet'>Go on a trail</p><p class='bullet'>Have a picnic next to a <span class=\"gap\">12</span> <span class=\"gap\">&nbsp;</span></p><p class='bullet'>Have a swim PS. Activities are subject to <span class=\"gap\">13</span> conditions</p><p>Tuesday</p><p class='bullet'>Continue up the hill Tuesday Continue up the hill</p><p class='bullet'>Arrive at a <span class=\"gap\">14</span></p><p class='bullet'>Go <span class=\"gap\">15</span></p><p class='bullet'>Have a pebble massage</p><p>A range of <span class=\"gap\">16</span> are available there, including jet-skiing and parasailing.</p><p>Pieces of</p><p>Equipment:</p><p>There are also boats, <span class=\"gap\">17</span> and kayaks and you can set out to sea as long as you are wearing <span class=\"gap\">18</span></p><p>You can also go rock-climbing and you can go <span class=\"gap\">19</span> when you come back down to earth. You can talk to your friends while you are near an open <span class=\"gap\">20</span></p>"
+  },
+  {
+   "type": "section",
+   "n": 3
+  },
+  {
+   "type": "block",
+   "from": 21,
+   "to": 25,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letter, A, B orC."
+   ],
+   "html": "<p class='q'><span class='qn'>21</span> Students may fail the exam if they</p><ul class='opts'><li><b>A</b> do not collect primary statistics.</li><li><b>B</b> copy other people’s work.</li><li><b>C</b> do not follow the instructions.</li></ul><p class='q'><span class='qn'>22</span> Why does the man think they should avoid including the pictures of the first volcano in the presentation?</p><ul class='opts'><li><b>A</b> They are not attractive.</li><li><b>B</b> The time is limited.</li><li><b>C</b> People have never heard of it.</li></ul><p class='q'><span class='qn'>23</span> About Mount Fago, a volcano in Mexico or the USA, the man thinks</p><ul class='opts'><li><b>A</b> they should not use inaccurate information in the presentation.</li><li><b>B</b> they should use another example.</li><li><b>C</b> it does not matter where the volcano is.</li></ul><p class='q'><span class='qn'>24</span> The woman thinks they should mention Mount Etna since</p><ul class='opts'><li><b>A</b> it covers most of the important points.</li></ul><p>B. It was formed a long time ago <span class=\"gap\">&nbsp;</span></p><ul class='opts'><li><b>C</b> it has stunning views.</li></ul><p class='q'><span class='qn'>25</span> They agree to leave out Mount Herton as</p><ul class='opts'><li><b>A</b> other students have used it before.</li><li><b>B</b> it is irrelevant to their topic.</li><li><b>C</b> there is nothing special about this volcano.</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 26,
+   "to": 30,
+   "mode": "text",
+   "inst": [
+    "Choose FIVE answers from the box and write the correct letter, A-G, next to questions 26-30."
+   ],
+   "html": "<p>Which statement applies to each of the following situations?</p><ul class='opts'><li><b>A</b> make a short film</li><li><b>B</b> lacked his/her own points</li><li><b>C</b> neglect the positive aspect</li><li><b>D</b> watch some documentaries</li><li><b>E</b> did not prepare beforehand</li><li><b>F</b> identify the differences between them.</li></ul><p class='q'><span class='qn'>26</span> The woman’s last presentation was criticized because of it</p><p class='q'><span class='qn'>27</span> The tutor suggests for the next presentation the woman should</p><p class='q'><span class='qn'>28</span> People do not know enough about volcanoes and so they</p><p class='q'><span class='qn'>29</span> The reason why the man felt very nervous is that he</p><p class='q'><span class='qn'>30</span> They are researching active and extinct volcanoes to</p>"
+  },
+  {
+   "type": "section",
+   "n": 4
+  },
+  {
+   "type": "block",
+   "from": 31,
+   "to": 31,
+   "mode": "text",
+   "inst": [
+    "Complete the sentence below.",
+    "Write NO MORE THAN TWO WORDS for your answer."
+   ],
+   "html": "<p>Petroleum is a <span class=\"gap\">31</span> resource as it cannot be replenished.</p>"
+  },
+  {
+   "type": "block",
+   "from": 32,
+   "to": 33,
+   "mode": "image",
+   "image": "t14-b9.webp"
+  },
+  {
+   "type": "block",
+   "from": 34,
+   "to": 40,
+   "mode": "image",
+   "image": "t14-b10.webp"
+  }
+ ],
+ "15": [
+  {
+   "type": "section",
+   "n": 1
+  },
+  {
+   "type": "block",
+   "from": 1,
+   "to": 10,
+   "mode": "text",
+   "inst": [
+    "Complete the notes below. Write ONE WORD AND/OR A"
+   ],
+   "html": "<p>NUMBER for each answer.</p><p>INCIDENT REPORT</p><p>Example</p><p>Name: Anna Lumley</p><p>Telephone: <span class=\"gap\">1</span></p><p>Date of arrival: <span class=\"gap\">2</span></p><p>Address: 235 <span class=\"gap\">3</span> Road, East sea</p><p>The total value of insurance: $ <span class=\"gap\">4</span></p><p>Missing items:</p><p class='bullet'>lamps and chairs (not expensive)</p><p class='bullet'>furniture and <span class=\"gap\">5</span></p><p class='bullet'>a rocking horse, some <span class=\"gap\">6</span> and fruit bowls</p><p>Items ordered:</p><p class='bullet'>a clock</p><p class='bullet'>a <span class=\"gap\">7</span></p><p>Damaged items:</p><p class='bullet'>the <span class=\"gap\">8</span> needs to be replaced</p><p class='bullet'>a <span class=\"gap\">9</span> of one of the dining chairs are split</p><p class='bullet'>four <span class=\"gap\">10</span> were broken</p>"
+  },
+  {
+   "type": "section",
+   "n": 2
+  },
+  {
+   "type": "block",
+   "from": 11,
+   "to": 20,
+   "mode": "text",
+   "inst": [
+    "Complete the notes below.",
+    "Write NO MORE THAN TWO WORDS for each answer."
+   ],
+   "html": "<p>Induction Day – Papyrus Warehouse</p><p>Company Identification Card:</p><p class='bullet'>Contains the employee’s name, <span class=\"gap\">11</span> and barcode number</p><p class='bullet'>Done with the HR department</p><p class='bullet'>Used to <span class=\"gap\">12</span> and out daily</p><p>Shop Floor – you need the ID card when you open the till and <span class=\"gap\">13</span> <span class=\"gap\">&nbsp;</span></p><p>Stock Room – ID card is also used during the <span class=\"gap\">14</span></p><p>Warning: Don’t forget to close the till drawer and <span class=\"gap\">15</span> of the system.</p><p>Staff Restaurant – you can buy snacks if you insert coins into the machines on the <span class=\"gap\">16</span></p><p>Note: Free lunch is provided on busy days, but the cashier has to <span class=\"gap\">17</span> your card so that your lunch break is recorded.</p><p>Personal Belongings:</p><p>They should be put in the <span class=\"gap\">18</span> available in the changing rooms. Mobile phones should be switched off.</p><p>Uniform:</p><p>StockRoom – a white shirt and a pair of <span class=\"gap\">19</span></p><p>Shop Floor – a plain shirt and a suit</p><p>Note: Women may wear make-up and use <span class=\"gap\">20</span> as long as it looks neat.</p>"
+  },
+  {
+   "type": "section",
+   "n": 3
+  },
+  {
+   "type": "block",
+   "from": 21,
+   "to": 25,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letter, A, B or C"
+   ],
+   "html": "<p class='q'><span class='qn'>21</span> Why did James choose to work in the bakery?</p><ul class='opts'><li><b>A</b> Because it’s close to his home.</li><li><b>B</b> Because it has a good reputation in the subject area.</li><li><b>C</b> Because it’s a part of a chain.</li></ul><p class='q'><span class='qn'>22</span> What was James surprised at in his studies?</p><ul class='opts'><li><b>A</b> He finds the theoretical courses easy.</li><li><b>B</b> He can finish the theoretical courses.</li><li><b>C</b> He finds the theoretical work interesting.</li></ul><p class='q'><span class='qn'>23</span> How is James’ course assessed in the first term?</p><ul class='opts'><li><b>A</b> The marks are given by students to each other.</li><li><b>B</b> Self-assessment.</li><li><b>C</b> It is up to the practical experience.</li></ul><p class='q'><span class='qn'>24</span> Why has Kate enquired about the English language course?</p><ul class='opts'><li><b>A</b> She wants to become an artist.</li><li><b>B</b> It is her first language.</li><li><b>C</b> She plans to curate in a gallery.</li></ul><p class='q'><span class='qn'>25</span> What else did Kate need to get before going to college?</p><ul class='opts'><li><b>A</b> starting date of the course</li><li><b>B</b> an offer with scholarships</li><li><b>C</b> a catalogue of modules</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 26,
+   "to": 30,
+   "mode": "text",
+   "inst": [
+    "Choose FIVE answers from the box and write the correct letter, A-G, next to questions 26-30."
+   ],
+   "html": "<p>What statement applies to each of the following courses?</p><ul class='opts'><li><b>A</b> There are a lot of background readings.</li><li><b>B</b> People stay at the studio where the course is taken.</li><li><b>C</b> Many outside speakers will give a talk.</li><li><b>D</b> It’s the most difficult course.</li><li><b>E</b> Students do their own research.</li><li><b>F</b> Students need to spend a lot of money on a camera with a good display. G. Expensive materials need to be bought.</li></ul><p class='q'><span class='qn'>26</span> History of Art</p><p class='q'><span class='qn'>27</span> Sculpture</p><p class='q'><span class='qn'>28</span> Digital Painting</p><p class='q'><span class='qn'>29</span> Art Theory</p><p class='q'><span class='qn'>30</span> Photography</p>"
+  },
+  {
+   "type": "section",
+   "n": 4
+  },
+  {
+   "type": "block",
+   "from": 31,
+   "to": 31,
+   "mode": "image",
+   "image": "t15-b8.webp"
+  },
+  {
+   "type": "block",
+   "from": 32,
+   "to": 33,
+   "mode": "text",
+   "inst": [
+    "Complete the sentences below. Write NO MORE"
+   ],
+   "html": "<p>THAN TWO WORDS for your answer.</p><p>Arctic <span class=\"gap\">32</span> release up to 100 million tonnes of methane gas annually.</p><p>Moreover, 25% of all methane is stored on the land surface and it can be released from <span class=\"gap\">33</span></p>"
+  },
+  {
+   "type": "block",
+   "from": 34,
+   "to": 40,
+   "mode": "image",
+   "image": "t15-b10.webp"
+  }
+ ],
+ "16": [
+  {
+   "type": "section",
+   "n": 1
+  },
+  {
+   "type": "block",
+   "from": 1,
+   "to": 10,
+   "mode": "text",
+   "inst": [
+    "Complete the notes below.",
+    "Write ONE WORD AND/OR A NUMBER in each gap."
+   ],
+   "html": "<p>Bud and Annie&#x27;s families</p><p>Annie&#x27;s family issues:</p><p class='bullet'>father is in bad mood</p><p class='bullet'>mothers <span class=\"gap\">1</span> is increasing again. She needs surgery to replace her <span class=\"gap\">2</span></p><p class='bullet'>the operation is very expensive, around $ <span class=\"gap\">3</span></p><p class='bullet'>her family is getting problems with <span class=\"gap\">4</span> because sister does not want to help - her sister seems to be selfish after the beauty <span class=\"gap\">5</span></p><p>Bud&#x27;s family issues:</p><p class='bullet'>Annie thought Bud&#x27;s <span class=\"gap\">6</span> was a nice person but, she turned out to be … <span class=\"gap\">7</span> after getting promoted.</p><p class='bullet'>his dad signed a huge <span class=\"gap\">8</span> and looking for some <span class=\"gap\">9</span></p><p class='bullet'>his parents are currently in France for <span class=\"gap\">10</span> Anniversary.</p>"
+  },
+  {
+   "type": "section",
+   "n": 2
+  },
+  {
+   "type": "block",
+   "from": 11,
+   "to": 13,
+   "mode": "text",
+   "inst": [
+    "Choose THREE letters, A-F ."
+   ],
+   "html": "<p>Which THREE things that most people want to spend their income on mentioned by the speaker?</p><ul class='opts'><li><b>A</b> people spend the same on enjoyment regardless of age</li><li><b>B</b> people usually spend 1,500 pounds per month on necessary things</li><li><b>C</b> people tend to spend much more than what they really want</li><li><b>D</b> the amount of money spending for the future differs for different people</li><li><b>E</b> people tend to spend their income widely trzia on different things</li><li><b>F</b> people mainly invest their money for education and a big house</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 14,
+   "to": 15,
+   "mode": "text",
+   "inst": [
+    "Choose TWO letters, A-E ."
+   ],
+   "html": "<p>Which TWO rules should people follow to manage their money mentioned by the speaker?</p><ul class='opts'><li><b>A</b> maximum of 10 percent of the monthly budget is allowed for entertainment and unexpected things</li><li><b>B</b> do not spend money on fancy restaurants or drinking</li><li><b>C</b> only use cash for essentials like house repairs, birthday present</li><li><b>D</b> Only use credit card to buy something for changing money</li><li><b>E</b> staying at home when the monthly budget is almost running out</li></ul><p>Principles on money investment</p><p class='q'><span class='qn'>16</span> Why do people need to keep a current deposit in a bank account?</p><ul class='opts'><li><b>A</b> for some rainy days</li><li><b>B</b> for some unexpected cases</li><li><b>C</b> for retirement</li></ul><p class='q'><span class='qn'>17</span> Unused money should invest in</p><ul class='opts'><li><b>A</b> the government lottery.</li><li><b>B</b> gambling games.</li><li><b>C</b> risk investment.</li></ul><p class='q'><span class='qn'>18</span> Investing money for higher earning potential, people can</p><ul class='opts'><li><b>A</b> take a higher risk.</li><li><b>B</b> make a big fortune in a short period of time.</li><li><b>C</b> guarantee to get more money back in every situation.</li></ul><p class='q'><span class='qn'>19</span> What is a balanced portfolio?</p><ul class='opts'><li><b>A</b> a wide investment list</li><li><b>B</b> a steady investment</li><li><b>C</b> a refundable investment</li></ul><p class='q'><span class='qn'>20</span> Investing money wisely means</p><ul class='opts'><li><b>A</b> putting money into different investments.</li><li><b>B</b> Spending money on venture capital</li><li><b>C</b> spending money on low-risk investments.</li></ul>"
+  },
+  {
+   "type": "section",
+   "n": 3
+  },
+  {
+   "type": "block",
+   "from": 21,
+   "to": 23,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letters A,B or C"
+   ],
+   "html": "<p class='q'><span class='qn'>21</span> Andrew has worked at the hospital for</p><ul class='opts'><li><b>A</b> two years.</li><li><b>B</b> three years.</li><li><b>C</b> five years.</li></ul><p class='q'><span class='qn'>22</span> During the course Andrew&#x27;s employers will pay</p><ul class='opts'><li><b>A</b> his fees.</li><li><b>B</b> his living costs.</li><li><b>C</b> his salary.</li></ul><p class='q'><span class='qn'>23</span> The part-time course lasts for</p><ul class='opts'><li><b>A</b> one whole year.</li><li><b>B</b> 18 months.</li><li><b>C</b> two years.</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 24,
+   "to": 25,
+   "mode": "text",
+   "inst": [
+    "Choose TWO letters A-E."
+   ],
+   "html": "<p>What TWO types of coursework are required each month on the part-time course?</p><ul class='opts'><li><b>A</b> a case study.</li><li><b>B</b> an essay.</li><li><b>C</b> a survey.</li><li><b>D</b> a short report.</li><li><b>E</b> a study diary.</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 26,
+   "to": 30,
+   "mode": "text",
+   "inst": [
+    "Complete the summary below.",
+    "Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer."
+   ],
+   "html": "<p>Modular Courses</p><p>Students study <span class=\"gap\">26</span> during each module. A module takes <span class=\"gap\">27</span> and the work is very <span class=\"gap\">28</span> To get a Diploma each student has to study <span class=\"gap\">29</span> and then work on <span class=\"gap\">30</span> in depth.</p>"
+  },
+  {
+   "type": "section",
+   "n": 4
+  },
+  {
+   "type": "block",
+   "from": 31,
+   "to": 35,
+   "mode": "text",
+   "inst": [
+    "Write NO MORE THAN three words for each answer"
+   ],
+   "html": "<p class='q'><span class='qn'>31</span> According to George Bernard Shaw, men are supposed to understand _________, economics and finance.</p><p class='q'><span class='qn'>32</span> However, women are more prepared to _________about them.</p><p class='q'><span class='qn'>33</span> Women tend to save for ______________and a house.</p><p class='q'><span class='qn'>34</span> Men tend to save for ______________and for retirement.</p><p class='q'><span class='qn'>35</span> Women who are left alone may have to pay for ______________________ when they are old.</p>"
+  },
+  {
+   "type": "block",
+   "from": 36,
+   "to": 40,
+   "mode": "text",
+   "inst": [
+    "Complete the summary below.",
+    "Write no more than three words and/or a number for each answer."
+   ],
+   "html": "<p>Saving for the future</p><p class='bullet'>Most women think about their financial future when a/an <span class=\"gap\">36</span> occurs.</p><p class='bullet'>Women start thinking about <span class=\"gap\">37</span> when they are in their early twenties .</p><p class='bullet'>To develop their <span class=\"gap\">38</span> in dealing with financial affairs would be to attend classes in money <span class=\"gap\">39</span></p><p class='bullet'>Women should put a high proportion of their savings in low risk investments and the rest for <span class=\"gap\">40</span> ones which can offer them a comfortable, independent retirement.</p>"
+  }
+ ],
+ "17": [
+  {
+   "type": "section",
+   "n": 1
+  },
+  {
+   "type": "block",
+   "from": 1,
+   "to": 6,
+   "mode": "text",
+   "inst": [],
+   "html": "<p>Contact Details on buying a used car</p><p>Model: Celica</p><p>Year: 1985</p><p>Number of owners: <span class=\"gap\">1</span></p><p class='bullet'>overall good.</p><p class='bullet'><span class=\"gap\">2</span> were replaced last year</p><p>Condition:</p><p>Reason for selling: moving <span class=\"gap\">3</span></p><p>Asking price: £ <span class=\"gap\">4</span></p><p>Appointment time: <span class=\"gap\">5</span></p><p>Address: <span class=\"gap\">6</span> St, Parkwood.</p><p>Contact name: Elena</p>"
+  },
+  {
+   "type": "block",
+   "from": 7,
+   "to": 10,
+   "mode": "text",
+   "inst": [
+    "Circle the correct letter A-C."
+   ],
+   "html": "<p class='q'><span class='qn'>7</span> What happened to Sam’s car?</p><ul class='opts'><li><b>A</b> It was replaced by another one.</li><li><b>B</b> It broke down.</li><li><b>C</b> It was stolen.</li></ul><p class='q'><span class='qn'>8</span> Why does Jan need a car now?</p><ul class='opts'><li><b>A</b> She lives too far from the university.</li><li><b>B</b> She spends too much time on the bus.</li><li><b>C</b> She would feel safer at night with a car.</li></ul><p class='q'><span class='qn'>9</span> What does Sam recommend?</p><ul class='opts'><li><b>A</b> check the service records</li><li><b>B</b> avoid buying an old car</li><li><b>C</b> get a mechanical inspection</li></ul><p class='q'><span class='qn'>10</span> How are they travelling to Elena’s?</p><ul class='opts'><li><b>A</b> by motorcycle</li><li><b>B</b> on foot</li><li><b>C</b> by bus</li></ul>"
+  },
+  {
+   "type": "section",
+   "n": 2
+  },
+  {
+   "type": "block",
+   "from": 11,
+   "to": 13,
+   "mode": "image",
+   "image": "t17-b4.webp"
+  },
+  {
+   "type": "block",
+   "from": 14,
+   "to": 16,
+   "mode": "image",
+   "image": "t17-b5.webp"
+  },
+  {
+   "type": "block",
+   "from": 17,
+   "to": 20,
+   "mode": "text",
+   "inst": [
+    "Write ONE WORD ONLY in each gap"
+   ],
+   "html": "<p>Advice for Participants on Whale Watching Excursions</p><p class='bullet'>For a smooth ride, sit in the middle near the boat’s <span class=\"gap\">17</span></p><p class='bullet'>Watch the waves and hold onto the <span class=\"gap\">18</span></p><p class='bullet'>Survival suits are <span class=\"gap\">19</span> in colour for maximum visibility.</p><p class='bullet'>For seasickness: Place a patch on your wrist instead of taking <span class=\"gap\">20</span></p>"
+  },
+  {
+   "type": "section",
+   "n": 3
+  },
+  {
+   "type": "block",
+   "from": 21,
+   "to": 23,
+   "mode": "text",
+   "inst": [],
+   "html": "<p>Fill in the summary below with NO MORE THAN TWO WORDS OR A NUMBER for each space.</p><p>Selection Process for ‘Travel Documentary’</p><p class='bullet'>34 interviewed from <span class=\"gap\">21</span> applicants nationally</p><p class='bullet'>13 chosen for a <span class=\"gap\">22</span> training course in film-making</p><p class='bullet'><span class=\"gap\">23</span> finalists selected as competitors</p>"
+  },
+  {
+   "type": "block",
+   "from": 24,
+   "to": 26,
+   "mode": "text",
+   "inst": [],
+   "html": "<p class='bullet'>produce a <span class=\"gap\">24</span> every two weeks</p><p class='bullet'>no previous professional <span class=\"gap\">25</span> experience allowed</p><p class='bullet'>make their own <span class=\"gap\">26</span> and obtain approval</p>"
+  },
+  {
+   "type": "block",
+   "from": 27,
+   "to": 30,
+   "mode": "text",
+   "inst": [],
+   "html": "<p class='q'><span class='qn'>27</span> What did Sarah Price share about her feelings on the trip last year?</p><ul class='opts'><li><b>A</b> unforgettable memory</li><li><b>B</b> pretty exhausting</li><li><b>C</b> very exciting</li></ul><p class='q'><span class='qn'>28</span> What was Sarah Price&#x27;s worst experience during the trip?</p><ul class='opts'><li><b>A</b> She got lost in Mongolia.</li><li><b>B</b> She was homesick</li><li><b>C</b> She got sick in a remote place.</li></ul><p class='q'><span class='qn'>29</span> In which of the following areas does Ray expect to have most difficulty?</p><ul class='opts'><li><b>A</b> loneliness</li><li><b>B</b> time pressure</li><li><b>C</b> organisation skills</li></ul><p class='q'><span class='qn'>30</span> In what month does the journey begin?</p><ul class='opts'><li><b>A</b> February</li><li><b>B</b> March</li><li><b>C</b> April</li></ul>"
+  },
+  {
+   "type": "section",
+   "n": 4
+  },
+  {
+   "type": "block",
+   "from": 31,
+   "to": 33,
+   "mode": "text",
+   "inst": [
+    "Circle the correct answer A-C."
+   ],
+   "html": "<p>History of technology series</p><p class='q'><span class='qn'>31</span> What does QWERTY stand for?</p><ul class='opts'><li><b>A</b> letters on the top row of the keyboard</li><li><b>B</b> the company that made the first typewriter</li><li><b>C</b> letters on the home row of the keyboard</li></ul><p class='q'><span class='qn'>32</span> The first commercial typewriter was developed in ...</p><ul class='opts'><li><b>A</b> Germany.</li><li><b>B</b> Great Britain.</li><li><b>C</b> United States.</li></ul><p class='q'><span class='qn'>33</span> The purpose of the QWERTY keyboard layout was ...</p><ul class='opts'><li><b>A</b> to slow down typing speed.</li><li><b>B</b> to prevent keys from sticking.</li><li><b>C</b> to reduce typing inefficiency.</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 34,
+   "to": 40,
+   "mode": "text",
+   "inst": [],
+   "html": "<p>https://ieltsmaterial.com</p><p>Write ONE WORD ONLY in each gap.</p><p>History of Dvorak keyboard</p><p>In 1932 August Dvorak solved the inefficiency problem by redesigning the <span class=\"gap\">34</span> of the typewriter. He put the most frequently typed, <span class=\"gap\">35</span> on the home row. Using the Dvorak keyboard 70 percent of the <span class=\"gap\">36</span> load can be handled from the home row. In contrast, only 50 words can be typed from the home row on the Qwerty keyboard. Other advantages of the Dvorak keyboard include a 50 percent improvement in <span class=\"gap\">37</span></p><p>And a 15-20 percent increase in <span class=\"gap\">38</span> But the most important difference is in finger movement. Typists using the Dvorak keyboard moved their fingers around one <span class=\"gap\">39</span> per day, much shorter than using the Qwerty one. However, the Dvorak keyboard was never adopted as the Qwerty one remains <span class=\"gap\">40</span></p>"
+  }
+ ],
+ "18": [
+  {
+   "type": "section",
+   "n": 1
+  },
+  {
+   "type": "block",
+   "from": 1,
+   "to": 10,
+   "mode": "text",
+   "inst": [],
+   "html": "<p>Ascot Child Care Centre</p><p>Enrolment form</p><p>Personal details</p><p>Family name: Cullen</p><p>Child’s first name: <span class=\"gap\">1</span></p><p>Age: <span class=\"gap\">2</span></p><p>Birthday: <span class=\"gap\">3</span></p><p>Other children in the family: a brother aged <span class=\"gap\">4</span></p><p>Address: <span class=\"gap\">5</span> Rd., Brisbane</p><p>Emergency contact number: 3467 8890</p><p>Relationship to child: <span class=\"gap\">6</span></p><p>Development • Has difficulty <span class=\"gap\">7</span> during the day</p><p class='bullet'>Is able to <span class=\"gap\">8</span> herself</p><p>Child-care arrangements</p><p>Days required: Monday and <span class=\"gap\">9</span></p><p>Pick-up time: <span class=\"gap\">10</span></p>"
+  },
+  {
+   "type": "section",
+   "n": 2
+  },
+  {
+   "type": "block",
+   "from": 11,
+   "to": 20,
+   "mode": "text",
+   "inst": [],
+   "html": "<p>Children activities during Holiday</p><p>Things to do in the holidays</p><p class='bullet'>Main problem - children do not have a traditional <span class=\"gap\">11</span></p><p>Some ideas</p><p class='bullet'>Give children jobs, for example cleaning the <span class=\"gap\">12</span></p><p class='bullet'>At home, ask children to help in the <span class=\"gap\">13</span></p><p class='bullet'>Get children to make <span class=\"gap\">14</span> ahead of time</p><p class='bullet'>Get children involved in community work such as visiting the <span class=\"gap\">15</span></p><p class='bullet'>Involve older children in long-term <span class=\"gap\">16</span> In your community</p><p class='bullet'>You may get some ideas from the <span class=\"gap\">17</span></p><p class='bullet'>The local <span class=\"gap\">18</span> is often the best place to find ideas</p><p>Things to remember</p><p class='bullet'>Make sure children stay <span class=\"gap\">19</span></p><p class='bullet'>Children up to the age of <span class=\"gap\">20</span> need to be supervised by an adult</p>"
+  },
+  {
+   "type": "section",
+   "n": 3
+  },
+  {
+   "type": "block",
+   "from": 21,
+   "to": 24,
+   "mode": "text",
+   "inst": [
+    "Choose the correct answer A, B or C"
+   ],
+   "html": "<p class='q'><span class='qn'>21</span> According to John, what is the main advantage of space exploration?</p><ul class='opts'><li><b>A</b> To supply resources for use on Earth.</li><li><b>B</b> To find out more about the origins of our planet.</li><li><b>C</b> To establish a colony for humans if Earth becomes uninhabitable.</li></ul><p class='q'><span class='qn'>22</span> According to the speakers, why can’t robots be sent into space instead of humans?</p><ul class='opts'><li><b>A</b> They cannot operate for long enough.</li><li><b>B</b> They are too expensive to build.</li><li><b>C</b> They are too reliant on humans.</li></ul><p class='q'><span class='qn'>23</span> What are we told about the space technology currently used?</p><ul class='opts'><li><b>A</b> It can be unreliable.</li><li><b>B</b> It is based on old technology.</li><li><b>C</b> It is becoming cheaper to produce.</li></ul><p class='q'><span class='qn'>24</span> What is the biggest problem in sending robots to Mars?</p><ul class='opts'><li><b>A</b> the distance</li><li><b>B</b> the atmosphere</li><li><b>C</b> the extreme temperatures</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 25,
+   "to": 30,
+   "mode": "text",
+   "inst": [],
+   "html": "<p>Who expresses the following opinions?</p><p>Persons</p><ul class='opts'><li><b>A</b> John</li><li><b>B</b> Susan</li><li><b>C</b> Both John and Susan</li></ul><p>Opinions</p><p class='q'><span class='qn'>25</span> We should plan a trip to Mars even though it may not happen soon.</p><p class='q'><span class='qn'>26</span> We may eventually colonise Mars.</p><p class='q'><span class='qn'>27</span> The soil on Mars is highly toxic.</p><p class='q'><span class='qn'>28</span> The soil on Mars contains materials we could use.</p><p class='q'><span class='qn'>29</span> Spaceships cannot be totally protected from radiation.</p><p class='q'><span class='qn'>30</span> It is possible that humans could form a base on Mars.</p>"
+  },
+  {
+   "type": "section",
+   "n": 4
+  },
+  {
+   "type": "block",
+   "from": 31,
+   "to": 40,
+   "mode": "text",
+   "inst": [
+    "Complete the notes below using NO MORE THAN TWO WORDS AND/OR A NUMBER."
+   ],
+   "html": "<p>The history of dentistry</p><p>Early history</p><p>The earliest reference to problems with teeth was in <span class=\"gap\">31</span></p><p>The ancient Sumerians called problems with teeth ‘tooth <span class=\"gap\">32</span></p><p>There is <span class=\"gap\">33</span> to show that the Chinese used dental treatments.</p><p>Remedies and treatment</p><p>An old text from <span class=\"gap\">34</span> reveals medical practices from 1700 to 1500 BC. The text refers to the use of <span class=\"gap\">35</span> and <span class=\"gap\">36</span> to relieve toothache.</p><p>In the fifth century BC a Greek <span class=\"gap\">37</span> noted the beginnings of specialisation in medicine.</p><p>A Greek doctor was the first to <span class=\"gap\">38</span> problem teeth.</p><p>In Europe during the <span class=\"gap\">39</span> , doctors performed dentistry in people’s homes.</p><p>A dentist from France is said to have founded <span class=\"gap\">40</span> dentistry.</p>"
+  }
+ ],
+ "19": [
+  {
+   "type": "section",
+   "n": 1
+  },
+  {
+   "type": "block",
+   "from": 1,
+   "to": 10,
+   "mode": "text",
+   "inst": [
+    "Complete the form below.",
+    "Write NO MORE THAN TWO WORDS AND/OR A NUMBER in each gap."
+   ],
+   "html": "<p>Complaint Record Form</p><p>Holiday booked in name of:</p><p>Last name: <span class=\"gap\">1</span></p><p>First name: Andrew</p><p>Address: Flat <span class=\"gap\">4</span> <span class=\"gap\">2</span> House, Winchester SO2 4ER</p><p>Daytime telephone number: <span class=\"gap\">3</span></p><p>Booking reference: <span class=\"gap\">4</span></p><p>Special offer: Yes, from <span class=\"gap\">5</span> company</p><p>Insurance: Yes, had <span class=\"gap\">6</span> policy</p><p>Type of holiday booked: <span class=\"gap\">7</span> break</p><p>Date holiday commenced: <span class=\"gap\">8</span></p><p>Details of complaint: no <span class=\"gap\">9</span> At station a/an <span class=\"gap\">10</span> was missing</p>"
+  },
+  {
+   "type": "section",
+   "n": 2
+  },
+  {
+   "type": "block",
+   "from": 11,
+   "to": 15,
+   "mode": "image",
+   "image": "t19-b3.webp"
+  },
+  {
+   "type": "block",
+   "from": 16,
+   "to": 17,
+   "mode": "text",
+   "inst": [
+    "Circle the correct letters A, B or C"
+   ],
+   "html": "<p class='q'><span class='qn'>16</span> The number of students to be relocated is..</p><ul class='opts'><li><b>A</b> 10</li><li><b>B</b> 6</li><li><b>C</b> 30</li></ul><p class='q'><span class='qn'>17</span> The number of students being relocated to each wing is</p><ul class='opts'><li><b>A</b> 10</li><li><b>B</b> 6</li><li><b>C</b> 30</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 18,
+   "to": 20,
+   "mode": "text",
+   "inst": [
+    "Circle THREE letters A-E. Which THREE of the following changes were mentioned?"
+   ],
+   "html": "<ul class='opts'><li><b>A</b> new computer desks</li><li><b>B</b> study desks</li><li><b>C</b> new beds</li><li><b>D</b> lamps</li><li><b>E</b> painting of rooms</li><li><b>F</b> Book shelves</li><li><b>G</b> Study chairs</li></ul>"
+  },
+  {
+   "type": "section",
+   "n": 3
+  },
+  {
+   "type": "block",
+   "from": 21,
+   "to": 26,
+   "mode": "text",
+   "inst": [
+    "Complete the sentences below.",
+    "Write NO MORE THAN THREE WORDS for each answer."
+   ],
+   "html": "<p>David feels that progress on the project has been slow because other members of the group are not compliancing with the <span class=\"gap\">21</span></p><p>Jane thinks that personal <span class=\"gap\">22</span> were not clearly established.</p><p>Dr Wilson suggests that the group use the <span class=\"gap\">23</span> module available from the Resource</p><p>Centre.</p><p>David doubts that the research will include an adequate consulting <span class=\"gap\">24</span></p><p>.</p><p>According to Dr Wilson, the <span class=\"gap\">25</span> is now the most important thing to focus on.</p><p>Jane believes the group could make more use of some <span class=\"gap\">26</span></p>"
+  },
+  {
+   "type": "block",
+   "from": 27,
+   "to": 30,
+   "mode": "text",
+   "inst": [
+    "Complete the timetable below.",
+    "Choose your answers from the box and unite the letters A-H next to questions 27-30."
+   ],
+   "html": "<ul class='opts'><li><b>A</b> Compare photographs at newspaper offices.</li><li><b>B</b> Interview a local historian.</li><li><b>C</b> Listen to tapes in the die City Library.</li><li><b>D</b> Study records of shop ownership.</li><li><b>E</b> Take photographs of the castle area.</li><li><b>F</b> Talk to the archivist at the City Library.</li><li><b>G</b> Tour city centre using copies of old maps.</li><li><b>H</b> Visit an exhibition at the University Library.</li></ul><p>MON - WED: FIELD TRIP TO CAMBRIDGE</p><p>Mon 22nd am Arrive at hotel</p><p>pm <span class=\"gap\">27</span></p><p>Tue 23rd am <span class=\"gap\">28</span></p><p>pm Free time</p><p>Wed 24th am <span class=\"gap\">29</span></p><p>pm <span class=\"gap\">30</span></p>"
+  },
+  {
+   "type": "section",
+   "n": 4
+  },
+  {
+   "type": "block",
+   "from": 31,
+   "to": 40,
+   "mode": "text",
+   "inst": [
+    "Write ONE WORD only in each gap"
+   ],
+   "html": "<p>The Inuit</p><p>Background</p><p class='bullet'>are the native <span class=\"gap\">31</span> of Alaska and Canada</p><p class='bullet'>Migrated across gap between Alaska and Siberia</p><p class='bullet'>Originally came from the continent of <span class=\"gap\">32</span></p><p class='bullet'>The name “Inuit” means “The people”</p><p class='bullet'>Inuit <span class=\"gap\">33</span> began years ago</p><p class='bullet'>Norse <span class=\"gap\">34</span> Lived near Inuit around 1000 AD</p><p>Housing</p><p class='bullet'>Inuit worked for <span class=\"gap\">35</span> in the 1800s</p><p class='bullet'>well adapted to the Arctic</p><p class='bullet'>in summer: + dwelled in <span class=\"gap\">36</span></p><p>+ traveled in <span class=\"gap\">37</span></p><p class='bullet'>In winter + lived in ice house or &#x27;igloos&#x27;</p><p>+ traveled by <span class=\"gap\">38</span></p><p class='bullet'>Took 1- 2 hours to build</p><p>Food:</p><p class='bullet'><span class=\"gap\">39</span> whales - the main source of food</p><p class='bullet'>polar bears hunted on land</p><p class='bullet'>Constantly looking food</p><p class='bullet'>Major <span class=\"gap\">40</span> of Inuit currently located in Alaska and Canada</p>"
+  }
+ ],
+ "20": [
+  {
+   "type": "section",
+   "n": 1
+  },
+  {
+   "type": "block",
+   "from": 1,
+   "to": 10,
+   "mode": "text",
+   "inst": [],
+   "html": "<p>Accommodation request form</p><p>Name: Jenny Chan</p><p>Present address: Sea View Guest House, <span class=\"gap\">1</span> Rd</p><p>Daytime phone number: <span class=\"gap\">2</span> [NB Best lime to contact is 9-9:30 ]</p><p>Age: 19</p><p>Intended length of stay: <span class=\"gap\">3</span></p><p>Occupation while in UK: student</p><p>General level of English: <span class=\"gap\">4</span></p><p>Preferred location: in the <span class=\"gap\">5</span></p><p>Special diet: <span class=\"gap\">6</span></p><p>Other requirements:</p><p class='bullet'>own <span class=\"gap\">7</span></p><p class='bullet'>own television</p><p class='bullet'>a/an <span class=\"gap\">8</span></p><p class='bullet'>to be only guest</p><p>Maximum price: £ <span class=\"gap\">9</span> a week</p><p>Preferred starting date: <span class=\"gap\">10</span></p>"
+  },
+  {
+   "type": "section",
+   "n": 2
+  },
+  {
+   "type": "block",
+   "from": 11,
+   "to": 13,
+   "mode": "text",
+   "inst": [
+    "Complete the sentences below.",
+    "Write NO MORE THAN TWO WORDS for each answer."
+   ],
+   "html": "<p class='bullet'>The next meeting of the soccer club will be in the <span class=\"gap\">11</span> in King&#x27;s Park on 2 July.</p><p class='bullet'>The first event is a <span class=\"gap\">12</span></p><p class='bullet'>At the final dinner, players receive <span class=\"gap\">13</span></p>"
+  },
+  {
+   "type": "block",
+   "from": 14,
+   "to": 17,
+   "mode": "image",
+   "image": "t20-b4.webp"
+  },
+  {
+   "type": "block",
+   "from": 18,
+   "to": 20,
+   "mode": "image",
+   "image": "t20-b5.webp"
+  },
+  {
+   "type": "section",
+   "n": 3
+  },
+  {
+   "type": "block",
+   "from": 21,
+   "to": 23,
+   "mode": "text",
+   "inst": [
+    "Choose THREE letters, A-F."
+   ],
+   "html": "<p>Which THREE reasons have Bill and Ann not prepared their presentation in class yet?</p><ul class='opts'><li><b>A</b> Bill has been taking care of his mother</li><li><b>B</b> Ann&#x27;s neighbors cannot help her with chores</li><li><b>C</b> Bill spends more time on other things</li><li><b>D</b> Ann spends more time on her business</li><li><b>E</b> Bill is too buy with other courses</li><li><b>F</b> Ann helps her mom with housework</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 24,
+   "to": 25,
+   "mode": "text",
+   "inst": [
+    "Choose TWO letters, A-E."
+   ],
+   "html": "<p>Which TWO things are correct about the topic in their class that Bill and Ann have to present?</p><ul class='opts'><li><b>A</b> personal characteristics are influenced by uniform</li><li><b>B</b> wearing a uniform during carrying out experiment in Los Angeles</li><li><b>C</b> it seems like what Bill read before</li><li><b>D</b> it is about things to do during summer vacation</li><li><b>E</b> ProbIem of wearing a uniform in high school</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 26,
+   "to": 30,
+   "mode": "text",
+   "inst": [],
+   "html": "<p class='q'><span class='qn'>26</span> Students volunteered in the experiment</p><ul class='opts'><li><b>A</b> Had a clue for what will happen</li><li><b>B</b> were not informed in advance about what will happen.</li><li><b>C</b> were arrested to a police station.</li></ul><p class='q'><span class='qn'>27</span> What did the volunteers encounter in the experiment?</p><ul class='opts'><li><b>A</b> They did not know that other volunteers had encountered the same thing.</li><li><b>B</b> They were informed about what they had to wear.</li><li><b>C</b> They did not know why they had to get charged.</li></ul><p class='q'><span class='qn'>28</span> In the old experiment, volunteers</p><ul class='opts'><li><b>A</b> played a role as arrested persons</li><li><b>B</b> recognised the experimental purpose.</li><li><b>C</b> came from different universities.</li></ul><p class='q'><span class='qn'>29</span> Arrested volunteers in the old experiment</p><ul class='opts'><li><b>A</b> were treated like real prisoners.</li><li><b>B</b> were told to act like prison guards.</li><li><b>C</b> were not allowed to sleep.</li></ul><p class='q'><span class='qn'>30</span> What did the volunteers feel during the experiment?</p><ul class='opts'><li><b>A</b> The volunteers playing guards with psychological trauma.</li><li><b>B</b> They all suffered psychological trauma</li><li><b>C</b> The volunteers playing prisoners with psychological trauma.</li></ul>"
+  },
+  {
+   "type": "section",
+   "n": 4
+  },
+  {
+   "type": "block",
+   "from": 31,
+   "to": 40,
+   "mode": "text",
+   "inst": [
+    "Complete the notes below.",
+    "Write ONLY ONE WORD in each gap."
+   ],
+   "html": "<p>Sales and Marketing</p><p>Introduction</p><p class='bullet'>advertising is used to make a company successful via different types of <span class=\"gap\">31</span></p><p class='bullet'>advertising <span class=\"gap\">32</span> (radio, newspapers, TV, etc.) is not mentioned in this lecture</p><p class='bullet'><span class=\"gap\">33</span> advertising helps to achieve our goals while saving money</p><p class='bullet'>the most common objective of the advertiser is to change customers&#x27; behaviour and <span class=\"gap\">34</span></p><p>Advertising for brands</p><p class='bullet'>customers tend to buy products from a company as they <span class=\"gap\">35</span> their brand name</p><p class='bullet'>promoting a brand is supposed to make customers remember product <span class=\"gap\">36</span></p><p class='bullet'>a famous company with a good brand name could not market successfully other products</p><p class='bullet'>company names usually advertise before their goods and <span class=\"gap\">37</span></p><p class='bullet'>SanFran Video Store <span class=\"gap\">38</span> had promoted by handing out flyers</p><p class='bullet'>Chanel is successfully in advertising either company name or products such as <span class=\"gap\">39</span></p><p class='bullet'>it is essential to be mutually <span class=\"gap\">40</span> in different types of advertising</p>"
+  }
+ ],
+ "21": [
+  {
+   "type": "section",
+   "n": 1
+  },
+  {
+   "type": "block",
+   "from": 1,
+   "to": 10,
+   "mode": "text",
+   "inst": [
+    "Complete the notes below.",
+    "Write NO MORE THAN ONE WORD AND/OR A NUMBER in each gap."
+   ],
+   "html": "<p>Apartment Information</p><p>Maximum rental: $ <span class=\"gap\">1</span> per week</p><p>Minimum period of contract: <span class=\"gap\">2</span></p><p>Log on the website: www <span class=\"gap\">3</span> com</p><p>Things included - a circuit <span class=\"gap\">4</span> in all apartments</p><p>In the rent: - kitchen equipments:</p><p>+ a/an <span class=\"gap\">5</span></p><p>+ a/an <span class=\"gap\">6</span></p><p class='bullet'><span class=\"gap\">7</span> bill</p><p>Client information:</p><p>Full name: Angela <span class=\"gap\">8</span></p><p>Address: <span class=\"gap\">9</span> Rd <span class=\"gap\">&nbsp;</span> Melford MF45JB</p><p>Tel: <span class=\"gap\">10</span></p>"
+  },
+  {
+   "type": "section",
+   "n": 2
+  },
+  {
+   "type": "block",
+   "from": 11,
+   "to": 13,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letters A,B or C"
+   ],
+   "html": "<p class='q'><span class='qn'>11</span> What is the company’s sales figures trend from 2005-2010?</p><ul class='opts'><li><b>A</b> Fluctuation, with great increase in the first stage</li><li><b>B</b> no change during the period</li><li><b>C</b> great increase during the period</li></ul><p class='q'><span class='qn'>12</span> What is the relationship of the three departments this year?</p><ul class='opts'><li><b>A</b> both Furniture and home appliances are decreased.</li><li><b>B</b> only apparel is decreased.</li><li><b>C</b> all three departments remain unchanged.</li></ul><p class='q'><span class='qn'>13</span> Which is the best description about the number trend of temporary staff in the company?</p><ul class='opts'><li><b>A</b> The trend is the same over the years.</li><li><b>B</b> The trend turns down this year.</li><li><b>C</b> The trend is increasing over the years.</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 14,
+   "to": 18,
+   "mode": "text",
+   "inst": [
+    "Write NO MORE THAN TWO WORDS in each gap"
+   ],
+   "html": "<p>Parkson Approach to Retail Business</p><p>Mission Statement</p><p class='bullet'>the drive to <span class=\"gap\">14</span></p><p class='bullet'>pursuing ways need to be creative and distinctive to fulfill customer&#x27;s demand</p><p>Four Priorities</p><p class='bullet'>compelling and distinctive assortments</p><p class='bullet'><span class=\"gap\">15</span></p><p class='bullet'>enhanced shopping experience</p><p class='bullet'><span class=\"gap\">16</span></p><p>Magical Special Events</p><p class='bullet'>Thanksgiving Day Parade</p><p class='bullet'>Halloween Fireworks</p><p class='bullet'>celebrity appearances</p><p class='bullet'><span class=\"gap\">17</span></p><p class='bullet'>Arrival of Santa Claus</p><p class='bullet'><span class=\"gap\">18</span></p><p class='bullet'>animated window displays</p>"
+  },
+  {
+   "type": "block",
+   "from": 19,
+   "to": 20,
+   "mode": "text",
+   "inst": [
+    "Choose TWO letters. A-E."
+   ],
+   "html": "<p>Which TWO things must be done today?</p><ul class='opts'><li><b>A</b> handing in application form</li><li><b>B</b> reading the brochure</li><li><b>C</b> submitting certificate</li><li><b>D</b> applying for staff discount</li><li><b>E</b> getting security pass</li></ul>"
+  },
+  {
+   "type": "section",
+   "n": 3
+  },
+  {
+   "type": "block",
+   "from": 21,
+   "to": 22,
+   "mode": "text",
+   "inst": [
+    "Write ONE WORD ONLY in each gap"
+   ],
+   "html": "<p class='bullet'>Art Deco takes its name from a/an <span class=\"gap\">21</span> held in Paris</p><p class='bullet'>Both Art Deco and Art Modern were more often used for <span class=\"gap\">22</span> high-rise building blocks.</p>"
+  },
+  {
+   "type": "block",
+   "from": 23,
+   "to": 27,
+   "mode": "text",
+   "inst": [
+    "Complete the form below.",
+    "Write ONE WORD ONLY in each gap"
+   ],
+   "html": "<p>Art Deco</p><p class='bullet'>facades with <span class=\"gap\">23</span> designs</p><p class='bullet'>Polychromy</p><p class='bullet'>Straight edges and <span class=\"gap\">24</span> Shapes</p><p class='bullet'>Vertical emphasis</p><p>Art modern</p><p class='bullet'>Flat roofed building rooms, curved corners</p><p class='bullet'>smooth walls without <span class=\"gap\">25</span></p><p class='bullet'>more <span class=\"gap\">26</span> than Deco</p><p class='bullet'><span class=\"gap\">27</span> Emphasis</p>"
+  },
+  {
+   "type": "block",
+   "from": 28,
+   "to": 30,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letters A,B or C"
+   ],
+   "html": "<p class='q'><span class='qn'>28</span> What do the students want to do in class?</p><ul class='opts'><li><b>A</b> showing presentation on photos of buildings</li><li><b>B</b> taking class pictures</li><li><b>C</b> discussing about how to take the building pictures</li></ul><p class='q'><span class='qn'>29</span> What do they need to do before taking photos?</p><ul class='opts'><li><b>A</b> finding the way to the lobby of the building first</li><li><b>B</b> talking to Professor Vargas</li><li><b>C</b> asking for permission</li></ul><p class='q'><span class='qn'>30</span> Who does the woman want to turn to for help?</p><ul class='opts'><li><b>A</b> the building manager</li><li><b>B</b> building guard</li><li><b>C</b> building receptionist</li></ul>"
+  },
+  {
+   "type": "section",
+   "n": 4
+  },
+  {
+   "type": "block",
+   "from": 31,
+   "to": 40,
+   "mode": "text",
+   "inst": [
+    "Write ONE WORD ONLY in each gap"
+   ],
+   "html": "<p>The Aztec</p><p>General History</p><p class='bullet'>the Aztec <span class=\"gap\">31</span> Existed between the 14th and 16th century</p><p class='bullet'>the capital city of Aztec was in the centre of the <span class=\"gap\">32</span> Mexico city</p><p>Food</p><p class='bullet'>the staple food of Aztecs was <span class=\"gap\">33</span> Which has been domesticated for thousands of years, and spread to the rest of the world from Mexico.</p><p class='bullet'>the Aztecs also had other diet such as <span class=\"gap\">34</span> , squash</p><p>Clothing</p><p class='bullet'>the clothing of the Aztec was diverse based on different <span class=\"gap\">35</span> community</p><p class='bullet'>Aztec clothes were generally made of imported cotton or ayate fiber</p><p class='bullet'>the Aztecs were able to create beautiful colors using a lot of <span class=\"gap\">36</span></p><p>Education</p><p class='bullet'>girls were instructed about cooking, caring for a family, <span class=\"gap\">37</span> and ways to economically run the home</p><p class='bullet'>boys, however, learned trades, fighting and <span class=\"gap\">38</span> Skills</p><p>Region</p><p class='bullet'>the Aztecs went to <span class=\"gap\">39</span> to send their tribute and pray</p><p class='bullet'>The tribute included not only agricultural but also rare and <span class=\"gap\">40</span> products</p>"
+  }
+ ],
+ "22": [
+  {
+   "type": "section",
+   "n": 1
+  },
+  {
+   "type": "block",
+   "from": 1,
+   "to": 4,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letters A, B or C."
+   ],
+   "html": "<p class='q'><span class='qn'>1</span> Currently, the man is studying</p><ul class='opts'><li><b>A</b> Business</li><li><b>B</b> Education</li><li><b>C</b> Maths</li></ul><p class='q'><span class='qn'>2</span> The man wants to study</p><ul class='opts'><li><b>A</b> Education</li><li><b>B</b> Business</li><li><b>C</b> Accounting</li></ul><p class='q'><span class='qn'>3</span> When are the Registration Packs available for first-year students?</p><ul class='opts'><li><b>A</b> November</li><li><b>B</b> September</li><li><b>C</b> December</li></ul><p class='q'><span class='qn'>4</span> To complete the registration process, the student has</p><ul class='opts'><li><b>A</b> One-month</li><li><b>B</b> Two months</li><li><b>C</b> Three months</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 5,
+   "to": 7,
+   "mode": "image",
+   "image": "t22-b2.webp"
+  },
+  {
+   "type": "block",
+   "from": 8,
+   "to": 10,
+   "mode": "text",
+   "inst": [
+    "Choose THREE letters A-F"
+   ],
+   "html": "<p>Which THREE ways to register are mentioned?</p><ul class='opts'><li><b>A</b> by email</li><li><b>B</b> by mail</li><li><b>C</b> by phone</li><li><b>D</b> in person</li><li><b>E</b> text message</li><li><b>F</b> by facsimile</li></ul>"
+  },
+  {
+   "type": "section",
+   "n": 2
+  },
+  {
+   "type": "block",
+   "from": 11,
+   "to": 16,
+   "mode": "text",
+   "inst": [
+    "Complete the sentences below. Write NO MORE THAN TWO WORDS for each answer."
+   ],
+   "html": "<p>The Hotel</p><p class='bullet'>You must book <span class=\"gap\">11</span> in advance.</p><p class='bullet'>There are some interesting <span class=\"gap\">12</span> in the lounge.</p><p>Activities</p><p class='bullet'>The visit to the <span class=\"gap\">13</span> has been cancelled.</p><p class='bullet'>There will be a talk about <span class=\"gap\">14</span> from the area on Saturday.</p><p class='bullet'>The visit to the <span class=\"gap\">15</span> will take place on Sunday.</p><p class='bullet'>There is a collection of <span class=\"gap\">16</span> in the art gallery.</p>"
+  },
+  {
+   "type": "block",
+   "from": 17,
+   "to": 20,
+   "mode": "image",
+   "image": "t22-b6.webp"
+  },
+  {
+   "type": "section",
+   "n": 3
+  },
+  {
+   "type": "block",
+   "from": 21,
+   "to": 22,
+   "mode": "text",
+   "inst": [
+    "Choose TWO letters A-E."
+   ],
+   "html": "<p>What two suggestions does Gloria give to Paul?</p><ul class='opts'><li><b>A</b> talk with past graduates</li><li><b>B</b> chooses from Science, Maths or English</li><li><b>C</b> study subjects that he naturally likes</li><li><b>D</b> consult the university handbook</li><li><b>E</b> go to the office of Academic Affairs</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 23,
+   "to": 27,
+   "mode": "image",
+   "image": "t22-b9.webp"
+  },
+  {
+   "type": "block",
+   "from": 28,
+   "to": 30,
+   "mode": "text",
+   "inst": [
+    "Choose THREE letters A – F"
+   ],
+   "html": "<p>Which THREE points helped Gloria to Choose her course</p><ul class='opts'><li><b>A</b> she spoke with her parents</li><li><b>B</b> she talked with friends</li><li><b>C</b> she looked at jobs that were available</li><li><b>D</b> she researched typical working hours</li><li><b>E</b> she liked mathematics</li><li><b>F</b> she liked working with people</li></ul>"
+  },
+  {
+   "type": "section",
+   "n": 4
+  },
+  {
+   "type": "block",
+   "from": 31,
+   "to": 40,
+   "mode": "image",
+   "image": "t22-b12.webp"
+  }
+ ],
+ "23": [
+  {
+   "type": "section",
+   "n": 1
+  },
+  {
+   "type": "block",
+   "from": 1,
+   "to": 10,
+   "mode": "text",
+   "inst": [
+    "Write NO MORE THAN ONE WORD AND/OR A NUMBER in each gap."
+   ],
+   "html": "<p>Finnegan&#x27;s Flight Centre</p><p>Flight info: - from Hong Kong to Singapore on 25 July</p><p class='bullet'>it takes approximately 3 hours <span class=\"gap\">1</span> Minutes</p><p class='bullet'>the passenger should check in before <span class=\"gap\">2</span></p><p class='bullet'>the passenger cannot change their flight dates because of work <span class=\"gap\">3</span> …</p><p class='bullet'>the passenger will fly back to Hong Kong on <span class=\"gap\">4</span></p><p class='bullet'>the passenger wants to <span class=\"gap\">5</span> as soon as she gets back</p><p>Other information:</p><p class='bullet'>Bert will <span class=\"gap\">6</span> the confirmation details to the passenger</p><p class='bullet'>the maximum weight for <span class=\"gap\">7</span> Luggage is 10kg</p><p class='bullet'>the passenger will check in one <span class=\"gap\">8</span> at extra cost</p><p class='bullet'>the reservation number is <span class=\"gap\">9</span></p><p class='bullet'>the passenger is for a seat next to the <span class=\"gap\">10</span></p>"
+  },
+  {
+   "type": "section",
+   "n": 2
+  },
+  {
+   "type": "block",
+   "from": 11,
+   "to": 15,
+   "mode": "text",
+   "inst": [
+    "Complete the sentences below. Write NO MORE THAN TWO WORDS for each answer."
+   ],
+   "html": "<p class='bullet'>Many <span class=\"gap\">11</span> happen around cars.</p><p class='bullet'>Night time travel on <span class=\"gap\">12</span> should be avoided.</p><p class='bullet'>In the event of a break-down in a lonely place, wait in the car for help from a police car or another <span class=\"gap\">13</span></p><p class='bullet'>When being followed, if there is no police station nearby, find an open garage or store or go straight to an <span class=\"gap\">14</span></p><p class='bullet'>The police station is located on the <span class=\"gap\">15</span> Between the canal street and the cockleshell court</p>"
+  },
+  {
+   "type": "block",
+   "from": 16,
+   "to": 20,
+   "mode": "text",
+   "inst": [
+    "Match the toxic gases in the box to the effects below.",
+    "Choose your answers from the box and write the letters A-E next to questions 16-20."
+   ],
+   "html": "<p>List of toxic gases</p><ul class='opts'><li><b>A</b> carbon dioxide</li><li><b>B</b> nitrogen oxide</li><li><b>C</b> carbon monoxide</li><li><b>D</b> hydrogen sulphide</li><li><b>E</b> Low oxygen air</li></ul><p>List of effects</p><p class='q'><span class='qn'>16</span> People suffer mental impairment</p><p class='q'><span class='qn'>17</span> It hurts the lungs</p><p class='q'><span class='qn'>18</span> It makes you breathe faster</p><p class='q'><span class='qn'>19</span> You cannot see it or smell it</p><p class='q'><span class='qn'>20</span> It numbs the respiratory tract</p>"
+  },
+  {
+   "type": "section",
+   "n": 3
+  },
+  {
+   "type": "block",
+   "from": 21,
+   "to": 25,
+   "mode": "image",
+   "image": "t23-b6.webp"
+  },
+  {
+   "type": "block",
+   "from": 23,
+   "to": 25,
+   "mode": "image",
+   "image": "t23-b7.webp"
+  },
+  {
+   "type": "block",
+   "from": 26,
+   "to": 30,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letters A,B or C"
+   ],
+   "html": "<p class='q'><span class='qn'>26</span> A constitution containing rules for governing is</p><ul class='opts'><li><b>A</b> a written document.</li><li><b>B</b> still a controversial form.</li><li><b>C</b> an issue passed by Parliament.</li></ul><p class='q'><span class='qn'>27</span> New Zealand has some unwritten</p><ul class='opts'><li><b>A</b> constitutions.</li><li><b>B</b> simple laws.</li><li><b>C</b> conventions.</li></ul><p class='q'><span class='qn'>28</span> A parliament with only one chamber is called</p><ul class='opts'><li><b>A</b> House of Representatives.</li><li><b>B</b> Upper House.</li><li><b>C</b> Unicameral.</li></ul><p class='q'><span class='qn'>29</span> New Zealand&#x27;s voting system is known as</p><ul class='opts'><li><b>A</b> Member of Political Party.</li><li><b>B</b> Member Proportional Representation.</li><li><b>C</b> Member of Parliament Representatives.</li></ul><p class='q'><span class='qn'>30</span> Political parties are represented proportionally in parliament according to</p><ul class='opts'><li><b>A</b> the share of votes gained in the election.</li><li><b>B</b> the share of votes in preferred political party.</li><li><b>C</b> the share of votes in every party</li></ul>"
+  },
+  {
+   "type": "section",
+   "n": 4
+  },
+  {
+   "type": "block",
+   "from": 31,
+   "to": 36,
+   "mode": "text",
+   "inst": [],
+   "html": "<p>Which of the following descriptions is appropriate for the hat color below?</p><p>Choose SIX answers from the list below and write the correct letter A-F , next to Questions 31-36.</p><p>List of hat color List of description</p><ul class='opts'><li><b>A</b> Black A creative response - be inventive:</li><li><b>B</b> Blue An emotional response - use intuition:</li><li><b>C</b> Green A managerial response - like control:</li><li><b>D</b> Red An optimistic response - be encouraging:</li><li><b>E</b> White A pessimistic response - be wary:</li><li><b>F</b> Yellow A rational response - focus on data:</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 37,
+   "to": 40,
+   "mode": "image",
+   "image": "t23-b11.webp"
+  }
+ ],
+ "24": [
+  {
+   "type": "section",
+   "n": 1
+  },
+  {
+   "type": "block",
+   "from": 1,
+   "to": 10,
+   "mode": "text",
+   "inst": [],
+   "html": "<p>Notes on Adult education Classes</p><p>Number of classes: 7 per week</p><p>Tuesday: - <span class=\"gap\">1</span> (6- 7:30 PM)</p><p>+ limited space: no more than <span class=\"gap\">2</span> Participants</p><p class='bullet'>Book Club</p><p>+ must read <span class=\"gap\">3</span> Books</p><p class='bullet'><span class=\"gap\">4</span> Group</p><p>+ learn about local events last century</p><p>Wednesday: - Scrabble club ( 2 - <span class=\"gap\">5</span> )</p><p>+ Popular</p><p>Thursday: - Chess night</p><p>+ serious</p><p class='bullet'><span class=\"gap\">6</span></p><p class='bullet'>For special occasions</p><p>Adult learners&#x27; Week:</p><p class='bullet'>no cost but must make <span class=\"gap\">7</span></p><p>+ September 1 - 8</p><p class='bullet'>Techno Expo</p><p>+ learn how to use <span class=\"gap\">8</span> tools</p><p>+ learn about online security issues and online entertainment</p><p>+ Monday, 1 - 4: 30 pm</p><p class='bullet'><span class=\"gap\">9</span></p><p>+ consider values</p><p>+ learn how to attain harmony</p><p>+ Wednesday, 1 - 4.30 pm</p><p class='bullet'>Venue: <span class=\"gap\">10</span></p>"
+  },
+  {
+   "type": "section",
+   "n": 2
+  },
+  {
+   "type": "block",
+   "from": 11,
+   "to": 14,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letter."
+   ],
+   "html": "<p class='q'><span class='qn'>11</span> Most infants are hurt</p><ul class='opts'><li><b>A</b> at the supermarket.</li><li><b>B</b> at home.</li><li><b>C</b> in car accidents.</li></ul><p class='q'><span class='qn'>12</span> Children should learn good safety habits from</p><ul class='opts'><li><b>A</b> their pre-school teachers.</li><li><b>B</b> television programs.</li><li><b>C</b> their parents.</li></ul><p class='q'><span class='qn'>13</span> Why are kitchens more dangerous for infants than adults ?</p><ul class='opts'><li><b>A</b> They may get stood on.</li><li><b>B</b> They may get burnt.</li><li><b>C</b> They may cut themselves.</li></ul><p class='q'><span class='qn'>14</span> Poisons should never be kept</p><ul class='opts'><li><b>A</b> in glass drink bottles.</li><li><b>B</b> within reach of adults.</li><li><b>C</b> in their original containers.</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 15,
+   "to": 16,
+   "mode": "text",
+   "inst": [],
+   "html": "<p>Which TWO items of playground equipment pose the most danger for children ?</p><ul class='opts'><li><b>A</b> Roundabouts</li><li><b>B</b> Slides</li><li><b>C</b> Swings</li><li><b>D</b> Seesaws</li><li><b>E</b> Climbing frames</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 17,
+   "to": 20,
+   "mode": "text",
+   "inst": [
+    "Complete the information below.",
+    "Write NO MORE THAN THREE WORDS for each answer."
+   ],
+   "html": "<p class='bullet'>If you are bathing the baby, let the phone <span class=\"gap\">17</span></p><p class='bullet'>If you can install protective <span class=\"gap\">18</span> to stop a child from poking things into a powerpoint.</p><p class='bullet'>The parent should go <span class=\"gap\">19</span> to smoke a cigarette</p><p class='bullet'>The parents shouldn’t leave infants alone in a room with <span class=\"gap\">20</span></p>"
+  },
+  {
+   "type": "section",
+   "n": 3
+  },
+  {
+   "type": "block",
+   "from": 21,
+   "to": 26,
+   "mode": "text",
+   "inst": [
+    "Complete the summary below.",
+    "Write NO MORE THAN TWO WORDS in each gap."
+   ],
+   "html": "<p>Habitat on Wetlands</p><p>A wetland is an area where the soil is typically water-logged. Plants and animals living there depend on the wetness for their <span class=\"gap\">21</span> Draining swamps is a widespread occurrence which kills off wildlife and, consequently, wetlands are <span class=\"gap\">22</span> worldwide. It is a feature of wetlands that conditions vary according to <span class=\"gap\">23</span> Water-tolerant plants grow both in and out of the water and water - levels are usually quite</p><p><span class=\"gap\">24</span> Wetlands naturally occur between land and water and become <span class=\"gap\">25</span> for various wildlife during very dry periods. They also act as nurseries for different kinds of animal life. Wetlands are known to upgrade the water&#x27;s <span class=\"gap\">26</span> by removing pollutants.</p>"
+  },
+  {
+   "type": "block",
+   "from": 27,
+   "to": 30,
+   "mode": "image",
+   "image": "t24-b8.webp"
+  },
+  {
+   "type": "section",
+   "n": 4
+  },
+  {
+   "type": "block",
+   "from": 31,
+   "to": 40,
+   "mode": "text",
+   "inst": [
+    "Write ONE WORD ONLY in each gap."
+   ],
+   "html": "<p>Meteorology</p><p class='bullet'>Elements which produce weather:</p><p>+ <span class=\"gap\">31</span></p><p>+ troposphere</p><p>+ water vapour</p><p>+ <span class=\"gap\">32</span></p><p class='bullet'>Different types of cloud formation:</p><p>+ cumulus is a low cloud layer with white color and <span class=\"gap\">33</span> shape</p><p>+ stratus is a grey cloud with <span class=\"gap\">34</span> appearance</p><p>+ <span class=\"gap\">35</span> is considered as ground clouds</p><p>+ Cirrus is a high cloud layer with wispy, <span class=\"gap\">36</span> shape</p><p>+ cumulonimbus is the highest cloud layer, connected to the troposphere to</p><p><span class=\"gap\">37</span> hailstones, heavy rain, tornadoes, etc.</p><p class='bullet'>Old assumption: large dust particles —&gt; bigger <span class=\"gap\">38</span> —&gt; more rain</p><p class='bullet'>New research: more dust ------&gt; less rain (because water too dispersed to form <span class=\"gap\">39</span></p><p class='bullet'>Conclusion: loss of topsoil in nearby areas —&gt; progressive <span class=\"gap\">40</span> of deserts</p>"
+  }
+ ],
+ "25": [
+  {
+   "type": "section",
+   "n": 1
+  },
+  {
+   "type": "block",
+   "from": 1,
+   "to": 6,
+   "mode": "text",
+   "inst": [
+    "Complete the notes below. Write NO MORE THAN ONE WORD AND/ OR A NUMBER for each",
+    "answer."
+   ],
+   "html": "<p>Small claims tribunal – Claim form</p><p>Claimant’s name: Emily-Jane Appleby</p><p>Address: 1 Yeronga Street, <span class=\"gap\">1</span></p><p>Postcode: 4105</p><p>Telephone No. (home): <span class=\"gap\">2</span></p><p>Respondent: <span class=\"gap\">3</span></p><p>Company name: ABC appliances ltd</p><p>Address: <span class=\"gap\">4</span> avenue, Bardon</p><p>Postcode: <span class=\"gap\">5</span></p><p>Telephone no. (work): 72324681</p><p>Date (of transaction): 3rd Feb, 2011</p><p>Guarantee: <span class=\"gap\">6</span></p>"
+  },
+  {
+   "type": "block",
+   "from": 7,
+   "to": 10,
+   "mode": "text",
+   "inst": [
+    "Complete the notes below. Write NO MORE THAN TWO WORDS AND/ OR A NUMBER for each",
+    "answer."
+   ],
+   "html": "<p>Details of the claim:</p><p>Goods: <span class=\"gap\">7</span></p><p>– (‘Mallard’ brand, ‘Whisper’ model, serial no. XY303)</p><p>Agreed to pay: <span class=\"gap\">8</span> pounds</p><p>Advantages: - Uses less energy because it has shorter cycle</p><p class='bullet'>Reduces the amount of <span class=\"gap\">9</span> used</p><p class='bullet'>Whisper quiet</p><p>Complaint: - the cycle is longer and the appliance is very <span class=\"gap\">10</span></p>"
+  },
+  {
+   "type": "section",
+   "n": 2
+  },
+  {
+   "type": "block",
+   "from": 11,
+   "to": 20,
+   "mode": "image",
+   "image": "t25-b4.webp"
+  },
+  {
+   "type": "section",
+   "n": 3
+  },
+  {
+   "type": "block",
+   "from": 21,
+   "to": 25,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letters. A, B or C."
+   ],
+   "html": "<p class='q'><span class='qn'>21</span> According to the liaison officer volunteers help</p><ul class='opts'><li><b>A</b> improve language program.</li><li><b>B</b> provide quality education.</li><li><b>C</b> staff members in education system.</li></ul><p class='q'><span class='qn'>22</span> Volunteers help students check and correct</p><ul class='opts'><li><b>A</b> written responses.</li><li><b>B</b> assignments.</li><li><b>C</b> presentation reports</li></ul><p class='q'><span class='qn'>23</span> What aspect of students&#x27; self-management can volunteers assist greatly with improving?</p><ul class='opts'><li><b>A</b> organizational skills</li><li><b>B</b> problem-solving skills</li><li><b>C</b> Independent thinking skills</li></ul><p class='q'><span class='qn'>24</span> What will volunteers try to develop in the students so that they exert themselves more?</p><ul class='opts'><li><b>A</b> strong determinations</li><li><b>B</b> enthusiasm for personal work</li><li><b>C</b> hard work and diligence</li></ul><p class='q'><span class='qn'>25</span> What is it that teachers have that allows them to respond to individual student requirements?</p><ul class='opts'><li><b>A</b> exchange of information and skills</li><li><b>B</b> many different teaching styles</li><li><b>C</b> partnerships between teachers</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 26,
+   "to": 30,
+   "mode": "text",
+   "inst": [],
+   "html": "<p>Which of the following phrases is appropriate for the contents below?</p><p>Choose FIVE answers from the below and write the correct letter. A-H next to Questions 26-30.</p><p>List of phrases List of contents</p><p>A vocational learning experiences Sharon and Lester have different: <span class=\"gap\">26</span></p><p>B practical components Sharon and Lester help students&#x27;: <span class=\"gap\">27</span></p><p>C self-learning software The program is well underway: <span class=\"gap\">28</span></p><p>D academic background The liaison officer is impressed by: <span class=\"gap\">29</span></p><p>E marine studies Students are encouraged to take part in: <span class=\"gap\">30</span></p><ul class='opts'><li><b>F</b> interesting developments</li><li><b>G</b> scholastic competitions</li><li><b>H</b> building and construction</li></ul>"
+  },
+  {
+   "type": "section",
+   "n": 4
+  },
+  {
+   "type": "block",
+   "from": 31,
+   "to": 40,
+   "mode": "text",
+   "inst": [],
+   "html": "<p>Anxiety</p><p>General information</p><p class='bullet'>someone in an anxiety state has worse anxiety <span class=\"gap\">31</span> than normal</p><p class='bullet'>a phobia may stem from heredity or <span class=\"gap\">32</span> problems</p><p class='bullet'>The reason for the final breakdown is generally linked with <span class=\"gap\">33</span></p><p class='bullet'>occurrences like the loss of a loved one or a health crisis</p><p>Phobic states</p><p class='bullet'>Agoraphobia: fears leaving the home <span class=\"gap\">34</span></p><p class='bullet'>Claustrophobia: fears small <span class=\"gap\">35</span></p><p class='bullet'>Social phobia: + feels extremely shy in the <span class=\"gap\">36</span> of people</p><p>+ becomes <span class=\"gap\">37</span> in front of other people</p><p>+ gets sweaty <span class=\"gap\">38</span> of the body</p><p class='bullet'>Single phobia: + has a deep-seated <span class=\"gap\">39</span> to a particular creatures (eg: Dogs, cats, spiders etc)</p><p>+ fears of the <span class=\"gap\">40</span></p>"
+  }
+ ],
+ "26": [
+  {
+   "type": "section",
+   "n": 1
+  },
+  {
+   "type": "block",
+   "from": 1,
+   "to": 6,
+   "mode": "text",
+   "inst": [],
+   "html": "<p>Membership Application Form</p><p>Membership time: 7 years</p><p>Type of ID: <span class=\"gap\">1</span></p><p>ID No.: <span class=\"gap\">2</span></p><p>Family name: Black</p><p>Other name: Gavin Raymond</p><p>Date of birth: January 22, 1973</p><p>ID expiry date: <span class=\"gap\">3</span> , 2012</p><p>Address: <span class=\"gap\">4</span> St, Meadowbank</p><p>Class of vehicle: <span class=\"gap\">5</span></p><p>Endorsements: None</p><p>Convictions: <span class=\"gap\">6</span> (1993)</p>"
+  },
+  {
+   "type": "block",
+   "from": 7,
+   "to": 10,
+   "mode": "image",
+   "image": "t26-b2.webp"
+  },
+  {
+   "type": "section",
+   "n": 2
+  },
+  {
+   "type": "block",
+   "from": 11,
+   "to": 16,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letters A, B or C"
+   ],
+   "html": "<p class='q'><span class='qn'>11</span> Diners can be served inside the restaurant or</p><ul class='opts'><li><b>A</b> in the courtyard.</li><li><b>B</b> in the gardens.</li><li><b>C</b> in the terrace.</li></ul><p class='q'><span class='qn'>12</span> Visitors can put on their swimsuits in order to</p><ul class='opts'><li><b>A</b> play on the beach</li><li><b>B</b> swim on the beach</li><li><b>C</b> play in the water spray areas.</li></ul><p class='q'><span class='qn'>13</span> The Cottage houses a museum,</p><ul class='opts'><li><b>A</b> A cinema room and information centre.</li><li><b>B</b> information centre and homestead model.</li><li><b>C</b> homestead model and cinema room.</li></ul><p class='q'><span class='qn'>14</span> The Garden Nursery is the place to buy</p><ul class='opts'><li><b>A</b> handicrafts and statues</li><li><b>B</b> Garden sculptures and ornaments.</li><li><b>C</b> handmade souvenirs and pots.</li></ul><p class='q'><span class='qn'>15</span> The Wood Crafting Shed is a great place to buy</p><ul class='opts'><li><b>A</b> Garden accessories and wooden products.</li><li><b>B</b> wooden products and toys</li><li><b>C</b> Toys and garden accessories</li></ul><p class='q'><span class='qn'>16</span> The avocado fruit at Summerland is picked by</p><ul class='opts'><li><b>A</b> machine.</li><li><b>B</b> hand.</li><li><b>C</b> both machine and hand.</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 17,
+   "to": 20,
+   "mode": "image",
+   "image": "t26-b5.webp"
+  },
+  {
+   "type": "section",
+   "n": 3
+  },
+  {
+   "type": "block",
+   "from": 21,
+   "to": 25,
+   "mode": "text",
+   "inst": [
+    "Write ONE WORD ONLY in each gap."
+   ],
+   "html": "<p class='bullet'>In hydroculture, plants are grown with their roots in water so <span class=\"gap\">21</span> is necessary for the upper part of the plant.</p><p class='bullet'>LECA is made from <span class=\"gap\">22</span></p><p>-The plant would get through the <span class=\"gap\">23</span> by making a hole in it.</p><p class='bullet'>The plants are then nourished with a nutrient <span class=\"gap\">24</span> in a container</p><p class='bullet'>A layer of litter is supported by a rigid <span class=\"gap\">25</span></p>"
+  },
+  {
+   "type": "block",
+   "from": 26,
+   "to": 27,
+   "mode": "text",
+   "inst": [
+    "Choose TWO letters A- E"
+   ],
+   "html": "<p>Which TWO kinds of products are especially suited to the nutrient film technique?</p><ul class='opts'><li><b>A</b> peas</li><li><b>B</b> beans</li><li><b>C</b> potatoes</li><li><b>D</b> yams</li><li><b>E</b> tomatoes</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 28,
+   "to": 30,
+   "mode": "text",
+   "inst": [
+    "Choose THREE letters A- F"
+   ],
+   "html": "<p>Which of the THREE following things correctly describes a substratum?</p><ul class='opts'><li><b>A</b> potential failure in changing system</li><li><b>B</b> only adaptable to innovative equipments</li><li><b>C</b> Mineral wool</li><li><b>D</b> rock</li><li><b>E</b> paper fibre</li></ul>"
+  },
+  {
+   "type": "section",
+   "n": 4
+  },
+  {
+   "type": "block",
+   "from": 31,
+   "to": 40,
+   "mode": "text",
+   "inst": [],
+   "html": "<p>The Grand Old Duke of Newyork</p><p>General background of Frederick</p><p class='bullet'>Frederick was the same of the duke made famous in a well-known <span class=\"gap\">31</span></p><p class='bullet'>Frederick was aged <span class=\"gap\">32</span> when he was sent to war</p><p class='bullet'>his battles against the <span class=\"gap\">33</span> ended in total disaster</p><p class='bullet'>In 1798, George III gave his son as a/an <span class=\"gap\">34</span> with the ranks of the military</p><p class='bullet'>Frederick should not be held wholly accountable for failing: the <span class=\"gap\">35</span> of his fighters made victory difficult to achieve</p><p class='bullet'>the people Frederick commanded were mostly old men, new conscripts or <span class=\"gap\">36</span></p><p>The Duke of York</p><p class='bullet'>wanted to enlist better types of <span class=\"gap\">37</span></p><p class='bullet'>made the army better by bringing in chaplains, medics, and veterinary <span class=\"gap\">38</span></p><p class='bullet'>established a college for preparing army <span class=\"gap\">39</span></p><p class='bullet'>Gave up the position of Commander-in-Chief in 1807 because of a <span class=\"gap\">40</span></p>"
+  }
+ ]
+}

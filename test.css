@@ -51,6 +51,127 @@
   height: auto;
 }
 
+/* ---- Questions as text ---- */
+.qsection {
+  margin: 28px 0 10px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--heading);
+  color: var(--heading);
+  font-size: 1.15rem;
+}
+
+.qsection:first-child {
+  margin-top: 0;
+}
+
+.qblock {
+  margin: 0 0 18px;
+  padding: 14px 16px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+
+.qblock.qblock-img {
+  padding: 0;
+  border: 0;
+}
+
+.qblock h4 {
+  margin: 0 0 6px;
+  font-size: 1rem;
+  color: var(--brand);
+}
+
+.qblock p {
+  margin: 0 0 8px;
+  line-height: 1.55;
+}
+
+.qblock .qinst {
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.qblock .bullet {
+  padding-left: 18px;
+  position: relative;
+}
+
+.qblock .bullet::before {
+  content: "\2022";
+  position: absolute;
+  left: 4px;
+}
+
+.qblock .q {
+  margin-top: 14px;
+  font-weight: 600;
+}
+
+.qblock .qn {
+  display: inline-block;
+  min-width: 1.7em;
+  margin-right: 6px;
+  padding: 0 6px;
+  border-radius: 6px;
+  background: var(--brand-soft);
+  color: var(--brand);
+  text-align: center;
+}
+
+.qblock .opts {
+  margin: 0 0 8px;
+  padding: 0;
+  list-style: none;
+}
+
+.qblock .opts li {
+  margin: 0 0 4px;
+  padding-left: 30px;
+  position: relative;
+  line-height: 1.5;
+}
+
+.qblock .opts b {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 22px;
+  height: 22px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  font-size: 0.8rem;
+  line-height: 20px;
+  text-align: center;
+}
+
+.gap {
+  display: inline-block;
+  min-width: 5.5em;
+  margin: 0 2px;
+  padding: 0 6px;
+  border-bottom: 2px dashed var(--brand);
+  color: var(--brand);
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.original {
+  margin-top: 8px;
+}
+
+.original summary {
+  cursor: pointer;
+  color: var(--brand);
+  font-weight: 600;
+}
+
+.original .paper {
+  margin-top: 10px;
+}
+
 .hint {
   margin: 8px 0 0;
   font-size: 0.9rem;

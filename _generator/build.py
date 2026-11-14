@@ -3,9 +3,11 @@
 import html
 import json
 import pathlib
+import re
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 TESTS = json.loads((ROOT / "data" / "tests.json").read_text(encoding="utf-8"))
+QUESTIONS = json.loads((ROOT / "data" / "questions.json").read_text(encoding="utf-8"))  # made by parse_questions.py
 e = html.escape
 
 TOPBAR = """<nav class="topbar" aria-label="IELTS Harper">
@@ -26,6 +28,34 @@ HEAD = """<!DOCTYPE html>
 </head>
 <body>
 """
+
+
+def question_book(n):
+    """The question book as text; blocks that cannot be text (maps, diagrams, tables) are pictures."""
+    out = []
+    for b in QUESTIONS[str(n)]:
+        if b["type"] == "section":
+            out.append(f'<h3 class="qsection">Section {b["n"]}</h3>')
+            continue
+        rng = f'Questions {b["from"]}–{b["to"]}' if b["to"] != b["from"] else f'Question {b["from"]}'
+        if b["mode"] == "image":
+            out.append(
+                f'<div class="qblock qblock-img"><a class="paper" href="img/{b["image"]}" target="_blank" rel="noopener">'
+                f'<img src="img/{b["image"]}" alt="{rng} of Listening Test {n}, shown as a picture because it has a map, '
+                f'diagram, table or flow chart." loading="lazy"></a></div>'
+            )
+            continue
+        sentences = []
+        for x in b["inst"]:  # an instruction line that does not end with a full stop continues on the next
+            if sentences and not re.search(r"[.?!:]$", sentences[-1]):
+                sentences[-1] += " " + x
+            elif sentences and re.match(r"^[a-z]", x):
+                sentences[-1] += " " + x
+            else:
+                sentences.append(x)
+        inst = "".join(f'<p class="qinst">{e(x)}</p>' for x in sentences)
+        out.append(f'<div class="qblock"><h4>{rng}</h4>{inst}<div class="qbody">{b["html"]}</div></div>')
+    return "\n".join(out)
 
 
 def page(t):
@@ -60,7 +90,7 @@ def page(t):
     <h1>IELTS Listening: Test {n}</h1>
     <p class="meta">4 sections &middot; 40 questions</p>
     <div class="instructions">
-      Play the audio and read the questions in the question book below. Type your answers on the answer sheet
+      Play the audio and read the questions in the question book below (maps, diagrams and tables are pictures). Type your answers on the answer sheet
       (for the lettered questions, choose the letter). Then press <strong>Check answers</strong> to see your
       score and your estimated band, and read the tapescript to see where each answer came from.
     </div>
@@ -76,10 +106,16 @@ def page(t):
 
   <section class="card" aria-labelledby="q-title">
     <h2 class="section-title" id="q-title">Question book</h2>
-    <a class="paper" href="{t['image']}" target="_blank" rel="noopener">
-      <img src="{t['image']}" alt="The question book for Listening Test {n}: Sections 1 to 4, Questions 1 to 40, with the answer gaps, options, maps and tables.">
-    </a>
-    <p class="plain hint">Tap or click the pages to open them full size in a new tab.</p>
+    <div class="qbook">
+{question_book(n)}
+    </div>
+    <details class="original">
+      <summary>Show the original book pages (picture)</summary>
+      <a class="paper" href="img/{t['image']}" target="_blank" rel="noopener">
+        <img src="img/{t['image']}" alt="The question book for Listening Test {n}: Sections 1 to 4, Questions 1 to 40." loading="lazy">
+      </a>
+      <p class="plain hint">Tap or click the pages to open them full size in a new tab.</p>
+    </details>
   </section>
 
   <section class="card" aria-labelledby="sheet-title">
