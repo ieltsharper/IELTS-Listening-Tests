@@ -1,0 +1,222 @@
+/* Listening test pages: audio, question images, answer sheet, tapescript. Builds on theme.css. */
+
+.meta {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin: 0 0 12px;
+}
+
+.card p.plain {
+  line-height: 1.6;
+}
+
+/* ---- Audio ---- */
+.track {
+  margin: 0 0 14px;
+}
+
+.track:last-child {
+  margin-bottom: 0;
+}
+
+.track-label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.track audio {
+  width: 100%;
+}
+
+.audio-note {
+  margin: 14px 0 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+/* ---- Questions: pages of the question book. They stay on white in dark mode. ---- */
+.paper {
+  display: block;
+  background: #ffffff;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 8px;
+}
+
+.paper img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hint {
+  margin: 8px 0 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+/* ---- Answer sheet ---- */
+.sheet-section {
+  margin: 0 0 18px;
+}
+
+.sheet-section h3 {
+  margin: 0 0 8px;
+  font-size: 1rem;
+  color: var(--ink);
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.sheet-section .section-score {
+  color: var(--muted);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.cells {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 8px;
+}
+
+.cell {
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+
+.cell .num {
+  font-weight: 800;
+  text-align: right;
+}
+
+.cell input,
+.cell select {
+  font: inherit;
+  min-width: 0;
+  width: 100%;
+  padding: 6px 8px;
+  border-radius: 10px;
+  border: 1px solid var(--muted);
+  background: var(--card);
+  color: var(--ink);
+}
+
+.cell select {
+  font-weight: 700;
+}
+
+.cell .feedback {
+  grid-column: 1 / -1;
+  font-size: 0.85rem;
+  font-weight: 600;
+  min-height: 0;
+}
+
+.cell .feedback:empty {
+  display: none;
+}
+
+.cell.correct {
+  border-color: var(--ok);
+  background: var(--ok-soft);
+}
+
+.cell.correct .feedback {
+  color: var(--ok);
+}
+
+.cell.incorrect {
+  border-color: var(--danger);
+  background: var(--danger-soft);
+}
+
+.cell.incorrect .feedback {
+  color: var(--danger);
+}
+
+.cell .own {
+  grid-column: 1 / -1;
+  justify-self: start;
+  padding: 3px 10px;
+  font-size: 0.8rem;
+}
+
+.result {
+  margin: 16px 0 0;
+  padding: 14px 16px;
+  border-radius: 12px;
+  background: var(--brand-soft);
+  border-left: 4px solid var(--brand);
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.result[hidden] {
+  display: none;
+}
+
+.result strong {
+  font-size: 1.15rem;
+}
+
+/* ---- Tapescript ---- */
+.tapescript h2 {
+  margin-top: 0;
+}
+
+.tapescript p {
+  line-height: 1.8;
+  font-size: 1rem;
+  margin: 0 0 10px;
+}
+
+.tapescript p strong {
+  margin-right: 4px;
+}
+
+.locked {
+  color: var(--muted);
+  font-style: italic;
+}
+
+/* ---- Menu page ---- */
+.group-title {
+  color: var(--heading);
+  font-size: 1.1rem;
+  margin: 28px 0 12px;
+}
+
+.menu-list .meta-inline {
+  display: block;
+  color: var(--muted);
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.menu-list .done {
+  color: var(--ok);
+  font-weight: 700;
+}
+
+.menu-list a {
+  flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+  .cells {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+}
