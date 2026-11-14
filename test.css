@@ -10,30 +10,14 @@
   line-height: 1.6;
 }
 
-/* ---- Audio ---- */
+/* ---- Audio: each section has its own recording at the top ---- */
 .track {
-  margin: 0 0 14px;
-}
-
-.track:last-child {
-  margin-bottom: 0;
-}
-
-.track-label {
-  display: block;
-  font-weight: 700;
-  margin-bottom: 4px;
+  margin: 0 0 16px;
 }
 
 .track audio {
+  display: block;
   width: 100%;
-}
-
-.audio-note {
-  margin: 14px 0 0;
-  font-size: 0.95rem;
-  line-height: 1.6;
-  color: var(--muted);
 }
 
 /* ---- Questions: pages of the question book. They stay on white in dark mode. ---- */
@@ -52,16 +36,42 @@
 }
 
 /* ---- Questions as text ---- */
-.qsection {
-  margin: 28px 0 10px;
+.qsec {
+  margin: 0 0 8px;
+}
+
+.qsec + .qsec {
+  margin-top: 36px;
+}
+
+.qsec-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  margin: 0 0 12px;
   padding-bottom: 6px;
   border-bottom: 2px solid var(--heading);
+}
+
+.qsection {
+  margin: 0;
   color: var(--heading);
   font-size: 1.15rem;
 }
 
-.qsection:first-child {
-  margin-top: 0;
+.qsection .qrange {
+  margin-left: 10px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.sec-score {
+  color: var(--muted);
+  font-weight: 600;
+  font-size: 0.9rem;
 }
 
 .qblock {
@@ -178,101 +188,197 @@
   color: var(--muted);
 }
 
-/* ---- Answer sheet ---- */
-.sheet-section {
-  margin: 0 0 18px;
-}
-
-.sheet-section h3 {
-  margin: 0 0 8px;
-  font-size: 1rem;
-  color: var(--ink);
-  display: flex;
-  justify-content: space-between;
-  gap: 8px;
-  flex-wrap: wrap;
-}
-
-.sheet-section .section-score {
-  color: var(--muted);
-  font-weight: 600;
-  font-size: 0.9rem;
-}
-
-.cells {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
-  gap: 8px;
-}
-
-.cell {
-  display: grid;
-  grid-template-columns: 2rem 1fr;
+/* ---- Answer controls inside the questions ---- */
+.gapfield {
+  display: inline-flex;
   align-items: center;
-  gap: 8px;
-  padding: 8px 10px;
-  border: 1px solid var(--line);
-  border-radius: 12px;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: 2px;
+  vertical-align: baseline;
 }
 
-.cell .num {
+.gn {
+  min-width: 1.6em;
+  padding: 0 5px;
+  border-radius: 6px;
+  background: var(--brand-soft);
+  color: var(--brand);
+  font-size: 0.8rem;
   font-weight: 800;
-  text-align: right;
+  text-align: center;
 }
 
-.cell input,
-.cell select {
+.gap-in,
+.gap-sel {
   font: inherit;
+  font-weight: 400;
   min-width: 0;
-  width: 100%;
-  padding: 6px 8px;
-  border-radius: 10px;
+  padding: 3px 8px;
+  border-radius: 8px;
   border: 1px solid var(--muted);
   background: var(--card);
   color: var(--ink);
 }
 
-.cell select {
+.gap-in {
+  width: 9.5em;
+  max-width: 100%;
+}
+
+.gap-sel {
+  min-width: 3.6em;
   font-weight: 700;
 }
 
-.cell .feedback {
-  grid-column: 1 / -1;
-  font-size: 0.85rem;
-  font-weight: 600;
-  min-height: 0;
-}
-
-.cell .feedback:empty {
-  display: none;
-}
-
-.cell.correct {
+.gapfield.correct .gap-in,
+.gapfield.correct .gap-sel {
   border-color: var(--ok);
   background: var(--ok-soft);
 }
 
-.cell.correct .feedback {
-  color: var(--ok);
-}
-
-.cell.incorrect {
+.gapfield.incorrect .gap-in,
+.gapfield.incorrect .gap-sel {
   border-color: var(--danger);
   background: var(--danger-soft);
 }
 
-.cell.incorrect .feedback {
+.fb {
+  font-size: 0.85rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.fb:empty {
+  display: none;
+}
+
+.fb.ok {
+  color: var(--ok);
+}
+
+.fb.bad {
   color: var(--danger);
 }
 
-.cell .own {
-  grid-column: 1 / -1;
-  justify-self: start;
-  padding: 3px 10px;
+.fb .own {
+  margin-left: 6px;
+  padding: 2px 9px;
   font-size: 0.8rem;
+}
+
+.qwrap {
+  margin: 0 0 10px;
+}
+
+.qwrap > .fb,
+.fbs .fb {
+  display: block;
+  margin: 2px 0 0;
+}
+
+.qwrap.correct {
+  border-left: 3px solid var(--ok);
+  padding-left: 10px;
+}
+
+.qwrap.incorrect {
+  border-left: 3px solid var(--danger);
+  padding-left: 10px;
+}
+
+/* the option letters become the buttons: tap a letter or its text */
+.qblock .opts li label {
+  display: block;
+  cursor: pointer;
+}
+
+.qblock .opts li input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 22px;
+  height: 22px;
+  margin: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.qblock .opts input[type="checkbox"] + b {
+  border-radius: 6px;
+}
+
+.qblock .opts li label:hover b {
+  border-color: var(--brand);
+}
+
+.qblock .opts input:checked + b {
+  background: var(--brand);
+  border-color: var(--brand);
+  color: #ffffff;
+}
+
+.qblock .opts input:focus-visible + b {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}
+
+.qblock .opts li.correct,
+.qblock .opts li.incorrect,
+.qblock .opts li.key {
+  border-radius: 8px;
+}
+
+.qblock .opts li.correct {
+  background: var(--ok-soft);
+}
+
+.qblock .opts li.correct input:checked + b {
+  background: var(--ok);
+  border-color: var(--ok);
+}
+
+.qblock .opts li.incorrect {
+  background: var(--danger-soft);
+}
+
+.qblock .opts li.incorrect input:checked + b {
+  background: var(--danger);
+  border-color: var(--danger);
+}
+
+.qblock .opts li.key b {
+  border-color: var(--ok);
+  color: var(--ok);
+  box-shadow: 0 0 0 3px var(--ok-soft);
+}
+
+.qblock .q .gapfield {
+  font-weight: 400;
+}
+
+/* numbers that have no gap to type in (maps, diagrams, pictures of tables, lists to match) */
+.astrip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 8px 14px;
+  margin: 12px 0 0;
+  padding: 10px 12px;
+  border: 1px dashed var(--brand);
+  border-radius: 12px;
+  background: var(--card);
+}
+
+.astrip-label {
+  flex-basis: 100%;
+  color: var(--heading);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.astrip .gapfield {
+  margin: 0;
 }
 
 .result {
@@ -334,12 +440,6 @@
 
 .menu-list a {
   flex-wrap: wrap;
-}
-
-@media (max-width: 600px) {
-  .cells {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  }
 }
 
 .portal-note {

@@ -1,12 +1,13 @@
-// Listening test page: draws the answer sheet from <script id="test" type="application/json">, marks the
-// answers against the key (lenient: capitals, plurals, optional words, alternatives, "either order" groups),
-// shows the score and an estimated band, opens the tapescript and keeps the work in this browser.
+// Listening test page: the answers are typed or chosen inside the questions (build.py makes the controls);
+// this marks them against the key in <script id="test" type="application/json"> (lenient: capitals, plurals,
+// optional words, alternatives, "either order" groups), shows the score and an estimated band, opens the
+// tapescript and keeps the work in this browser.
 (function () {
   const data = JSON.parse(document.getElementById('test').textContent);
-  const storeKey = 'ih-listening-test:' + String(data.n).padStart(2, '0');
+  // data.id ("rat7-3") marks a test of another set (Recent Actual Test 7); those have no tapescript
+  const storeKey = 'ih-listening-test:' + (data.id || String(data.n).padStart(2, '0'));
   const $ = (id) => document.getElementById(id);
   const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
-  const LETTERS = 'ABCDEFGHI'.split('');
 
   // ---- Key -> things to compare with
   const isLetter = (s) => /^[A-I]$/.test(s);
@@ -41,7 +42,7 @@
   const acceptable = (ans) =>
     new Set(
       ans
-        .split(/\s+\/\s+|(?<!\d)\/(?!\d)/)
+        .split(/\s+\/\s+|(?<!\d)\/|\/(?!\d)/) // "two/2" is two answers; "1/2" is one
         .flatMap((alt) => expand(alt.replace(/\(any order\)/i, '')))
         .map(norm)
         .filter(Boolean),
@@ -49,29 +50,81 @@
   const accepted = {};
   for (const k of data.key) if (!letterQuestion(k)) accepted[k.n] = acceptable(k.ans);
 
-  // ---- Answer sheet
-  const sheet = $('sheet');
-  const field = (n) => $('a-' + n);
-  for (let s = 0; s < 4; s++) {
-    const sec = document.createElement('div');
-    sec.className = 'sheet-section';
-    sec.innerHTML =
-      '<h3>Section ' + (s + 1) + ' · Questions ' + (s * 10 + 1) + '–' + (s * 10 + 10) +
-      '<span class="section-score" id="sec-' + s + '"></span></h3><ol class="cells"></ol>';
-    sheet.appendChild(sec);
-    const list = sec.querySelector('ol');
-    for (const k of data.key.slice(s * 10, s * 10 + 10)) {
-      const li = document.createElement('li');
-      li.className = 'cell';
-      li.id = 'cell-' + k.n;
-      const control = letterQuestion(k)
-        ? '<select id="a-' + k.n + '" aria-label="Answer ' + k.n + '"><option value="">–</option>' +
-          LETTERS.map((l) => '<option>' + l + '</option>').join('') + '</select>'
-        : '<input id="a-' + k.n + '" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Answer ' + k.n + '">';
-      li.innerHTML = '<span class="num">' + k.n + '</span>' + control + '<span class="feedback" aria-live="polite"></span>';
-      list.appendChild(li);
-    }
+  // ---- The answer controls sit inside the questions (build.py puts them there); this finds them.
+  // ctl[n] = { get(): the answer, set(v), fb: where the marking goes, paint(state, keyLetter), reset() }
+  //   - a text box or a drop-down:  data-q="n" inside a [data-w="n"] wrapper
+  //   - one of several radio buttons: data-q="n" on each, inside a [data-w] wrapper
+  //   - a choose-TWO/THREE group of check boxes: <ul data-nums="21,22">. The ticked letters, in alphabetical
+  //     order, are the answers of those numbers (marking accepts any order, like the key).
+  const book = $('qbook');
+  const ctl = {};
+  const groups = [];
+  const paintEl = (el, state) => {
+    el.classList.toggle('correct', state === 'ok');
+    el.classList.toggle('incorrect', state === 'bad');
+  };
+  const addCtl = (n, c) => {
+    c.fb.textContent = '';
+    c.reset = () => {
+      c.paint(null);
+      c.fb.textContent = '';
+      c.fb.classList.remove('ok', 'bad');
+    };
+    ctl[n] = c;
+  };
+  for (const el of book.querySelectorAll('input[type=text][data-q], select[data-q]')) {
+    const wrap = el.closest('[data-w]');
+    addCtl(+el.dataset.q, {
+      fb: wrap.querySelector('.fb'),
+      get: () => el.value.trim(),
+      set: (v) => {
+        el.value = v;
+      },
+      paint: (state) => paintEl(wrap, state),
+    });
   }
+  const radios = {};
+  for (const el of book.querySelectorAll('input[type=radio][data-q]')) (radios[el.dataset.q] = radios[el.dataset.q] || []).push(el);
+  for (const q of Object.keys(radios)) {
+    const list = radios[q];
+    const wrap = list[0].closest('[data-w]');
+    addCtl(+q, {
+      fb: wrap.querySelector('.fb'),
+      get: () => (list.find((r) => r.checked) || { value: '' }).value,
+      set: (v) => list.forEach((r) => (r.checked = r.value === v)),
+      paint: (state, keyLetter) => {
+        paintEl(wrap, state);
+        for (const r of list) {
+          const li = r.closest('li');
+          paintEl(li, r.checked ? state : null);
+          li.classList.toggle('key', Boolean(keyLetter) && state === 'bad' && r.value === keyLetter);
+        }
+      },
+    });
+  }
+  for (const ul of book.querySelectorAll('ul[data-nums]')) {
+    const nums = ul.dataset.nums.split(',').map(Number);
+    const wrap = ul.closest('[data-w]');
+    const boxes = [...ul.querySelectorAll('input[type=checkbox]')];
+    const ticked = () => boxes.filter((b) => b.checked).map((b) => b.value).sort();
+    const clearMarks = () => boxes.forEach((b) => paintEl(b.closest('li'), null));
+    groups.push({ nums, boxes });
+    nums.forEach((n, i) => {
+      addCtl(n, {
+        fb: wrap.querySelector('[data-fb="' + n + '"]'),
+        letter: true,
+        get: () => ticked()[i] || '',
+        set: () => {}, // the whole group is set below
+        paint: (state) => {
+          if (state === null) return clearMarks();
+          const b = boxes.find((x) => x.checked && x.value === ticked()[i]);
+          if (b) paintEl(b.closest('li'), state);
+        },
+      });
+    });
+  }
+  for (const k of data.key) if (!ctl[k.n]) throw new Error('No answer control for question ' + k.n);
+  const field = (n) => ctl[n];
 
   // ---- Saved work
   let saved = {};
@@ -81,13 +134,17 @@
     saved = {};
   }
   const savedAnswers = saved.a || {};
-  for (const k of data.key) if (savedAnswers[k.n]) field(k.n).value = savedAnswers[k.n];
+  for (const k of data.key) if (savedAnswers[k.n]) field(k.n).set(savedAnswers[k.n]);
+  for (const g of groups) {
+    const want = new Set(g.nums.map((n) => savedAnswers[n]).filter(Boolean));
+    for (const b of g.boxes) b.checked = want.has(b.value);
+  }
   let own = new Set(saved.own || []);
   let lastResult = saved.r || null;
   let showKey = false;
   const persist = () => {
     const a = {};
-    for (const k of data.key) a[k.n] = field(k.n).value;
+    for (const k of data.key) a[k.n] = field(k.n).get();
     try {
       localStorage.setItem(storeKey, JSON.stringify({ a, own: [...own], r: lastResult }));
     } catch (e) {
@@ -101,7 +158,7 @@
     const ok = {};
     const left = {};
     for (const k of data.key) {
-      const v = field(k.n).value.trim();
+      const v = field(k.n).get();
       if (!v) {
         ok[k.n] = false;
       } else if (letterQuestion(k)) {
@@ -121,6 +178,7 @@
   const BAND = [[39, 9], [37, 8.5], [35, 8], [32, 7.5], [30, 7], [26, 6.5], [23, 6], [18, 5.5], [16, 5], [13, 4.5], [10, 4], [8, 3.5], [6, 3], [4, 2.5]];
   const bandFor = (raw) => (BAND.find(([min]) => raw >= min) || [0, 'below 2.5'])[1];
   const openTapescript = () => {
+    if (!data.tapescript) return;
     $('tape-locked').hidden = true;
     $('btn-tape').hidden = false;
   };
@@ -298,37 +356,38 @@
     const perSection = [0, 0, 0, 0];
     let score = 0;
     for (const k of data.key) {
-      const li = $('cell-' + k.n);
-      const v = field(k.n).value.trim();
+      const c = field(k.n);
+      const v = c.get();
       const good = ok[k.n] || own.has(k.n);
       if (good) {
         score++;
         perSection[Math.floor((k.n - 1) / 10)]++;
       }
-      li.classList.toggle('correct', good);
-      li.classList.toggle('incorrect', !good);
+      c.paint(good ? 'ok' : 'bad', showKey ? k.ans.replace(/\s*\(any order\)/i, '') : null);
       let text = good ? (ok[k.n] ? '✓ Correct' : '✓ Marked as correct by you') : v ? '✗ Not matching the key' : '✗ No answer';
       if (!good && showKey) text += ' · Key: ' + keyText(k);
-      li.querySelector('.feedback').textContent = text;
-      let btn = li.querySelector('.own');
+      if (c.letter && v) text = v + ': ' + text; // a choose-TWO/THREE group: say which letter this is about
+      c.fb.textContent = '';
+      c.fb.classList.toggle('ok', good);
+      c.fb.classList.toggle('bad', !good);
+      c.fb.appendChild(document.createTextNode(text));
       if (!ok[k.n] && v) {
-        if (!btn) {
-          btn = document.createElement('button');
-          btn.type = 'button';
-          btn.className = 'own';
-          btn.addEventListener('click', () => {
-            if (own.has(k.n)) own.delete(k.n);
-            else own.add(k.n);
-            render();
-          });
-          li.appendChild(btn);
-        }
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'own';
         btn.textContent = own.has(k.n) ? 'Undo: my answer is also right' : 'My answer is also right';
-      } else if (btn) {
-        btn.remove();
+        btn.addEventListener('click', () => {
+          if (own.has(k.n)) own.delete(k.n);
+          else own.add(k.n);
+          render();
+        });
+        c.fb.appendChild(btn);
       }
     }
-    perSection.forEach((n, i) => ($('sec-' + i).textContent = n + ' / 10'));
+    perSection.forEach((n, i) => {
+      const el = $('sec-' + i);
+      if (el) el.textContent = n + ' / 10';
+    });
     const band = bandFor(score);
     const box = $('result');
     box.hidden = false;
@@ -338,13 +397,7 @@
     openTapescript();
     lastResult = { score, band };
     persist();
-    if (data.key.some((k) => field(k.n).value.trim())) logToPortal(score);
-  };
-  const forget = (li) => {
-    li.classList.remove('correct', 'incorrect');
-    li.querySelector('.feedback').textContent = '';
-    const b = li.querySelector('.own');
-    if (b) b.remove();
+    if (data.key.some((k) => field(k.n).get())) logToPortal(score);
   };
 
   $('btn-check').addEventListener('click', render);
@@ -355,39 +408,62 @@
   $('btn-reset').addEventListener('click', () => {
     if (!confirm('Clear all your answers for this test?')) return;
     for (const k of data.key) {
-      field(k.n).value = '';
-      forget($('cell-' + k.n));
+      field(k.n).set('');
+      field(k.n).reset();
     }
+    for (const g of groups) for (const b of g.boxes) b.checked = false;
     own = new Set();
     lastResult = null;
     showKey = false;
     $('result').hidden = true;
-    for (let i = 0; i < 4; i++) $('sec-' + i).textContent = '';
+    for (let i = 0; i < 4; i++) {
+      const el = $('sec-' + i);
+      if (el) el.textContent = '';
+    }
     try {
       localStorage.removeItem(storeKey);
     } catch (e) {
       /* nothing to remove */
     }
   });
-  sheet.addEventListener('input', (e) => {
-    const li = e.target.closest('.cell');
-    if (li) forget(li);
+  // Changing an answer clears the marking of that question (of the whole group, for check boxes) and keeps the work.
+  book.addEventListener('input', (e) => {
+    const t = e.target;
+    let nums;
+    const group = t.closest('[data-nums]');
+    if (group) {
+      nums = group.dataset.nums.split(',').map(Number);
+      if (group.querySelectorAll('input:checked').length > nums.length) {
+        t.checked = false; // choose TWO means two: the extra tick does not stick
+        return;
+      }
+    } else if (t.dataset.q) {
+      nums = [+t.dataset.q];
+    } else {
+      return;
+    }
+    for (const n of nums) {
+      field(n).reset();
+      own.delete(n);
+    }
     persist();
   });
 
   // ---- Tapescript
   const tape = $('tape-body');
-  tape.innerHTML = data.tapescript
-    .map((p) => {
-      const m = p.match(/^([A-Z][A-Za-z.' ]{1,22}):\s+([\s\S]*)$/);
-      return m ? '<p><strong>' + esc(m[1]) + ':</strong> ' + esc(m[2]) + '</p>' : '<p>' + esc(p) + '</p>';
-    })
-    .join('');
-  $('btn-tape').addEventListener('click', () => {
-    const show = tape.hidden;
-    tape.hidden = !show;
-    $('btn-tape').textContent = show ? 'Hide tapescript' : 'Show tapescript';
-  });
+  if (data.tapescript) {
+    tape.innerHTML = data.tapescript
+      .map((p) => {
+        const m = p.match(/^([A-Z][A-Za-z.' ]{1,22}):\s+([\s\S]*)$/);
+        return m ? '<p><strong>' + esc(m[1]) + ':</strong> ' + esc(m[2]) + '</p>' : '<p>' + esc(p) + '</p>';
+      })
+      .join('');
+    $('btn-tape').addEventListener('click', () => {
+      const show = tape.hidden;
+      tape.hidden = !show;
+      $('btn-tape').textContent = show ? 'Hide tapescript' : 'Show tapescript';
+    });
+  }
 
   // A student who already checked this test sees the earlier result straight away.
   if (lastResult) {

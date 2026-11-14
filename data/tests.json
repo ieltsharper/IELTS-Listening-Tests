@@ -4,8 +4,20 @@
   "image": "t01.webp",
   "audio": [
    {
-    "label": "Whole test",
-    "file": "audio/test-01.mp3"
+    "label": "Section 1",
+    "file": "audio/test-01-s1.mp3"
+   },
+   {
+    "label": "Section 2",
+    "file": "audio/test-01-s2.mp3"
+   },
+   {
+    "label": "Section 3",
+    "file": "audio/test-01-s3.mp3"
+   },
+   {
+    "label": "Section 4",
+    "file": "audio/test-01-s4.mp3"
    }
   ],
   "key": [
@@ -300,8 +312,20 @@
   "image": "t02.webp",
   "audio": [
    {
-    "label": "Whole test",
-    "file": "audio/test-02.mp3"
+    "label": "Section 1",
+    "file": "audio/test-02-s1.mp3"
+   },
+   {
+    "label": "Section 2",
+    "file": "audio/test-02-s2.mp3"
+   },
+   {
+    "label": "Section 3",
+    "file": "audio/test-02-s3.mp3"
+   },
+   {
+    "label": "Section 4",
+    "file": "audio/test-02-s4.mp3"
    }
   ],
   "key": [
@@ -580,8 +604,20 @@
   "image": "t03.webp",
   "audio": [
    {
-    "label": "Whole test",
-    "file": "audio/test-03.mp3"
+    "label": "Section 1",
+    "file": "audio/test-03-s1.mp3"
+   },
+   {
+    "label": "Section 2",
+    "file": "audio/test-03-s2.mp3"
+   },
+   {
+    "label": "Section 3",
+    "file": "audio/test-03-s3.mp3"
+   },
+   {
+    "label": "Section 4",
+    "file": "audio/test-03-s4.mp3"
    }
   ],
   "key": [
@@ -873,8 +909,20 @@
   "image": "t04.webp",
   "audio": [
    {
-    "label": "Whole test",
-    "file": "audio/test-04.mp3"
+    "label": "Section 1",
+    "file": "audio/test-04-s1.mp3"
+   },
+   {
+    "label": "Section 2",
+    "file": "audio/test-04-s2.mp3"
+   },
+   {
+    "label": "Section 3",
+    "file": "audio/test-04-s3.mp3"
+   },
+   {
+    "label": "Section 4",
+    "file": "audio/test-04-s4.mp3"
    }
   ],
   "key": [
@@ -1149,8 +1197,20 @@
   "image": "t05.webp",
   "audio": [
    {
-    "label": "Whole test",
-    "file": "audio/test-05.mp3"
+    "label": "Section 1",
+    "file": "audio/test-05-s1.mp3"
+   },
+   {
+    "label": "Section 2",
+    "file": "audio/test-05-s2.mp3"
+   },
+   {
+    "label": "Section 3",
+    "file": "audio/test-05-s3.mp3"
+   },
+   {
+    "label": "Section 4",
+    "file": "audio/test-05-s4.mp3"
    }
   ],
   "key": [
@@ -1424,8 +1484,20 @@
   "image": "t06.webp",
   "audio": [
    {
-    "label": "Whole test",
-    "file": "audio/test-06.mp3"
+    "label": "Section 1",
+    "file": "audio/test-06-s1.mp3"
+   },
+   {
+    "label": "Section 2",
+    "file": "audio/test-06-s2.mp3"
+   },
+   {
+    "label": "Section 3",
+    "file": "audio/test-06-s3.mp3"
+   },
+   {
+    "label": "Section 4",
+    "file": "audio/test-06-s4.mp3"
    }
   ],
   "key": [
@@ -1671,8 +1743,20 @@
   "image": "t07.webp",
   "audio": [
    {
-    "label": "Whole test",
-    "file": "audio/test-07.mp3"
+    "label": "Section 1",
+    "file": "audio/test-07-s1.mp3"
+   },
+   {
+    "label": "Section 2",
+    "file": "audio/test-07-s2.mp3"
+   },
+   {
+    "label": "Section 3",
+    "file": "audio/test-07-s3.mp3"
+   },
+   {
+    "label": "Section 4",
+    "file": "audio/test-07-s4.mp3"
    }
   ],
   "key": [
@@ -1950,8 +2034,20 @@
   "image": "t08.webp",
   "audio": [
    {
-    "label": "Whole test",
-    "file": "audio/test-08.mp3"
+    "label": "Section 1",
+    "file": "audio/test-08-s1.mp3"
+   },
+   {
+    "label": "Section 2",
+    "file": "audio/test-08-s2.mp3"
+   },
+   {
+    "label": "Section 3",
+    "file": "audio/test-08-s3.mp3"
+   },
+   {
+    "label": "Section 4",
+    "file": "audio/test-08-s4.mp3"
    }
   ],
   "key": [
@@ -2204,8 +2300,20 @@
   "image": "t09.webp",
   "audio": [
    {
-    "label": "Whole test",
-    "file": "audio/test-09.mp3"
+    "label": "Section 1",
+    "file": "audio/test-09-s1.mp3"
+   },
+   {
+    "label": "Section 2",
+    "file": "audio/test-09-s2.mp3"
+   },
+   {
+    "label": "Section 3",
+    "file": "audio/test-09-s3.mp3"
+   },
+   {
+    "label": "Section 4",
+    "file": "audio/test-09-s4.mp3"
    }
   ],
   "key": [
@@ -2460,8 +2568,20 @@
   "image": "t10.webp",
   "audio": [
    {
-    "label": "Whole test",
-    "file": "audio/test-10.mp3"
+    "label": "Section 1",
+    "file": "audio/test-10-s1.mp3"
+   },
+   {
+    "label": "Section 2",
+    "file": "audio/test-10-s2.mp3"
+   },
+   {
+    "label": "Section 3",
+    "file": "audio/test-10-s3.mp3"
+   },
+   {
+    "label": "Section 4",
+    "file": "audio/test-10-s4.mp3"
    }
   ],
   "key": [
@@ -4111,8 +4231,20 @@
   "image": "t16.webp",
   "audio": [
    {
-    "label": "Whole test",
-    "file": "audio/test-16.mp3"
+    "label": "Section 1",
+    "file": "audio/test-16-s1.mp3"
+   },
+   {
+    "label": "Section 2",
+    "file": "audio/test-16-s2.mp3"
+   },
+   {
+    "label": "Section 3",
+    "file": "audio/test-16-s3.mp3"
+   },
+   {
+    "label": "Section 4",
+    "file": "audio/test-16-s4.mp3"
    }
   ],
   "key": [
@@ -4356,8 +4488,20 @@
   "image": "t17.webp",
   "audio": [
    {
-    "label": "Whole test",
-    "file": "audio/test-17.mp3"
+    "label": "Section 1",
+    "file": "audio/test-17-s1.mp3"
+   },
+   {
+    "label": "Section 2",
+    "file": "audio/test-17-s2.mp3"
+   },
+   {
+    "label": "Section 3",
+    "file": "audio/test-17-s3.mp3"
+   },
+   {
+    "label": "Section 4",
+    "file": "audio/test-17-s4.mp3"
    }
   ],
   "key": [
@@ -4625,8 +4769,20 @@
   "image": "t18.webp",
   "audio": [
    {
-    "label": "Whole test",
-    "file": "audio/test-18.mp3"
+    "label": "Section 1",
+    "file": "audio/test-18-s1.mp3"
+   },
+   {
+    "label": "Section 2",
+    "file": "audio/test-18-s2.mp3"
+   },
+   {
+    "label": "Section 3",
+    "file": "audio/test-18-s3.mp3"
+   },
+   {
+    "label": "Section 4",
+    "file": "audio/test-18-s4.mp3"
    }
   ],
   "key": [
@@ -4867,8 +5023,20 @@
   "image": "t19.webp",
   "audio": [
    {
-    "label": "Whole test",
-    "file": "audio/test-19.mp3"
+    "label": "Section 1",
+    "file": "audio/test-19-s1.mp3"
+   },
+   {
+    "label": "Section 2",
+    "file": "audio/test-19-s2.mp3"
+   },
+   {
+    "label": "Section 3",
+    "file": "audio/test-19-s3.mp3"
+   },
+   {
+    "label": "Section 4",
+    "file": "audio/test-19-s4.mp3"
    }
   ],
   "key": [
@@ -5127,8 +5295,20 @@
   "image": "t20.webp",
   "audio": [
    {
-    "label": "Whole test",
-    "file": "audio/test-20.mp3"
+    "label": "Section 1",
+    "file": "audio/test-20-s1.mp3"
+   },
+   {
+    "label": "Section 2",
+    "file": "audio/test-20-s2.mp3"
+   },
+   {
+    "label": "Section 3",
+    "file": "audio/test-20-s3.mp3"
+   },
+   {
+    "label": "Section 4",
+    "file": "audio/test-20-s4.mp3"
    }
   ],
   "key": [
@@ -5389,8 +5569,20 @@
   "image": "t21.webp",
   "audio": [
    {
-    "label": "Whole test",
-    "file": "audio/test-21.mp3"
+    "label": "Section 1",
+    "file": "audio/test-21-s1.mp3"
+   },
+   {
+    "label": "Section 2",
+    "file": "audio/test-21-s2.mp3"
+   },
+   {
+    "label": "Section 3",
+    "file": "audio/test-21-s3.mp3"
+   },
+   {
+    "label": "Section 4",
+    "file": "audio/test-21-s4.mp3"
    }
   ],
   "key": [
@@ -5633,8 +5825,20 @@
   "image": "t22.webp",
   "audio": [
    {
-    "label": "Whole test",
-    "file": "audio/test-22.mp3"
+    "label": "Section 1",
+    "file": "audio/test-22-s1.mp3"
+   },
+   {
+    "label": "Section 2",
+    "file": "audio/test-22-s2.mp3"
+   },
+   {
+    "label": "Section 3",
+    "file": "audio/test-22-s3.mp3"
+   },
+   {
+    "label": "Section 4",
+    "file": "audio/test-22-s4.mp3"
    }
   ],
   "key": [
@@ -5881,8 +6085,20 @@
   "image": "t23.webp",
   "audio": [
    {
-    "label": "Whole test",
-    "file": "audio/test-23.mp3"
+    "label": "Section 1",
+    "file": "audio/test-23-s1.mp3"
+   },
+   {
+    "label": "Section 2",
+    "file": "audio/test-23-s2.mp3"
+   },
+   {
+    "label": "Section 3",
+    "file": "audio/test-23-s3.mp3"
+   },
+   {
+    "label": "Section 4",
+    "file": "audio/test-23-s4.mp3"
    }
   ],
   "key": [
@@ -6160,8 +6376,20 @@
   "image": "t24.webp",
   "audio": [
    {
-    "label": "Whole test",
-    "file": "audio/test-24.mp3"
+    "label": "Section 1",
+    "file": "audio/test-24-s1.mp3"
+   },
+   {
+    "label": "Section 2",
+    "file": "audio/test-24-s2.mp3"
+   },
+   {
+    "label": "Section 3",
+    "file": "audio/test-24-s3.mp3"
+   },
+   {
+    "label": "Section 4",
+    "file": "audio/test-24-s4.mp3"
    }
   ],
   "key": [
@@ -6430,8 +6658,20 @@
   "image": "t25.webp",
   "audio": [
    {
-    "label": "Whole test",
-    "file": "audio/test-25.mp3"
+    "label": "Section 1",
+    "file": "audio/test-25-s1.mp3"
+   },
+   {
+    "label": "Section 2",
+    "file": "audio/test-25-s2.mp3"
+   },
+   {
+    "label": "Section 3",
+    "file": "audio/test-25-s3.mp3"
+   },
+   {
+    "label": "Section 4",
+    "file": "audio/test-25-s4.mp3"
    }
   ],
   "key": [
@@ -6705,8 +6945,20 @@
   "image": "t26.webp",
   "audio": [
    {
-    "label": "Whole test",
-    "file": "audio/test-26.mp3"
+    "label": "Section 1",
+    "file": "audio/test-26-s1.mp3"
+   },
+   {
+    "label": "Section 2",
+    "file": "audio/test-26-s2.mp3"
+   },
+   {
+    "label": "Section 3",
+    "file": "audio/test-26-s3.mp3"
+   },
+   {
+    "label": "Section 4",
+    "file": "audio/test-26-s4.mp3"
    }
   ],
   "key": [
