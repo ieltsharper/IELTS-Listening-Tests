@@ -125,6 +125,63 @@
     $('btn-tape').hidden = false;
   };
 
+
+  // ---- Portal: a signed-in student's result goes into their Listening progress
+  // (the portal and these pages share one site, so the portal sign-in is readable here). Checking
+  // the same test again the same day updates that entry. Only the score is sent, never the answers.
+  const API_URL = 'https://script.google.com/macros/s/AKfycbwKm1zvqca2-WO20f49M4mNW2qn9Aq4uxJZ3_bnQrErWPL5TN4jHycXZUQBDJ1W7wWg/exec';
+  const PORTAL = 'https://ieltsharper.github.io/portal/';
+  const note = $('portal-note');
+  const portalToken = () => {
+    try {
+      return localStorage.getItem('portal.session');
+    } catch (e) {
+      return null;
+    }
+  };
+  const say = (html) => {
+    note.hidden = !html;
+    note.innerHTML = html || '';
+  };
+  let sending = false;
+  let again = null;
+  const logToPortal = (score) => {
+    if (!portalToken()) {
+      say('Want this result in your Listening progress? <a href="' + PORTAL + '" target="_blank" rel="noopener">Sign in to the portal</a>, then check your answers again.');
+      return;
+    }
+    if (sending) {
+      again = score;
+      return;
+    }
+    sending = true;
+    say('Saving to your portal…');
+    fetch(API_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+      body: JSON.stringify({ action: 'listening.result', token: portalToken(), payload: { test: data.n, correct: score } }),
+      redirect: 'follow',
+      credentials: 'omit',
+    })
+      .then((r) => r.json())
+      .then((env) => {
+        if (env.ok) say('✓ Saved to your portal <a href="' + PORTAL + '" target="_blank" rel="noopener">Listening progress</a> (' + score + ' / 40, 40 minutes; you can change the minutes there).');
+        else if (env.error.code === 'forbidden' && env.error.details && env.error.details.reason === 'day_locked') say('');
+        else if (env.error.code === 'unauthorized') say('Your portal sign-in has ended. <a href="' + PORTAL + '" target="_blank" rel="noopener">Sign in again</a>, then check your answers again.');
+        else if (env.error.code === 'forbidden') say(''); // a teacher account: nothing to log
+        else say('Could not save to the portal: ' + esc(env.error.message));
+      })
+      .catch(() => say('Could not reach the portal, so this result was not saved there. Check your answers again later.'))
+      .then(() => {
+        sending = false;
+        if (again !== null) {
+          const s = again;
+          again = null;
+          logToPortal(s);
+        }
+      });
+  };
+
   const render = () => {
     const ok = mark();
     const perSection = [0, 0, 0, 0];
@@ -170,6 +227,7 @@
     openTapescript();
     lastResult = { score, band };
     persist();
+    if (data.key.some((k) => field(k.n).value.trim())) logToPortal(score);
   };
   const forget = (li) => {
     li.classList.remove('correct', 'incorrect');
