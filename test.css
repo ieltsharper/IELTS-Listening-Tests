@@ -350,3 +350,32 @@
   color: #c2410c;
   font-weight: 600;
 }
+
+/* ---- Tables in the question book ---- */
+.tablewrap {
+  margin: 8px 0 12px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.qtable {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 480px;
+  font-size: 0.95rem;
+}
+
+.qtable th,
+.qtable td {
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+  line-height: 1.5;
+}
+
+.qtable th {
+  background: var(--brand-soft);
+  color: var(--heading);
+  font-weight: 700;
+}

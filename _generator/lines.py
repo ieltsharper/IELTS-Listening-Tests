@@ -10,8 +10,26 @@ FOOTER = re.compile(r"^\d+\s*\|\s*P\s*a\s*g\s*e")
 JUNK = re.compile(r"sachphotos|superingenious|^\s*\d+\s*\|\s*Page", re.I)
 
 
+# "Guide" layout: the Vietnamese solution book (Recent Actual Tests Vol 7). The questions are on pages
+# 200-237, "PART n Questions a-b" opens each part, and the page number sits at the bottom of every page.
+GUIDE = {"on": False, "first": 200, "last": 237}
+
+
 def open_pdf(path):
     return pymupdf.open(path)
+
+
+def find_heads_guide(doc):
+    """{test number: (page number, y)} for 'TEST n' on the question pages; 7 = the page after the last."""
+    heads = {}
+    for pn in range(GUIDE["first"], GUIDE["last"] + 1):
+        page = doc[pn - 1]
+        for ln in page_lines(page, 0, page.rect.height):
+            m = re.match(r"^TEST\s*(\d+)", ln["text"])
+            if m and int(m.group(1)) not in heads:
+                heads[int(m.group(1))] = (pn, ln["y0"])
+    heads[max(heads) + 1] = (GUIDE["last"] + 1, 0)
+    return heads
 
 
 def find_heads(doc):
@@ -68,6 +86,9 @@ def page_lines(page, top, bottom):
 
 
 def footer_top(page):
+    if GUIDE["on"]:
+        tops = [b[1] for b in page.get_text("blocks") if re.match(r"^\d{1,3}$", b[4].strip()) and b[1] > 700]
+        return min(tops) - 4 if tops else page.rect.height - 30
     tops = [b[1] for b in page.get_text("blocks") if FOOTER.match(b[4].strip())]
     return min(tops) - 4 if tops else page.rect.height - 30
 
@@ -87,7 +108,16 @@ def test_lines(doc, heads, n):
         for ln in page_lines(page, top, bottom):
             if JUNK.search(ln["text"]):
                 continue
+            if GUIDE["on"] and ln["text"].strip() in ('"', "“", "”"):
+                continue  # a stray quotation mark in the guide (Test 3, Question 32)
             ln["page"] = pn
+            m = re.match(r"^PART\s*(\d)\s+(Questions?.*)$", ln["text"], re.I) if GUIDE["on"] else None
+            if m:  # "PART 1 Questions 1-10" is a section heading and the first question heading
+                res.append(dict(ln, text=f"Section {m.group(1)}"))
+                # the guide has typos such as "Questions 2l-30" and "ll—20" (letter l for the digit 1)
+                heading = re.sub(r"[lI]", "1", m.group(2).split(" ", 1)[1]) if " " in m.group(2) else ""
+                res.append(dict(ln, text=("Questions " + heading).strip(), y0=ln["y0"] + 0.5))
+                continue
             res.append(ln)
     return res
 

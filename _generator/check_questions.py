@@ -2,6 +2,7 @@
 # rendered text, every test's 40 question numbers are covered, and every image block's file exists.
 # Also deletes img/tNN-bK.webp files that no block uses any more.
 # Usage: python -X utf8 -I _generator/check_questions.py "<IELTS Listening Actual Tests and Answers.pdf>"
+#        python -X utf8 -I _generator/check_questions.py --guide "<Recent Actual Tests guide.pdf>"   (Vol 7)
 import collections
 import html
 import json
@@ -10,19 +11,21 @@ import re
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-sys.argv_pdf = sys.argv[1]
+GUIDE = sys.argv[1] == "--guide"
+sys.argv_pdf = sys.argv[2] if GUIDE else sys.argv[1]
 src = (ROOT / "_generator" / "parse_questions.py").read_text(encoding="utf-8").replace("\nmain()\n", "\n")
 g = {"__file__": str(ROOT / "_generator" / "parse_questions.py"), "__name__": "pq"}
 exec(compile(src, "pq", "exec"), g)
 L = g["L"]
 
 doc = L.open_pdf(sys.argv_pdf)
-heads = L.find_heads(doc)
-Q = json.loads((ROOT / "data" / "questions.json").read_text(encoding="utf-8"))
+L.GUIDE["on"] = GUIDE
+heads = L.find_heads_guide(doc) if GUIDE else L.find_heads(doc)
+Q = json.loads((ROOT / "data" / ("rat7-questions.json" if GUIDE else "questions.json")).read_text(encoding="utf-8"))
 tok = lambda s: collections.Counter(re.findall(r"[A-Za-z]{2,}|\d+", s))  # noqa: E731
 problems = 0
 checked = 0
-for n in range(1, 27):
+for n in range(1, 7 if GUIDE else 27):
     items = g["split_blocks"](L.test_lines(doc, heads, n))
     blocks = [it for it in items if it[0] == "block"]
     cov = []
@@ -51,7 +54,7 @@ for n in range(1, 27):
     if missing:
         print("test", n, "numbers in no block (check they are inside an image):", missing)
 used = {b["image"] for bl in Q.values() for b in bl if b.get("mode") == "image"}
-gone = [f for f in (ROOT / "img").glob("t??-b*.webp") if f.name not in used]
+gone = [f for f in (ROOT / "img").glob("r?-b*.webp" if GUIDE else "t??-b*.webp") if f.name not in used]
 for f in gone:
     f.unlink()
 print(f"text blocks checked: {checked}, problems: {problems}, unused block images deleted: {len(gone)}")

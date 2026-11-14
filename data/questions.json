@@ -48,8 +48,12 @@
    "type": "block",
    "from": 21,
    "to": 24,
-   "mode": "image",
-   "image": "t01-b6.webp"
+   "mode": "text",
+   "inst": [
+    "Complete the table below:",
+    "Write NO MORE THAN TWO WORDS AND/OR A NUMBER in each gap"
+   ],
+   "html": "<p>Gallery Marketing</p><div class=\"tablewrap\"><table class=\"qtable\"><tr><td>The place to get information about museums and galleries in England</td><td>at <span class=\"gap\">21</span></td></tr><tr><td>Research methods</td><td><span class=\"gap\">22</span> , questionnaires or emails</td></tr><tr><td>Total respondents</td><td><span class=\"gap\">23</span></td></tr><tr><td>The compared objects of <span class=\"gap\">24</span> fair</td><td>Male and Female</td></tr></table></div>"
   },
   {
    "type": "block",
@@ -556,8 +560,12 @@
    "type": "block",
    "from": 31,
    "to": 35,
-   "mode": "image",
-   "image": "t06-b13.webp"
+   "mode": "text",
+   "inst": [
+    "Complete the table below",
+    "Write NO MORE THAN TWO WORDS in each gap"
+   ],
+   "html": "<div class=\"tablewrap\"><table class=\"qtable\"><tr><td>Course</td><td>Type of course: duration and level</td><td>Entry requirements</td></tr><tr><td>Physical Fitness Instructor</td><td>Example Six-month certificate</td><td>None</td></tr><tr><td>Sports Administrator</td><td><span class=\"gap\">31</span></td><td><span class=\"gap\">32</span> in sports administration</td></tr><tr><td>Sports Psychologist</td><td><span class=\"gap\">33</span></td><td>Degree in psychology</td></tr><tr><td>Physical Education Teacher</td><td>Four-year degree in education</td><td><span class=\"gap\">34</span></td></tr><tr><td>Recreation Officer</td><td><span class=\"gap\">35</span></td><td>None</td></tr></table></div>"
   },
   {
    "type": "block",
@@ -834,8 +842,12 @@
    "type": "block",
    "from": 13,
    "to": 15,
-   "mode": "image",
-   "image": "t10-b4.webp"
+   "mode": "text",
+   "inst": [
+    "Complete the table below:",
+    "Write NO MORE THAN TWO WORDS AND/OR A NUMBER in each gap."
+   ],
+   "html": "<div class=\"tablewrap\"><table class=\"qtable\"><tr><th>Teams</th><th>Purpose</th><th>Meeting point</th><th>Time</th></tr><tr><td>Beach team</td><td>Pick up litter, etc</td><td><span class=\"gap\">13</span></td><td>8 am</td></tr><tr><td>Town team</td><td>Arrange <span class=\"gap\">14</span></td><td>Village hall</td><td><span class=\"gap\">15</span></td></tr></table></div>"
   },
   {
    "type": "block",
@@ -903,8 +915,12 @@
    "type": "block",
    "from": 1,
    "to": 5,
-   "mode": "image",
-   "image": "t11-b1.webp"
+   "mode": "text",
+   "inst": [
+    "Complete the table below.",
+    "Write ONE WORD AND/OR NUMBERS for each answer."
+   ],
+   "html": "<p>JOB HUNTING</p><div class=\"tablewrap\"><table class=\"qtable\"><tr><td>Company’s Name</td><td>Job details</td><td>Reference number</td><td>Contact</td></tr><tr><td>Example POWER (manufacturing company)</td><td>• Work in a <span class=\"gap\">1</span> section</td><td>SW35FT</td><td>Jane <span class=\"gap\">2</span></td></tr><tr><td>COTTON (grocery company)</td><td>• Good pay<br>• Work in <span class=\"gap\">3</span> office in a <span class=\"gap\">4</span><br>• chance of promotion</td><td><span class=\"gap\">5</span></td><td>Go to office</td></tr></table></div>"
   },
   {
    "type": "block",
@@ -1007,8 +1023,12 @@
    "type": "block",
    "from": 1,
    "to": 10,
-   "mode": "image",
-   "image": "t12-b1.webp"
+   "mode": "text",
+   "inst": [
+    "Complete the table below.",
+    "Write ONE WORD AND/OR A NUMBER for each answer."
+   ],
+   "html": "<p>Notes on A Part-time Society</p><p>Example</p><p>Name of society: Leighton</p><p>Location: <span class=\"gap\">1</span> house</p><p>Want: <span class=\"gap\">2</span> actors and singers (no experience required)</p><p>Transportation: shuttle services (need someone who is able to <span class=\"gap\">3</span> )</p><p>Meeting time: 6:00-8:00pm every <span class=\"gap\">4</span></p><p>Close time: during <span class=\"gap\">5</span></p><p>Membership fee (including <span class=\"gap\">6</span> )</p><p class='bullet'>£40 for employed members (under 30 years of age)</p><p class='bullet'>£ 60 for employed members (30-60 years of age)</p><p class='bullet'>£ <span class=\"gap\">7</span> for retired or unemployed members (over 60 years of age)</p><p>Minimum joining age</p><p class='bullet'><span class=\"gap\">8</span></p><p>Most members are</p><p class='bullet'>friendly</p><p class='bullet'>fond of culture and music</p><p class='bullet'><span class=\"gap\">9</span> authors looking for new experiences to write about in their books Charity</p><p>The children’s <span class=\"gap\">10</span> will get the money raised by the annual dinner.</p>"
   },
   {
    "type": "section",
@@ -1018,8 +1038,12 @@
    "type": "block",
    "from": 11,
    "to": 20,
-   "mode": "image",
-   "image": "t12-b3.webp"
+   "mode": "text",
+   "inst": [
+    "Complete the table below.",
+    "Write NO MORE THAN THREE WORDS for each answer."
+   ],
+   "html": "<div class=\"tablewrap\"><table class=\"qtable\"><tr><th>Name of Room</th><th>Characteristics</th><th>Furniture and Features</th></tr><tr><td>Entrance Hall Vestibule or Octagon Hall</td><td>A <span class=\"gap\">11</span> colour</td><td>Chinese style chairs brass enclose</td></tr><tr><td>Entrance Hall</td><td>With <span class=\"gap\">12</span> panels of serpents and dragons</td><td>furniture looks like pollarded oak</td></tr><tr><td>Long Gallery</td><td></td><td><span class=\"gap\">13</span> and Oriental pots</td></tr><tr><td>Banqueting Room</td><td></td><td>A dining table laid for the <span class=\"gap\">14</span> , with thirty-six chairs</td></tr><tr><td>Great Kitchen or King’s Kitchen</td><td>Four <span class=\"gap\">15</span></td><td>A <span class=\"gap\">16</span> used to turn 5 spits</td></tr><tr><td>Music Room</td><td>Nine <span class=\"gap\">17</span></td><td></td></tr><tr><td>Yellow Bow Rooms</td><td>A lobby Two bedrooms and <span class=\"gap\">18</span></td><td>satinwood and mahogany</td></tr><tr><td>Queen’s Bedroom</td><td>Queen’s bedroom Maid’s room Closet</td><td>Brussels <span class=\"gap\">19</span> with <span class=\"gap\">20</span> bedding and curtains</td></tr></table></div>"
   },
   {
    "type": "section",
@@ -1209,8 +1233,12 @@
    "type": "block",
    "from": 1,
    "to": 10,
-   "mode": "image",
-   "image": "t14-b1.webp"
+   "mode": "text",
+   "inst": [
+    "Complete the table below.",
+    "Write ONE WORD AND/OR A NUMBER for each answer."
+   ],
+   "html": "<p>NOTES OF CONCERTS</p><p>Example</p><p>What to order before the start coffee</p><div class=\"tablewrap\"><table class=\"qtable\"><tr><th>Types of concerts</th><th>Time</th><th>Cost</th><th>Additional information</th></tr><tr><td><span class=\"gap\">1</span> concert</td><td>Every afternoon</td><td>$ <span class=\"gap\">2</span> For students and $6.50 for adults</td><td>• Organise a press tent<br>• Broadcast on local <span class=\"gap\">3</span> station</td></tr><tr><td><span class=\"gap\">4</span> concert</td><td>Friday</td><td>Entrance fee: Approx $40</td><td>Decorate with <span class=\"gap\">5</span></td></tr><tr><td>Opera Show</td><td><span class=\"gap\">6</span></td><td>Charged by <span class=\"gap\">7</span></td><td>There will be a <span class=\"gap\">8</span> Performance</td></tr><tr><td>Karaoke Night</td><td>Saturday</td><td>No group <span class=\"gap\">9</span></td><td>To end the show, a popular <span class=\"gap\">10</span> will perform</td></tr></table></div>"
   },
   {
    "type": "section",
@@ -1225,7 +1253,7 @@
     "Complete the notes below. Write NO MORE THAN TWO",
     "WORDS for each answer."
    ],
-   "html": "<p>Seven Sisters’ Campsite</p><p>Seven sisters are named after <span class=\"gap\">11</span> in East</p><p>Sussex</p><p>Weekly Schedule:</p><p>Monday</p><p class='bullet'>Go on a trail</p><p class='bullet'>Have a picnic next to a <span class=\"gap\">12</span> <span class=\"gap\">&nbsp;</span></p><p class='bullet'>Have a swim PS. Activities are subject to <span class=\"gap\">13</span> conditions</p><p>Tuesday</p><p class='bullet'>Continue up the hill Tuesday Continue up the hill</p><p class='bullet'>Arrive at a <span class=\"gap\">14</span></p><p class='bullet'>Go <span class=\"gap\">15</span></p><p class='bullet'>Have a pebble massage</p><p>A range of <span class=\"gap\">16</span> are available there, including jet-skiing and parasailing.</p><p>Pieces of</p><p>Equipment:</p><p>There are also boats, <span class=\"gap\">17</span> and kayaks and you can set out to sea as long as you are wearing <span class=\"gap\">18</span></p><p>You can also go rock-climbing and you can go <span class=\"gap\">19</span> when you come back down to earth. You can talk to your friends while you are near an open <span class=\"gap\">20</span></p>"
+   "html": "<p>Seven Sisters’ Campsite</p><p>Seven sisters are named after <span class=\"gap\">11</span> in East</p><p>Sussex</p><p>Weekly Schedule:</p><p>Monday</p><p class='bullet'>Go on a trail</p><p class='bullet'>Have a picnic next to a <span class=\"gap\">12</span></p><p class='bullet'>Have a swim PS. Activities are subject to <span class=\"gap\">13</span> conditions</p><p>Tuesday</p><p class='bullet'>Continue up the hill Tuesday Continue up the hill</p><p class='bullet'>Arrive at a <span class=\"gap\">14</span></p><p class='bullet'>Go <span class=\"gap\">15</span></p><p class='bullet'>Have a pebble massage</p><p>A range of <span class=\"gap\">16</span> are available there, including jet-skiing and parasailing.</p><p>Pieces of</p><p>Equipment:</p><p>There are also boats, <span class=\"gap\">17</span> and kayaks and you can set out to sea as long as you are wearing <span class=\"gap\">18</span></p><p>You can also go rock-climbing and you can go <span class=\"gap\">19</span> when you come back down to earth. You can talk to your friends while you are near an open <span class=\"gap\">20</span></p>"
   },
   {
    "type": "section",
@@ -1277,8 +1305,13 @@
    "type": "block",
    "from": 34,
    "to": 40,
-   "mode": "image",
-   "image": "t14-b10.webp"
+   "mode": "text",
+   "inst": [
+    "Complete the table below.",
+    "Write NO MORE THAN THREE WORDS for each",
+    "answer."
+   ],
+   "html": "<div class=\"tablewrap\"><table class=\"qtable\"><tr><th>Natural Resource</th><th>How it is Generated</th><th>Further Information</th></tr><tr><td>Biomass</td><td>Plants <span class=\"gap\">34</span> solar energy when they are burnt.</td><td></td></tr><tr><td>Wind Energy</td><td>Wind turbines produce between 600kW and 5MW of rated power</td><td>Wind speeds are higher in <span class=\"gap\">35</span></td></tr><tr><td>Hydropower Energy</td><td>Hydroelectric dams</td><td>run-of-the-river hydroelectricity derives from <span class=\"gap\">36</span></td></tr><tr><td>Geothermal Energy</td><td>Heat is trapped in <span class=\"gap\">37</span> GSHP extracts heat from the ground</td><td>86% of the houses in <span class=\"gap\">38</span> were heated by geothermal energy in 2000</td></tr><tr><td>Biofuels</td><td>Biomass They can be divided into solid biomass, liquid fuels and biogases</td><td>Bioethanol is a <span class=\"gap\">39</span> in the USA and Brazil. Biodiesel reduces CO levels in Europe. In 2010, it provided <span class=\"gap\">40</span> of global road transport fuels</td></tr></table></div>"
   }
  ],
  "15": [
@@ -1309,7 +1342,7 @@
     "Complete the notes below.",
     "Write NO MORE THAN TWO WORDS for each answer."
    ],
-   "html": "<p>Induction Day – Papyrus Warehouse</p><p>Company Identification Card:</p><p class='bullet'>Contains the employee’s name, <span class=\"gap\">11</span> and barcode number</p><p class='bullet'>Done with the HR department</p><p class='bullet'>Used to <span class=\"gap\">12</span> and out daily</p><p>Shop Floor – you need the ID card when you open the till and <span class=\"gap\">13</span> <span class=\"gap\">&nbsp;</span></p><p>Stock Room – ID card is also used during the <span class=\"gap\">14</span></p><p>Warning: Don’t forget to close the till drawer and <span class=\"gap\">15</span> of the system.</p><p>Staff Restaurant – you can buy snacks if you insert coins into the machines on the <span class=\"gap\">16</span></p><p>Note: Free lunch is provided on busy days, but the cashier has to <span class=\"gap\">17</span> your card so that your lunch break is recorded.</p><p>Personal Belongings:</p><p>They should be put in the <span class=\"gap\">18</span> available in the changing rooms. Mobile phones should be switched off.</p><p>Uniform:</p><p>StockRoom – a white shirt and a pair of <span class=\"gap\">19</span></p><p>Shop Floor – a plain shirt and a suit</p><p>Note: Women may wear make-up and use <span class=\"gap\">20</span> as long as it looks neat.</p>"
+   "html": "<p>Induction Day – Papyrus Warehouse</p><p>Company Identification Card:</p><p class='bullet'>Contains the employee’s name, <span class=\"gap\">11</span> and barcode number</p><p class='bullet'>Done with the HR department</p><p class='bullet'>Used to <span class=\"gap\">12</span> and out daily</p><p>Shop Floor – you need the ID card when you open the till and <span class=\"gap\">13</span></p><p>Stock Room – ID card is also used during the <span class=\"gap\">14</span></p><p>Warning: Don’t forget to close the till drawer and <span class=\"gap\">15</span> of the system.</p><p>Staff Restaurant – you can buy snacks if you insert coins into the machines on the <span class=\"gap\">16</span></p><p>Note: Free lunch is provided on busy days, but the cashier has to <span class=\"gap\">17</span> your card so that your lunch break is recorded.</p><p>Personal Belongings:</p><p>They should be put in the <span class=\"gap\">18</span> available in the changing rooms. Mobile phones should be switched off.</p><p>Uniform:</p><p>StockRoom – a white shirt and a pair of <span class=\"gap\">19</span></p><p>Shop Floor – a plain shirt and a suit</p><p>Note: Women may wear make-up and use <span class=\"gap\">20</span> as long as it looks neat.</p>"
   },
   {
    "type": "section",
@@ -1503,8 +1536,12 @@
    "type": "block",
    "from": 14,
    "to": 16,
-   "mode": "image",
-   "image": "t17-b5.webp"
+   "mode": "text",
+   "inst": [
+    "Complete the table below",
+    "Write ONE WORD ONLY in each gap:"
+   ],
+   "html": "<p>Whale identification chart</p><div class=\"tablewrap\"><table class=\"qtable\"><tr><td></td><th>Color</th><th>size</th><th>General characteristics</th></tr><tr><td>Dolphins</td><td>Grey</td><td>1 - 2 metres</td><td>• Swim fast<br>• Playful</td></tr></table></div><div class=\"tablewrap\"><table class=\"qtable\"><tr><td></td><td></td><td></td><td>• <span class=\"gap\">14</span></td></tr><tr><td>Orcas &amp; Killer whales</td><td>Black and white</td><td>7 - 8 metres</td><td>• <span class=\"gap\">15</span> hunters<br>• Eat fish, seals and other whales</td></tr><tr><td>Grey whales</td><td>Grey</td><td>14 metres</td><td>• <span class=\"gap\">16</span> …<br>• Filter feeders, eat shrimp<br>• Distinctive tail fins</td></tr></table></div>"
   },
   {
    "type": "block",
@@ -1749,8 +1786,12 @@
    "type": "block",
    "from": 14,
    "to": 17,
-   "mode": "image",
-   "image": "t20-b4.webp"
+   "mode": "text",
+   "inst": [
+    "Complete the table below.",
+    "Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer."
+   ],
+   "html": "<div class=\"tablewrap\"><table class=\"qtable\"><tr><th>Competition</th><th>Number of teams</th><th>Games begin</th><th>Training session ( In King’s park)</th></tr><tr><td><span class=\"gap\">14</span></td><td>10</td><td><span class=\"gap\">15</span></td><td>Wednesday afternoons</td></tr><tr><td>Senior</td><td><span class=\"gap\">16</span></td><td>2:30 pm</td><td><span class=\"gap\">17</span> afternoons</td></tr></table></div>"
   },
   {
    "type": "block",
@@ -1978,8 +2019,12 @@
    "type": "block",
    "from": 23,
    "to": 27,
-   "mode": "image",
-   "image": "t22-b9.webp"
+   "mode": "text",
+   "inst": [
+    "Complete the table below.",
+    "Write NO MORE THAN THREE WORDS OR A NUMBER for each answer."
+   ],
+   "html": "<div class=\"tablewrap\"><table class=\"qtable\"><tr><th>Title</th><th>Author</th><th>Year published</th><th>Publisher</th></tr></table></div><div class=\"tablewrap\"><table class=\"qtable\"><tr><td>What should I do?</td><td>Smith,P</td><td>2000</td><td><span class=\"gap\">23</span></td></tr><tr><td><span class=\"gap\">24</span></td><td>Newton,J</td><td>2000</td><td><span class=\"gap\">25</span></td></tr><tr><td><span class=\"gap\">26</span></td><td>White,J</td><td><span class=\"gap\">27</span></td><td>Brown and Tate</td></tr></table></div>"
   },
   {
    "type": "block",
@@ -1999,8 +2044,11 @@
    "type": "block",
    "from": 31,
    "to": 40,
-   "mode": "image",
-   "image": "t22-b12.webp"
+   "mode": "text",
+   "inst": [
+    "Write ONE WORD ONLY in each gap."
+   ],
+   "html": "<div class=\"tablewrap\"><table class=\"qtable\"><tr><th>Type of writing</th><th>Notes</th><th>Tips</th></tr><tr><td>Short stories</td><td>three basic styles</td><td>Start with a/an <span class=\"gap\">31</span></td></tr><tr><td>Non-fiction</td><td>biographies often popular</td><td>Tells publishers about your field of <span class=\"gap\">32</span></td></tr><tr><td>Articles</td><td>advice articles work well</td><td>Write for a definite <span class=\"gap\">33</span></td></tr><tr><td>Poetry</td><td>meaning shouldn’t be too <span class=\"gap\">34</span></td><td>Read your poems aloud</td></tr><tr><td>Plays</td><td>movements usually decided by the <span class=\"gap\">35</span></td><td>Learn about acting</td></tr><tr><td>Radio</td><td>BBC published handbook</td><td>Try <span class=\"gap\">36</span> stations first</td></tr><tr><td>Children’s Literature</td><td>Illustrations important</td><td>Decide on an age <span class=\"gap\">37</span></td></tr></table></div><p class='q'><span class='qn'>38</span> What is a disadvantage of first person narration in novels?</p><ul class='opts'><li><b>A</b> It makes it harder for the main character to be interesting.</li><li><b>B</b> It is difficult for beginners to do well.</li><li><b>C</b> It limits what can be described.</li></ul><p class='q'><span class='qn'>39</span> What is a mistake when writing novels?</p><ul class='opts'><li><b>A</b> failing to include, enough detail</li><li><b>B</b> trying to explain ironic effects</li><li><b>C</b> including too many characters</li></ul><p class='q'><span class='qn'>40</span> In order to make dialogue seem natural, writers should</p><ul class='opts'><li><b>A</b> Writers should make recordings of real conversations.</li><li><b>B</b> include unfinished sentences</li><li><b>C</b> break up long speeches</li></ul>"
   }
  ],
  "23": [
@@ -2087,8 +2135,11 @@
    "type": "block",
    "from": 37,
    "to": 40,
-   "mode": "image",
-   "image": "t23-b11.webp"
+   "mode": "text",
+   "inst": [
+    "Write NO MORE THAN TWO WORDS in each gap"
+   ],
+   "html": "<p>The stepladder technique</p><p>Step 1</p><p><span class=\"gap\">37</span> Members presented the task</p><p>Step 2</p><p>A <span class=\"gap\">38</span> of two members is created</p><p>Step 3</p><p>third member added; discuss <span class=\"gap\">39</span> together</p><p>Step 4</p><p>Repeat the process adding fourth member</p><p>Step 5</p><p>All members reach a/an <span class=\"gap\">40</span></p>"
   }
  ],
  "24": [
@@ -2264,8 +2315,12 @@
    "type": "block",
    "from": 7,
    "to": 10,
-   "mode": "image",
-   "image": "t26-b2.webp"
+   "mode": "text",
+   "inst": [
+    "Complete the table below",
+    "Write NO MORE THAN TWO WORDS AND/OR A NUMBER in each gap."
+   ],
+   "html": "<div class=\"tablewrap\"><table class=\"qtable\"><tr><td>Type</td><td><span class=\"gap\">7</span></td><td>Bronze</td><td>Silver</td><td>Gold</td></tr><tr><td>Standard care</td><td></td><td>5% discount</td><td>7.55 discount</td><td>50% discount off <span class=\"gap\">8</span></td></tr><tr><td>Insurance</td><td></td><td>$10 off fee</td><td>$20 off fee</td><td>Free <span class=\"gap\">9</span></td></tr><tr><td>Personal loans</td><td>0.25% reduction</td><td>0.5% reduction</td><td><span class=\"gap\">10</span> reduction</td><td>1.25% reduction</td></tr></table></div>"
   },
   {
    "type": "section",

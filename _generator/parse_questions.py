@@ -2,6 +2,7 @@
 # the blocks that cannot be shown as text (tables, maps, diagrams, flowcharts, anything that fails the
 # checks) out of the PDF as images (img/tNN-bK.webp).
 # Usage: python -X utf8 -I _generator/parse_questions.py "<IELTS Listening Actual Tests and Answers.pdf>" [test numbers...]
+#        python -X utf8 -I _generator/parse_questions.py --guide "<Recent Actual Tests guide.pdf>"   (Vol 7 -> data/rat7-questions.json, img/r1-b0.webp ...)
 #
 # A block is one "Questions a - b" group. It is shown as text only when the text passes the checks:
 # every question number of the block is found exactly once (as a gap, a numbered question or a numbered
@@ -19,6 +20,7 @@ from PIL import Image
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import lines as L  # noqa: E402
+import tables as T  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 IMG = ROOT / "img"
@@ -27,7 +29,7 @@ SIDE = (36, 576)
 e = html.escape
 
 QHEAD = re.compile(r"^Questions?\s*(\d+)\s*(?:[-–—&]|to|and)?\s*(\d+)?\s*[.:]?\s*$", re.I)
-SECTION = re.compile(r"^Section\s*(\d)\s*$", re.I)
+SECTION = re.compile(r"^(?:Section|PART)\s*(\d)\s*$", re.I)
 SKIP = re.compile(r"^(TEST\s*\d+|Listen to [Aa]udio.*)$")
 INSTR = re.compile(r"^(Complete|Choose|Write|Circle|Label|Match|Name|Look|Select|Use|Listen)\b")
 INSTR_CONT = re.compile(r"^(below|answer|each answer|TWO|THREE|ONE|NO MORE|A NUMBER|AND/OR|WORDS|for |in each|next to|from the)", re.I)
@@ -35,10 +37,11 @@ GRAPHIC = re.compile(r"\b(table|diagrams?|flow\s*-?\s*chart|map|plan|label|chart
 OPT = re.compile(r"^([A-I])\s*[.)]?\s+\S")
 NUMQ = re.compile(r"^\(?(\d{1,2})((?:\s*(?:&|,|and)\s*\d{1,2})*)(?=[\s.)])\s*[.)]?\s*(?=\S)")
 MULTI = re.compile(r"(?:Choose|Circle|Which)\s+(TWO|THREE|FOUR|FIVE|SIX)|(?:Choose|Circle)\s+(two|three|four|five|six)\s+(letters|answers)", re.I)
-DOTS = r"[.…·_]{2,}\s*(?:\.\s*)*"
+DOTS = r"(?:[.…·_]{2,}|…\s[.…·_]{2,})\s*(?:[.…·_]\s*)*"
 # a gap: dots around or beside the question number ("…..7…..", "7 .....", "….. 7", "7……")
 GAP = re.compile(rf"(?:{DOTS})?\s*\(?\b(\d{{1,2}})\b\)?\.?\s*(?:{DOTS})|(?:{DOTS})\s*\(?\b(\d{{1,2}})\b\)?")
 BLANK = re.compile(DOTS)
+NOT_TABLE = re.compile(r"\b(maps?|diagrams?|flow\s*-?\s*charts?|plan|label|figure|graphs?|pictures?)\b", re.I)
 
 
 def fix_text(s):
@@ -96,6 +99,7 @@ def merge_wrapped(lines, right_margin):
                 gap < 17
                 and ln["page"] == prev["page"]
                 and prev["x1"] > right_margin - 30
+                and not (prev["t"].isupper() and len(prev["t"]) < 60)  # a capitals title is not a wrapped line
                 and not OPT.match(ln["t"])
                 and not NUMQ.match(ln["t"])
                 and not ln["t"].startswith(("- ", "• ", "● "))
@@ -123,7 +127,7 @@ def gaps_in(text):
     t = GAP.sub(sub, text)
     if not found:
         # "3. mj@......": the number, then a bit of fixed text, then the blank
-        t = re.sub(r"\b(\d{1,2})\.\s+(\S{1,12}?)" + DOTS, sub2, t)
+        t = re.sub(r"\b(\d{1,2})\.\s+(\S{1,12}?)\s*" + DOTS, sub2, t)
     t = BLANK.sub(" \x00_\x01 ", t)  # a gap with no number (example, or a typo in the book)
     t = re.sub(r"\s+", " ", t).strip()
     out = e(t)
@@ -186,6 +190,53 @@ def render_text_block(block, right_margin):
     return inst, "".join(parts), nums
 
 
+def table_block(doc, it, ranges, right, want):
+    """(inst, html) for a block that is one drawn table (with text before or after it), or None."""
+    head, lines = it[2], it[3]
+    if NOT_TABLE.search(head["t"] + " " + " ".join(l["t"] for l in lines[:4])):
+        return None
+    for pn, y0, y1 in ranges:
+        for im in doc[pn - 1].get_image_info():
+            r = pymupdf.Rect(im["bbox"])
+            if r.width > 40 and r.height > 30 and r.y1 > y0 and r.y0 < y1:
+                return None
+    tabs = T.tables_html(doc, ranges, lines, gaps_in, fix_text)
+    if tabs is None:
+        return None
+    if not tabs and any(b[0] - a[1] > 60 for ln in lines for a, b in zip(ln["words"], ln["words"][1:])):
+        return None  # no borders drawn, and text in columns: a plain list would lose the layout
+    # lines in reading order: free text, a table, free text, ...
+    pieces = []  # ("text", [lines]) or ("table", index)
+    for ln in lines:
+        yc = (ln["y0"] + ln["y1"]) / 2
+        k = next((i for i, tb in enumerate(tabs) if ln["page"] == tb["page"] and tb["top"] <= yc <= tb["bottom"]), None)
+        if k is not None:
+            if not pieces or pieces[-1] != ("table", k):
+                pieces.append(("table", k))
+        elif pieces and pieces[-1][0] == "text":
+            pieces[-1][1].append(ln)
+        else:
+            pieces.append(("text", [ln]))
+    if any(("table", k) not in pieces for k in range(len(tabs))):
+        return None
+    inst, parts, nums = [], [], []
+    for kind, val in pieces:
+        if kind == "table":
+            parts.append(tabs[val]["html"])
+            nums += tabs[val]["nums"]
+            continue
+        i2, h2, n2 = render_text_block(("block", it[1], head, val), right)
+        if not inst and not parts:
+            inst = i2
+        else:
+            h2 = "".join(f"<p>{e(x)}</p>" for x in i2) + h2
+        parts.append(h2)
+        nums += n2
+    if sorted(set(nums)) != sorted(want):
+        return None
+    return inst, "".join(parts)
+
+
 def has_graphics(doc, block_lines, y_ranges):
     """True if a picture or a drawn diagram sits inside the block's area."""
     for pn, y0, y1 in y_ranges:
@@ -240,11 +291,19 @@ def crop_image(doc, start, end, name):
 
 
 def main():
-    doc = L.open_pdf(sys.argv[1])
-    heads = L.find_heads(doc)
-    only = [int(a) for a in sys.argv[2:]] or list(range(1, 27))
+    args = sys.argv[1:]
+    guide = args[0] == "--guide"
+    if guide:
+        args = args[1:]
+        L.GUIDE["on"] = True
+    doc = L.open_pdf(args[0])
+    heads = L.find_heads_guide(doc) if guide else L.find_heads(doc)
+    count = 6 if guide else 26
+    only = [int(a) for a in args[1:]] or list(range(1, count + 1))
+    prefix = "r" if guide else "t"
     IMG.mkdir(exist_ok=True)
-    right = max(max(w[2] for w in p.get_text("words")) for p in list(doc)[10:20])
+    pages = list(doc)[205:215] if guide else list(doc)[10:20]
+    right = max(max(w[2] for w in p.get_text("words")) for p in pages)
     out = {}
     report = []
     for n in only:
@@ -303,14 +362,20 @@ def main():
                             use_image, reason = True, f"numbers {sorted(nums)} != {a}-{b}"
                 if not use_image:
                     info.update({"mode": "text", "inst": inst_l, "html": html_body})
+            # tables (and notes without borders) become text when they pass the checks; otherwise the picture stays
+            if use_image and rng is not None and reason != "no question range":
+                tb = table_block(doc, it, ranges, right, want)
+                if tb:
+                    use_image = False
+                    info.update({"mode": "text", "inst": tb[0], "html": tb[1]})
             if use_image:
-                name = crop_image(doc, start_pos, end_pos, f"t{n:02d}-b{bi}.webp")
+                name = crop_image(doc, start_pos, end_pos, f"{prefix}{n}-b{bi}.webp" if guide else f"t{n:02d}-b{bi}.webp")
                 info.update({"mode": "image", "image": name})
                 report.append((n, a, b, reason))
             result.append(info)
         out[n] = result
-    path = ROOT / "data" / "questions.json"
-    prev = json.loads(path.read_text(encoding="utf-8")) if path.exists() and len(only) < 26 else {}
+    path = ROOT / "data" / ("rat7-questions.json" if guide else "questions.json")
+    prev = json.loads(path.read_text(encoding="utf-8")) if path.exists() and len(only) < count else {}
     prev.update({str(k): v for k, v in out.items()})
     path.write_text(json.dumps(prev, ensure_ascii=False, indent=1), encoding="utf-8")
     texts = sum(1 for v in out.values() for b in v if b.get("mode") == "text")
