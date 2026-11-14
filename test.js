@@ -126,11 +126,14 @@
   };
 
 
-  // ---- Portal: a signed-in student's result goes into their Listening progress
-  // (the portal and these pages share one site, so the portal sign-in is readable here). Checking
-  // the same test again the same day updates that entry. Only the score is sent, never the answers.
+  // ---- Saving the result. A signed-in student's result goes into their Listening progress (the portal
+  // and these pages share one site, so the portal sign-in is readable here); checking the same test again
+  // the same day updates that entry. Anyone else types a name before starting (the same name as on the
+  // Reading pages: one name for the whole website) and the result is saved under it for the teacher, who
+  // sees it on the portal (Bài tập → Bài nghe). Only the score is sent, never the answers.
   const API_URL = 'https://script.google.com/macros/s/AKfycbwKm1zvqca2-WO20f49M4mNW2qn9Aq4uxJZ3_bnQrErWPL5TN4jHycXZUQBDJ1W7wWg/exec';
   const PORTAL = 'https://ieltsharper.github.io/portal/';
+  const NAME_KEY = 'ih-reading:name';
   const note = $('portal-note');
   const portalToken = () => {
     try {
@@ -139,39 +142,145 @@
       return null;
     }
   };
+  const storedName = () => {
+    try {
+      return localStorage.getItem(NAME_KEY) || '';
+    } catch (e) {
+      return '';
+    }
+  };
+  const cleanName = (s) => String(s || '').normalize('NFC').replace(/\s+/g, ' ').trim();
+  const nameProblem = (n) =>
+    n.length < 2 || n.length > 40 || !/\p{L}/u.test(n) || /[<>]/.test(n) ? 'Please type your name (2–40 letters).' : '';
   const say = (html) => {
     note.hidden = !html;
     note.innerHTML = html || '';
   };
+
+  // A visitor's name, under the buttons, with a way to change it
+  const whoLine = document.createElement('p');
+  whoLine.className = 'plain visitor-name';
+  whoLine.hidden = true;
+  note.parentNode.insertBefore(whoLine, note);
+  const drawWho = () => {
+    const n = portalToken() ? '' : storedName();
+    whoLine.hidden = !n;
+    whoLine.innerHTML = n
+      ? 'Your results are saved for your teacher under the name <strong>' + esc(n) + '</strong> ' +
+        '<button type="button" class="link-btn" id="change-name">Change</button>'
+      : '';
+    if (n) $('change-name').addEventListener('click', () => askName(true));
+  };
+
+  // The name box: before starting (cannot be closed), or to change the name
+  let overlay = null;
+  let afterName = null; // a score waiting for the name
+  const setInert = (on) =>
+    document.querySelectorAll('nav.topbar, main').forEach((el) => (on ? el.setAttribute('inert', '') : el.removeAttribute('inert')));
+  const askName = (change, problem) => {
+    if (overlay) overlay.remove();
+    overlay = document.createElement('div');
+    overlay.className = 'name-overlay';
+    overlay.innerHTML =
+      '<form class="name-box" role="dialog" aria-modal="true" aria-labelledby="name-title" novalidate>' +
+      '<h2 id="name-title">' + (change ? 'Change your name' : 'Before you start: what is your name?') + '</h2>' +
+      '<p>When you check your answers, your score is saved online under this name so your teacher can see it.</p>' +
+      '<p class="name-rule"><strong>Please use only one name on this website</strong>, spelt the same way every time ' +
+      '(for example, your full name), the same name as on the Reading pages.</p>' +
+      '<label for="name-input">Your name</label>' +
+      '<input id="name-input" type="text" autocomplete="name" maxlength="40" spellcheck="false">' +
+      '<p class="name-error" id="name-error" role="alert"></p>' +
+      '<div class="name-actions"><button type="submit" class="btn-check">' + (change ? 'Save name' : 'Start') + '</button>' +
+      (change ? '<button type="button" id="name-cancel">Cancel</button>' : '') + '</div>' +
+      '<p class="name-alt">Have an IELTS Harper Portal account? <a href="' + PORTAL + '" target="_blank" rel="noopener">Sign in to the portal</a>, then reload this page.</p>' +
+      '</form>';
+    document.body.appendChild(overlay);
+    setInert(true);
+    const input = $('name-input');
+    const error = $('name-error');
+    if (change) input.value = storedName();
+    if (problem) error.textContent = problem;
+    input.focus();
+    const close = () => {
+      overlay.remove();
+      overlay = null;
+      setInert(false);
+    };
+    if (change) {
+      $('name-cancel').addEventListener('click', close);
+      overlay.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') close();
+      });
+    }
+    overlay.querySelector('form').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const n = cleanName(input.value);
+      const bad = nameProblem(n);
+      if (bad) {
+        error.textContent = bad;
+        input.focus();
+        return;
+      }
+      try {
+        localStorage.setItem(NAME_KEY, n);
+      } catch (err) {}
+      close();
+      drawWho();
+      if (afterName !== null) {
+        const s = afterName;
+        afterName = null;
+        logToPortal(s);
+      }
+    });
+  };
+
   let sending = false;
   let again = null;
   const logToPortal = (score) => {
-    if (!portalToken()) {
-      say('Want this result in your Listening progress? <a href="' + PORTAL + '" target="_blank" rel="noopener">Sign in to the portal</a>, then check your answers again.');
-      return;
-    }
     if (sending) {
       again = score;
       return;
     }
+    const tok = portalToken();
+    const name = tok ? '' : storedName();
+    if (!tok && !name) {
+      afterName = score;
+      askName(false);
+      return;
+    }
+    const payload = data.set ? { test: data.n, set: data.set, correct: score } : { test: data.n, correct: score };
+    if (!tok) payload.name = name;
     sending = true;
-    say('Saving to your portal…');
+    say(tok ? 'Saving to your portal…' : 'Saving your result for your teacher…');
     fetch(API_URL, {
       method: 'POST',
       headers: { 'Content-Type': 'text/plain;charset=utf-8' },
-      body: JSON.stringify({ action: 'listening.result', token: portalToken(), payload: { test: data.n, correct: score } }),
+      body: JSON.stringify({ action: tok ? 'listening.result' : 'listening.visitor.result', token: tok, payload }),
       redirect: 'follow',
       credentials: 'omit',
     })
       .then((r) => r.json())
       .then((env) => {
+        if (!tok) {
+          if (env.ok) say('✓ Result saved for your teacher under the name <strong>' + esc(env.data.name) + '</strong> (' + score + ' / 40).');
+          else if (env.error.code === 'invalid' && /name/i.test(env.error.message)) {
+            try {
+              localStorage.removeItem(NAME_KEY);
+            } catch (e) {}
+            drawWho();
+            say('');
+            afterName = score;
+            askName(false, env.error.message);
+          } else say('Could not save your result: ' + esc(env.error.message));
+          return;
+        }
         if (env.ok) say('✓ Saved to your portal <a href="' + PORTAL + '" target="_blank" rel="noopener">Listening progress</a> (' + score + ' / 40, 40 minutes; you can change the minutes there).');
         else if (env.error.code === 'forbidden' && env.error.details && env.error.details.reason === 'day_locked') say('');
         else if (env.error.code === 'unauthorized') say('Your portal sign-in has ended. <a href="' + PORTAL + '" target="_blank" rel="noopener">Sign in again</a>, then check your answers again.');
         else if (env.error.code === 'forbidden') say(''); // a teacher account: nothing to log
         else say('Could not save to the portal: ' + esc(env.error.message));
       })
-      .catch(() => say('Could not reach the portal, so this result was not saved there. Check your answers again later.'))
+      .catch(() => say(tok ? 'Could not reach the portal, so this result was not saved there. Check your answers again later.' : 'Could not reach the server, so this result was not saved for your teacher. Check your answers again later.'))
       .then(() => {
         sending = false;
         if (again !== null) {
@@ -181,6 +290,8 @@
         }
       });
   };
+  drawWho();
+  if (!portalToken() && !storedName()) askName(false);
 
   const render = () => {
     const ok = mark();
