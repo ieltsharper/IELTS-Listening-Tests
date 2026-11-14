@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recent Actual Test 7 – IELTS Listening – IELTS Harper</title>
+  <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="test.css">
+</head>
+<body>
+<nav class="topbar" aria-label="IELTS Harper">
+  <div class="topbar-inner">
+    <a class="brand" href="https://ieltsharper.github.io/portal/"><span class="brand-mark" aria-hidden="true">IH</span>IELTS Harper Portal</a>
+    <a class="topbar-link" href="./">All Listening tests</a>
+    <a class="topbar-link" href="https://ieltsharper.github.io/portal/">&larr; Back to the portal</a>
+  </div>
+</nav>
+<main class="container">
+  <header>
+    <h1>Recent Actual Test 7: Listening</h1>
+    <div class="summary">6 full tests (IELTS Recent Actual Tests Vol 7) with a recording for each section and self-marking questions</div>
+    <div class="instructions">
+      Choose a test. Listen to the four sections and answer in the questions, then check your answers to see your
+      score and your estimated band. Your answers are kept in this browser.
+    </div>
+  </header>
+
+  <ul class="menu-list">
+    <li><a href="rat7-test-1.html" data-test="rat7-1">Test 1<span class="meta-inline">4 audio sections &middot; 40 questions<span class="done" data-result></span></span></a></li>
+    <li><a href="rat7-test-2.html" data-test="rat7-2">Test 2<span class="meta-inline">4 audio sections &middot; 40 questions<span class="done" data-result></span></span></a></li>
+    <li><a href="rat7-test-3.html" data-test="rat7-3">Test 3<span class="meta-inline">4 audio sections &middot; 40 questions<span class="done" data-result></span></span></a></li>
+    <li><a href="rat7-test-4.html" data-test="rat7-4">Test 4<span class="meta-inline">4 audio sections &middot; 40 questions<span class="done" data-result></span></span></a></li>
+    <li><a href="rat7-test-5.html" data-test="rat7-5">Test 5<span class="meta-inline">4 audio sections &middot; 40 questions<span class="done" data-result></span></span></a></li>
+    <li><a href="rat7-test-6.html" data-test="rat7-6">Test 6<span class="meta-inline">4 audio sections &middot; 40 questions<span class="done" data-result></span></span></a></li>
+  </ul>
+</main>
+
+<script>
+// Shows the result each student saved in this browser next to the test.
+for (const a of document.querySelectorAll('a[data-test]')) {
+  try {
+    const saved = JSON.parse(localStorage.getItem('ih-listening-test:' + a.dataset.test) || 'null');
+    if (saved && saved.r) a.querySelector('[data-result]').textContent = ' · ' + saved.r.score + ' / 40, band ' + saved.r.band;
+  } catch (e) {
+    /* no saved result */
+  }
+}
+</script>
+</body>
+</html>

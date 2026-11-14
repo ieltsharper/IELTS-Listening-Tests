@@ -12,6 +12,9 @@ import inline  # noqa: E402  (puts the answer controls into the questions)
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 TESTS = json.loads((ROOT / "data" / "tests.json").read_text(encoding="utf-8"))
 QUESTIONS = json.loads((ROOT / "data" / "questions.json").read_text(encoding="utf-8"))  # made by parse_questions.py
+RAT7 = json.loads((ROOT / "data" / "rat7.json").read_text(encoding="utf-8"))  # made by parse_rat7.py
+RAT7_QUESTIONS = json.loads((ROOT / "data" / "rat7-questions.json").read_text(encoding="utf-8"))  # parse_questions.py --guide
+RAT7_INDEX = "recent-actual-test-7.html"
 e = html.escape
 
 TOPBAR = """<nav class="topbar" aria-label="IELTS Harper">
@@ -34,16 +37,17 @@ HEAD = """<!DOCTYPE html>
 """
 
 
-def question_book(t):
+def question_book(t, rat7=False):
     """The question book as text, one part per section with that section's recording on top and the answer
     controls inside the questions; blocks that cannot be text (maps, diagrams, tables) are pictures with an
     answer row under them."""
     n = t["n"]
     out = []
-    what = "Listening Test"
-    blocks = QUESTIONS[str(n)]
+    what = "Recent Actual Test 7, Listening Test" if rat7 else "Listening Test"
+    blocks = (RAT7_QUESTIONS if rat7 else QUESTIONS)[str(n)]
     assert len(t["audio"]) == 4 and sum(b["type"] == "section" for b in blocks) == 4, f"test {n}"
-    blocks = inline.repair(n, blocks)  # option lists the PDF text broke
+    if not rat7:
+        blocks = inline.repair(n, blocks)  # option lists the PDF text broke
     controls = inline.render(blocks, t["key"])
     for i, b in enumerate(blocks):
         if b["type"] == "section":
@@ -102,19 +106,31 @@ TAPE_SECTION = """  <section class="card tapescript" aria-labelledby="t-title">
 """
 
 
-def page(t):
+def page(t, rat7=False):
     n = t["n"]
-    data = {"n": n, "key": t["key"], "tapescript": t["tapescript"]}
+    data = {"n": n, "key": t["key"]}
+    if rat7:  # no tapescript in this book; the page is told which set it belongs to
+        data.update({"id": t["id"], "set": "rat7"})
+    else:
+        data["tapescript"] = t["tapescript"]
     blob = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
-    prev_link = f'<a class="topbar-link" href="test-{n - 1:02d}.html">&larr; Test {n - 1}</a>\n    ' if n > 1 else ""
-    next_link = f'<a class="topbar-link" href="test-{n + 1:02d}.html">Test {n + 1} &rarr;</a>\n    ' if n < 26 else ""
-    extra = '<a class="topbar-link" href="./">All tests</a>\n    ' + prev_link + next_link
-    heading = f"IELTS Listening: Test {n}"
+    last = len(RAT7) if rat7 else 26
+    href = (lambda k: f"rat7-test-{k}.html") if rat7 else (lambda k: f"test-{k:02d}.html")
+    prev_link = f'<a class="topbar-link" href="{href(n - 1)}">&larr; Test {n - 1}</a>\n    ' if n > 1 else ""
+    next_link = f'<a class="topbar-link" href="{href(n + 1)}">Test {n + 1} &rarr;</a>\n    ' if n < last else ""
+    extra = (
+        f'<a class="topbar-link" href="{RAT7_INDEX}">Recent Actual Test 7</a>\n    '
+        if rat7
+        else '<a class="topbar-link" href="./">All tests</a>\n    '
+    ) + prev_link + next_link
+    heading = f"Recent Actual Test 7 &middot; Listening Test {n}" if rat7 else f"IELTS Listening: Test {n}"
     how = (
-        "Then press <strong>Check answers</strong> to see your\n      score and your estimated band, and read the tapescript to see where each answer came from."
+        "Then press <strong>Check answers</strong> to see your score and your estimated band."
+        if rat7
+        else "Then press <strong>Check answers</strong> to see your\n      score and your estimated band, and read the tapescript to see where each answer came from."
     )
     return (
-        HEAD.format(title=e(f"Listening Test {n} – IELTS Harper"))
+        HEAD.format(title=e(f"{'Recent Actual Test 7 · ' if rat7 else ''}Listening Test {n} – IELTS Harper"))
         + TOPBAR.format(extra=extra)
         + f"""
 <main class="container">
@@ -132,8 +148,8 @@ def page(t):
   <section class="card" aria-labelledby="q-title">
     <h2 class="section-title" id="q-title">Listening and questions</h2>
     <div class="qbook" id="qbook">
-{question_book(t)}
-    </div>{original_pages(t, n)}
+{question_book(t, rat7)}
+    </div>{"" if rat7 else original_pages(t, n)}
   </section>
 
   <section class="card" aria-labelledby="sheet-title">
@@ -148,7 +164,7 @@ def page(t):
     <p class="plain hint">Marking ignores capital letters and accepts plurals and the usual alternative answers. If your answer is right but not accepted, press <em>My answer is also right</em> under it.</p>
   </section>
 
-{TAPE_SECTION}</main>
+{"" if rat7 else TAPE_SECTION}</main>
 
 <script id="test" type="application/json">{blob}</script>
 <script src="test.js"></script>
@@ -199,8 +215,43 @@ def index():
     </div>
   </header>
 
-{group("Tests 1–10", range(1, 11))}{group("Tests 11–15", range(11, 16))}{group("Tests 16–26", range(16, 27))}</main>
+{group("Tests 1–10", range(1, 11))}{group("Tests 11–15", range(11, 16))}{group("Tests 16–26", range(16, 27))}  <h2 class="group-title">Recent Actual Test 7</h2>
+  <ul class="menu-list">
+    <li><a href="{RAT7_INDEX}">Recent Actual Tests Vol 7 (Tests 1–6)<span class="meta-inline">6 full tests with audio &middot; 40 questions each</span></a></li>
+  </ul>
+</main>
 {script}</body>
+</html>
+"""
+    )
+
+
+def rat7_index():
+    rows = "\n".join(
+        f'    <li><a href="rat7-test-{t["n"]}.html" data-test="{t["id"]}">Test {t["n"]}'
+        f'<span class="meta-inline">4 audio sections &middot; 40 questions'
+        f'<span class="done" data-result></span></span></a></li>'
+        for t in RAT7
+    )
+    return (
+        HEAD.format(title="Recent Actual Test 7 – IELTS Listening – IELTS Harper")
+        + TOPBAR.format(extra='<a class="topbar-link" href="./">All Listening tests</a>\n    ')
+        + f"""
+<main class="container">
+  <header>
+    <h1>Recent Actual Test 7: Listening</h1>
+    <div class="summary">6 full tests (IELTS Recent Actual Tests Vol 7) with a recording for each section and self-marking questions</div>
+    <div class="instructions">
+      Choose a test. Listen to the four sections and answer in the questions, then check your answers to see your
+      score and your estimated band. Your answers are kept in this browser.
+    </div>
+  </header>
+
+  <ul class="menu-list">
+{rows}
+  </ul>
+</main>
+{INDEX_SCRIPT}</body>
 </html>
 """
     )
@@ -209,8 +260,11 @@ def index():
 def main():
     for t in TESTS:
         (ROOT / f"test-{t['n']:02d}.html").write_text(page(t), encoding="utf-8", newline="\n")
+    for t in RAT7:
+        (ROOT / f"rat7-test-{t['n']}.html").write_text(page(t, rat7=True), encoding="utf-8", newline="\n")
+    (ROOT / RAT7_INDEX).write_text(rat7_index(), encoding="utf-8", newline="\n")
     (ROOT / "index.html").write_text(index(), encoding="utf-8", newline="\n")
-    print(f"Built index.html, {len(TESTS)} test pages.")
+    print(f"Built index.html, {len(TESTS)} test pages, {len(RAT7)} Recent Actual Test 7 pages and {RAT7_INDEX}.")
 
 
 main()

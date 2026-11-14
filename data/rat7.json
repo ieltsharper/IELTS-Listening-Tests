@@ -1,0 +1,1116 @@
+[
+ {
+  "n": 1,
+  "id": "rat7-1",
+  "audio": [
+   {
+    "label": "Section 1",
+    "file": "audio/rat7-test-1-part-1.mp3"
+   },
+   {
+    "label": "Section 2",
+    "file": "audio/rat7-test-1-part-2.mp3"
+   },
+   {
+    "label": "Section 3",
+    "file": "audio/rat7-test-1-part-3.mp3"
+   },
+   {
+    "label": "Section 4",
+    "file": "audio/rat7-test-1-part-4.mp3"
+   }
+  ],
+  "key": [
+   {
+    "n": 1,
+    "ans": "Elsinore"
+   },
+   {
+    "n": 2,
+    "ans": "077896245"
+   },
+   {
+    "n": 3,
+    "ans": "waiter"
+   },
+   {
+    "n": 4,
+    "ans": "baseball"
+   },
+   {
+    "n": 5,
+    "ans": "beach"
+   },
+   {
+    "n": 6,
+    "ans": "diving"
+   },
+   {
+    "n": 7,
+    "ans": "October"
+   },
+   {
+    "n": 8,
+    "ans": "Saturday"
+   },
+   {
+    "n": 9,
+    "ans": "6 / six"
+   },
+   {
+    "n": 10,
+    "ans": "radio"
+   },
+   {
+    "n": 11,
+    "ans": "B"
+   },
+   {
+    "n": 12,
+    "ans": "E"
+   },
+   {
+    "n": 13,
+    "ans": "F"
+   },
+   {
+    "n": 14,
+    "ans": "I"
+   },
+   {
+    "n": 15,
+    "ans": "C"
+   },
+   {
+    "n": 16,
+    "ans": "C"
+   },
+   {
+    "n": 17,
+    "ans": "A"
+   },
+   {
+    "n": 18,
+    "ans": "B"
+   },
+   {
+    "n": 19,
+    "ans": "A"
+   },
+   {
+    "n": 20,
+    "ans": "A"
+   },
+   {
+    "n": 21,
+    "ans": "B"
+   },
+   {
+    "n": 22,
+    "ans": "E"
+   },
+   {
+    "n": 23,
+    "ans": "C"
+   },
+   {
+    "n": 24,
+    "ans": "G"
+   },
+   {
+    "n": 25,
+    "ans": "F"
+   },
+   {
+    "n": 26,
+    "ans": "B"
+   },
+   {
+    "n": 27,
+    "ans": "C"
+   },
+   {
+    "n": 28,
+    "ans": "A"
+   },
+   {
+    "n": 29,
+    "ans": "C"
+   },
+   {
+    "n": 30,
+    "ans": "C"
+   },
+   {
+    "n": 31,
+    "ans": "nets"
+   },
+   {
+    "n": 32,
+    "ans": "smile"
+   },
+   {
+    "n": 33,
+    "ans": "rats"
+   },
+   {
+    "n": 34,
+    "ans": "aware"
+   },
+   {
+    "n": 35,
+    "ans": "instinctive"
+   },
+   {
+    "n": 36,
+    "ans": "walking"
+   },
+   {
+    "n": 37,
+    "ans": "newspaper"
+   },
+   {
+    "n": 38,
+    "ans": "social"
+   },
+   {
+    "n": 39,
+    "ans": "whistle"
+   },
+   {
+    "n": 40,
+    "ans": "fight"
+   }
+  ]
+ },
+ {
+  "n": 2,
+  "id": "rat7-2",
+  "audio": [
+   {
+    "label": "Section 1",
+    "file": "audio/rat7-test-2-part-1.mp3"
+   },
+   {
+    "label": "Section 2",
+    "file": "audio/rat7-test-2-part-2.mp3"
+   },
+   {
+    "label": "Section 3",
+    "file": "audio/rat7-test-2-part-3.mp3"
+   },
+   {
+    "label": "Section 4",
+    "file": "audio/rat7-test-2-part-4.mp3"
+   }
+  ],
+  "key": [
+   {
+    "n": 1,
+    "ans": "northeast"
+   },
+   {
+    "n": 2,
+    "ans": "peak season"
+   },
+   {
+    "n": 3,
+    "ans": "weekend"
+   },
+   {
+    "n": 4,
+    "ans": "quiet"
+   },
+   {
+    "n": 5,
+    "ans": "beach"
+   },
+   {
+    "n": 6,
+    "ans": "restaurant"
+   },
+   {
+    "n": 7,
+    "ans": "garden"
+   },
+   {
+    "n": 8,
+    "ans": "Cheffins"
+   },
+   {
+    "n": 9,
+    "ans": "0192477285"
+   },
+   {
+    "n": 10,
+    "ans": "Countryside Living"
+   },
+   {
+    "n": 11,
+    "ans": "A"
+   },
+   {
+    "n": 12,
+    "ans": "A"
+   },
+   {
+    "n": 13,
+    "ans": "B"
+   },
+   {
+    "n": 14,
+    "ans": "C"
+   },
+   {
+    "n": 15,
+    "ans": "C"
+   },
+   {
+    "n": 16,
+    "ans": "B"
+   },
+   {
+    "n": 17,
+    "ans": "C"
+   },
+   {
+    "n": 18,
+    "ans": "D"
+   },
+   {
+    "n": 19,
+    "ans": "A"
+   },
+   {
+    "n": 20,
+    "ans": "F"
+   },
+   {
+    "n": 21,
+    "ans": "C"
+   },
+   {
+    "n": 22,
+    "ans": "B"
+   },
+   {
+    "n": 23,
+    "ans": "B"
+   },
+   {
+    "n": 24,
+    "ans": "B"
+   },
+   {
+    "n": 25,
+    "ans": "C"
+   },
+   {
+    "n": 26,
+    "ans": "A"
+   },
+   {
+    "n": 27,
+    "ans": "F"
+   },
+   {
+    "n": 28,
+    "ans": "D"
+   },
+   {
+    "n": 29,
+    "ans": "E"
+   },
+   {
+    "n": 30,
+    "ans": "A"
+   },
+   {
+    "n": 31,
+    "ans": "smooth"
+   },
+   {
+    "n": 32,
+    "ans": "protection"
+   },
+   {
+    "n": 33,
+    "ans": "half"
+   },
+   {
+    "n": 34,
+    "ans": "still"
+   },
+   {
+    "n": 35,
+    "ans": "salt"
+   },
+   {
+    "n": 36,
+    "ans": "mud"
+   },
+   {
+    "n": 37,
+    "ans": "smell"
+   },
+   {
+    "n": 38,
+    "ans": "pump"
+   },
+   {
+    "n": 39,
+    "ans": "pest"
+   },
+   {
+    "n": 40,
+    "ans": "antibiotic"
+   }
+  ]
+ },
+ {
+  "n": 3,
+  "id": "rat7-3",
+  "audio": [
+   {
+    "label": "Section 1",
+    "file": "audio/rat7-test-3-part-1.mp3"
+   },
+   {
+    "label": "Section 2",
+    "file": "audio/rat7-test-3-part-2.mp3"
+   },
+   {
+    "label": "Section 3",
+    "file": "audio/rat7-test-3-part-3.mp3"
+   },
+   {
+    "label": "Section 4",
+    "file": "audio/rat7-test-3-part-4.mp3"
+   }
+  ],
+  "key": [
+   {
+    "n": 1,
+    "ans": "125"
+   },
+   {
+    "n": 2,
+    "ans": "certificate"
+   },
+   {
+    "n": 3,
+    "ans": "online"
+   },
+   {
+    "n": 4,
+    "ans": "1800"
+   },
+   {
+    "n": 5,
+    "ans": "night"
+   },
+   {
+    "n": 6,
+    "ans": "autumn"
+   },
+   {
+    "n": 7,
+    "ans": "thunderstorm"
+   },
+   {
+    "n": 8,
+    "ans": "helmet"
+   },
+   {
+    "n": 9,
+    "ans": "age"
+   },
+   {
+    "n": 10,
+    "ans": "stand"
+   },
+   {
+    "n": 11,
+    "ans": "lake"
+   },
+   {
+    "n": 12,
+    "ans": "picnic"
+   },
+   {
+    "n": 13,
+    "ans": "flowers"
+   },
+   {
+    "n": 14,
+    "ans": "20"
+   },
+   {
+    "n": 15,
+    "ans": "Motor"
+   },
+   {
+    "n": 16,
+    "ans": "art gallery"
+   },
+   {
+    "n": 17,
+    "ans": "concert hall"
+   },
+   {
+    "n": 18,
+    "ans": "2.30 / 2:30"
+   },
+   {
+    "n": 19,
+    "ans": "C"
+   },
+   {
+    "n": 20,
+    "ans": "B"
+   },
+   {
+    "n": 21,
+    "ans": "C",
+    "grp": 21
+   },
+   {
+    "n": 22,
+    "ans": "D",
+    "grp": 21
+   },
+   {
+    "n": 23,
+    "ans": "C",
+    "grp": 23
+   },
+   {
+    "n": 24,
+    "ans": "E",
+    "grp": 23
+   },
+   {
+    "n": 25,
+    "ans": "A",
+    "grp": 25
+   },
+   {
+    "n": 26,
+    "ans": "C",
+    "grp": 25
+   },
+   {
+    "n": 27,
+    "ans": "B"
+   },
+   {
+    "n": 28,
+    "ans": "E"
+   },
+   {
+    "n": 29,
+    "ans": "G"
+   },
+   {
+    "n": 30,
+    "ans": "A"
+   },
+   {
+    "n": 31,
+    "ans": "B"
+   },
+   {
+    "n": 32,
+    "ans": "B"
+   },
+   {
+    "n": 33,
+    "ans": "B"
+   },
+   {
+    "n": 34,
+    "ans": "C"
+   },
+   {
+    "n": 35,
+    "ans": "leak"
+   },
+   {
+    "n": 36,
+    "ans": "conference centre / conference center"
+   },
+   {
+    "n": 37,
+    "ans": "balcony"
+   },
+   {
+    "n": 38,
+    "ans": "car park"
+   },
+   {
+    "n": 39,
+    "ans": "exercise"
+   },
+   {
+    "n": 40,
+    "ans": "Transport Museum"
+   }
+  ]
+ },
+ {
+  "n": 4,
+  "id": "rat7-4",
+  "audio": [
+   {
+    "label": "Section 1",
+    "file": "audio/rat7-test-4-part-1.mp3"
+   },
+   {
+    "label": "Section 2",
+    "file": "audio/rat7-test-4-part-2.mp3"
+   },
+   {
+    "label": "Section 3",
+    "file": "audio/rat7-test-4-part-3.mp3"
+   },
+   {
+    "label": "Section 4",
+    "file": "audio/rat7-test-4-part-4.mp3"
+   }
+  ],
+  "key": [
+   {
+    "n": 1,
+    "ans": "3834"
+   },
+   {
+    "n": 2,
+    "ans": "holidays/holiday"
+   },
+   {
+    "n": 3,
+    "ans": "Home Welcome"
+   },
+   {
+    "n": 4,
+    "ans": "flexible"
+   },
+   {
+    "n": 5,
+    "ans": "studio"
+   },
+   {
+    "n": 6,
+    "ans": "48"
+   },
+   {
+    "n": 7,
+    "ans": "water"
+   },
+   {
+    "n": 8,
+    "ans": "transportation"
+   },
+   {
+    "n": 9,
+    "ans": "deposit"
+   },
+   {
+    "n": 10,
+    "ans": "references"
+   },
+   {
+    "n": 11,
+    "ans": "C"
+   },
+   {
+    "n": 12,
+    "ans": "B"
+   },
+   {
+    "n": 13,
+    "ans": "B"
+   },
+   {
+    "n": 14,
+    "ans": "B"
+   },
+   {
+    "n": 15,
+    "ans": "A"
+   },
+   {
+    "n": 16,
+    "ans": "A"
+   },
+   {
+    "n": 17,
+    "ans": "E"
+   },
+   {
+    "n": 18,
+    "ans": "B"
+   },
+   {
+    "n": 19,
+    "ans": "G"
+   },
+   {
+    "n": 20,
+    "ans": "D"
+   },
+   {
+    "n": 21,
+    "ans": "B"
+   },
+   {
+    "n": 22,
+    "ans": "B"
+   },
+   {
+    "n": 23,
+    "ans": "B"
+   },
+   {
+    "n": 24,
+    "ans": "A"
+   },
+   {
+    "n": 25,
+    "ans": "B"
+   },
+   {
+    "n": 26,
+    "ans": "B"
+   },
+   {
+    "n": 27,
+    "ans": "C"
+   },
+   {
+    "n": 28,
+    "ans": "F"
+   },
+   {
+    "n": 29,
+    "ans": "A"
+   },
+   {
+    "n": 30,
+    "ans": "D"
+   },
+   {
+    "n": 31,
+    "ans": "mountains"
+   },
+   {
+    "n": 32,
+    "ans": "story"
+   },
+   {
+    "n": 33,
+    "ans": "tunnel"
+   },
+   {
+    "n": 34,
+    "ans": "roof"
+   },
+   {
+    "n": 35,
+    "ans": "outside"
+   },
+   {
+    "n": 36,
+    "ans": "noise"
+   },
+   {
+    "n": 37,
+    "ans": "fire"
+   },
+   {
+    "n": 38,
+    "ans": "space"
+   },
+   {
+    "n": 39,
+    "ans": "basement"
+   },
+   {
+    "n": 40,
+    "ans": "flooding"
+   }
+  ]
+ },
+ {
+  "n": 5,
+  "id": "rat7-5",
+  "audio": [
+   {
+    "label": "Section 1",
+    "file": "audio/rat7-test-5-part-1.mp3"
+   },
+   {
+    "label": "Section 2",
+    "file": "audio/rat7-test-5-part-2.mp3"
+   },
+   {
+    "label": "Section 3",
+    "file": "audio/rat7-test-5-part-3.mp3"
+   },
+   {
+    "label": "Section 4",
+    "file": "audio/rat7-test-5-part-4.mp3"
+   }
+  ],
+  "key": [
+   {
+    "n": 1,
+    "ans": "reporter"
+   },
+   {
+    "n": 2,
+    "ans": "housing"
+   },
+   {
+    "n": 3,
+    "ans": "40 / forty"
+   },
+   {
+    "n": 4,
+    "ans": "7000"
+   },
+   {
+    "n": 5,
+    "ans": "researcher"
+   },
+   {
+    "n": 6,
+    "ans": "website"
+   },
+   {
+    "n": 7,
+    "ans": "C"
+   },
+   {
+    "n": 8,
+    "ans": "B"
+   },
+   {
+    "n": 9,
+    "ans": "A"
+   },
+   {
+    "n": 10,
+    "ans": "B"
+   },
+   {
+    "n": 11,
+    "ans": "A"
+   },
+   {
+    "n": 12,
+    "ans": "A"
+   },
+   {
+    "n": 13,
+    "ans": "C"
+   },
+   {
+    "n": 14,
+    "ans": "B"
+   },
+   {
+    "n": 15,
+    "ans": "C"
+   },
+   {
+    "n": 16,
+    "ans": "B"
+   },
+   {
+    "n": 17,
+    "ans": "C"
+   },
+   {
+    "n": 18,
+    "ans": "B"
+   },
+   {
+    "n": 19,
+    "ans": "C"
+   },
+   {
+    "n": 20,
+    "ans": "C"
+   },
+   {
+    "n": 21,
+    "ans": "Economic History"
+   },
+   {
+    "n": 22,
+    "ans": "last September"
+   },
+   {
+    "n": 23,
+    "ans": "Politics"
+   },
+   {
+    "n": 24,
+    "ans": "Philosophy"
+   },
+   {
+    "n": 25,
+    "ans": "lectures (are) difficult"
+   },
+   {
+    "n": 26,
+    "ans": "discussion group"
+   },
+   {
+    "n": 27,
+    "ans": "aren’t/not enough tutorials"
+   },
+   {
+    "n": 28,
+    "ans": "visit student services"
+   },
+   {
+    "n": 29,
+    "ans": "17 / 17th February"
+   },
+   {
+    "n": 30,
+    "ans": "senior adviser / senior advisor"
+   },
+   {
+    "n": 31,
+    "ans": "low impact"
+   },
+   {
+    "n": 32,
+    "ans": "alternative"
+   },
+   {
+    "n": 33,
+    "ans": "lifespan"
+   },
+   {
+    "n": 34,
+    "ans": "traffic"
+   },
+   {
+    "n": 35,
+    "ans": "ventilation (systems)"
+   },
+   {
+    "n": 36,
+    "ans": "conservation"
+   },
+   {
+    "n": 37,
+    "ans": "C"
+   },
+   {
+    "n": 38,
+    "ans": "B"
+   },
+   {
+    "n": 39,
+    "ans": "B"
+   },
+   {
+    "n": 40,
+    "ans": "A"
+   }
+  ]
+ },
+ {
+  "n": 6,
+  "id": "rat7-6",
+  "audio": [
+   {
+    "label": "Section 1",
+    "file": "audio/rat7-test-6-part-1.mp3"
+   },
+   {
+    "label": "Section 2",
+    "file": "audio/rat7-test-6-part-2.mp3"
+   },
+   {
+    "label": "Section 3",
+    "file": "audio/rat7-test-6-part-3.mp3"
+   },
+   {
+    "label": "Section 4",
+    "file": "audio/rat7-test-6-part-4.mp3"
+   }
+  ],
+  "key": [
+   {
+    "n": 1,
+    "ans": "37.50"
+   },
+   {
+    "n": 2,
+    "ans": "20"
+   },
+   {
+    "n": 3,
+    "ans": "programmes/programs"
+   },
+   {
+    "n": 4,
+    "ans": "primary school"
+   },
+   {
+    "n": 5,
+    "ans": "report"
+   },
+   {
+    "n": 6,
+    "ans": "September"
+   },
+   {
+    "n": 7,
+    "ans": "aprons"
+   },
+   {
+    "n": 8,
+    "ans": "family photo"
+   },
+   {
+    "n": 9,
+    "ans": "certificate"
+   },
+   {
+    "n": 10,
+    "ans": "Calliope"
+   },
+   {
+    "n": 11,
+    "ans": "B"
+   },
+   {
+    "n": 12,
+    "ans": "C"
+   },
+   {
+    "n": 13,
+    "ans": "C"
+   },
+   {
+    "n": 14,
+    "ans": "B"
+   },
+   {
+    "n": 15,
+    "ans": "A"
+   },
+   {
+    "n": 16,
+    "ans": "B"
+   },
+   {
+    "n": 17,
+    "ans": "B",
+    "grp": 17
+   },
+   {
+    "n": 18,
+    "ans": "E",
+    "grp": 17
+   },
+   {
+    "n": 19,
+    "ans": "C",
+    "grp": 19
+   },
+   {
+    "n": 20,
+    "ans": "E",
+    "grp": 19
+   },
+   {
+    "n": 21,
+    "ans": "classical history"
+   },
+   {
+    "n": 22,
+    "ans": "compulsory"
+   },
+   {
+    "n": 23,
+    "ans": "Object Matters"
+   },
+   {
+    "n": 24,
+    "ans": "classification"
+   },
+   {
+    "n": 25,
+    "ans": "coursework"
+   },
+   {
+    "n": 26,
+    "ans": "Towns and Cities"
+   },
+   {
+    "n": 27,
+    "ans": "origins"
+   },
+   {
+    "n": 28,
+    "ans": "oral"
+   },
+   {
+    "n": 29,
+    "ans": "seminars"
+   },
+   {
+    "n": 30,
+    "ans": "location"
+   },
+   {
+    "n": 31,
+    "ans": "A"
+   },
+   {
+    "n": 32,
+    "ans": "B"
+   },
+   {
+    "n": 33,
+    "ans": "B"
+   },
+   {
+    "n": 34,
+    "ans": "B"
+   },
+   {
+    "n": 35,
+    "ans": "C"
+   },
+   {
+    "n": 36,
+    "ans": "A"
+   },
+   {
+    "n": 37,
+    "ans": "B"
+   },
+   {
+    "n": 38,
+    "ans": "A"
+   },
+   {
+    "n": 39,
+    "ans": "B"
+   },
+   {
+    "n": 40,
+    "ans": "C"
+   }
+  ]
+ }
+]

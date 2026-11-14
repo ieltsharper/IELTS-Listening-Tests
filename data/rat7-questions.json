@@ -1,0 +1,484 @@
+{
+ "1": [
+  {
+   "type": "section",
+   "n": 1
+  },
+  {
+   "type": "block",
+   "from": 1,
+   "to": 10,
+   "mode": "text",
+   "inst": [
+    "Complete the notes below.",
+    "Write ONE WORD AND/ OR A NUMBER for each answer."
+   ],
+   "html": "<p>Lifeguard Application</p><p>Personal information</p><p>Name: Peter Smith</p><p>Address: 130 South Main Street, Lake <span class=\"gap\">1</span></p><p>Contact number: <span class=\"gap\">2</span> (cellphone)</p><p>Work experience</p><p class='bullet'>has a part-time job as a <span class=\"gap\">3</span></p><p class='bullet'>is studying PE now</p><p class='bullet'>hope to work in a high school as a <span class=\"gap\">4</span> coach</p><p>Other relevant work experience: worked at the <span class=\"gap\">5</span> as a lifeguard</p><p>Qualification for water safety:</p><p class='bullet'>Good level of concentration</p><p class='bullet'>Good vision</p><p class='bullet'>Other relevant skills: <span class=\"gap\">6</span></p><p class='bullet'>need a certificate: it expires in <span class=\"gap\">7</span></p><p>Other information</p><p class='bullet'>Preferred working time: <span class=\"gap\">8</span> mornings</p><p class='bullet'>He can start to work at <span class=\"gap\">9</span> o’clock</p><p class='bullet'>Source of information: <span class=\"gap\">10</span></p>"
+  },
+  {
+   "type": "section",
+   "n": 2
+  },
+  {
+   "type": "block",
+   "from": 11,
+   "to": 14,
+   "mode": "image",
+   "image": "r1-b3.webp"
+  },
+  {
+   "type": "block",
+   "from": 15,
+   "to": 20,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letter, A, B or C."
+   ],
+   "html": "<p class='q'><span class='qn'>15</span> What warning does the speaker give about cycling on the Elmsden Way?</p><ul class='opts'><li><b>A</b> The roads usually have heavy traffic.</li><li><b>B</b> Bad weather can cause problems.</li><li><b>C</b> There may be animals on the cycle path.</li></ul><p class='q'><span class='qn'>16</span> What does the speaker say about Elmsden Station?</p><ul class='opts'><li><b>A</b> It is a very busy station.</li><li><b>B</b> It has been modernized.</li><li><b>C</b> It reopened recently.</li></ul><p class='q'><span class='qn'>17</span> In the Visitors&#x27; Centre, people can</p><ul class='opts'><li><b>A</b> hire a bicycle.</li><li><b>B</b> buy refreshments.</li><li><b>C</b> learn about local history.</li></ul><p class='q'><span class='qn'>18</span> If cyclists want to travel between Elmsden and Langton by train,</p><ul class='opts'><li><b>A</b> they need to book in advance.</li><li><b>B</b> they have to travel at the weekend.</li><li><b>C</b> they must pay an additional charge for their bicycle.</li></ul><p class='q'><span class='qn'>19</span> What warning does the speaker give about walking to the River Elm?</p><ul class='opts'><li><b>A</b> It can take a long time to get back.</li><li><b>B</b> There is nowhere to leave bicycles.</li><li><b>C</b> The waterfall is inaccessible on foot.</li></ul><p class='q'><span class='qn'>20</span> To find out about other cycle paths in the region, you can</p><ul class='opts'><li><b>A</b> look in the local newspaper.</li><li><b>B</b> check the radio station website.</li><li><b>C</b> ring up the national cycle network.</li></ul>"
+  },
+  {
+   "type": "section",
+   "n": 3
+  },
+  {
+   "type": "block",
+   "from": 21,
+   "to": 25,
+   "mode": "text",
+   "inst": [],
+   "html": "<p>What did the students say about each of the following volcanoes for their presentation?</p><p>Choose FIVE answers from the box and write the correct letter, A-G, next to Questions</p><p>21-25.</p><p>Comment</p><ul class='opts'><li><b>A</b> need more photos to support</li><li><b>B</b> repeat other people&#x27;s studies</li><li><b>C</b> inaccurate information</li><li><b>D</b> need first-hand material</li><li><b>E</b> need more details</li><li><b>F</b> no need to talk about it</li><li><b>G</b> check again</li></ul><p>Type of volcanoes</p><p class='q'><span class='qn'>21</span> shield volcanoes</p><p class='q'><span class='qn'>22</span> stratovolcanoes</p><p class='q'><span class='qn'>23</span> rhyolite caldera complexes</p><p class='q'><span class='qn'>24</span> monogenetic fields</p><p class='q'><span class='qn'>25</span> cinder cones</p>"
+  },
+  {
+   "type": "block",
+   "from": 26,
+   "to": 30,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letter, A, B or C."
+   ],
+   "html": "<p class='q'><span class='qn'>26</span> In Erica&#x27;s view, what is wrong with Ian&#x27;s last presentation?</p><ul class='opts'><li><b>A</b> He did not read loud enough.</li><li><b>B</b> He did not understand the main reason.</li><li><b>C</b> He did not provide enough evidence.</li></ul><p class='q'><span class='qn'>27</span> What materials do the students agree to add to their presentation?</p><ul class='opts'><li><b>A</b> a complete documentary</li><li><b>B</b> photographs included in the handouts</li><li><b>C</b> Internet video clips</li></ul><p class='q'><span class='qn'>28</span> By using extinct and dormant volcanoes, the students try to</p><ul class='opts'><li><b>A</b> distinguish between scientific and popular terms.</li><li><b>B</b> distinguish between two different types of volcanoes.</li><li><b>C</b> distinguish whether an eruption is about to happen.</li></ul><p class='q'><span class='qn'>29</span> What did the professor say about Erica&#x27;s last presentation?</p><ul class='opts'><li><b>A</b> She carried out an in-depth discussion with other students.</li><li><b>B</b> She did not provide sufficient data.</li><li><b>C</b> She did not fully develop a personal point.</li></ul><p class='q'><span class='qn'>30</span> The students both agree that volcanoes</p><ul class='opts'><li><b>A</b> haven&#x27;t caused disastrous outcomes.</li><li><b>B</b> cannot help to reshape the landscape.</li><li><b>C</b> are not fully recognised for their values.</li></ul>"
+  },
+  {
+   "type": "section",
+   "n": 4
+  },
+  {
+   "type": "block",
+   "from": 31,
+   "to": 40,
+   "mode": "text",
+   "inst": [
+    "Complete the notes below.",
+    "Write ONE WORD ONLY for each answer."
+   ],
+   "html": "<p>Dolphin Intelligence</p><p>Point 1: Not highly intelligent</p><p>Research on the size of dolphin brains</p><p class='bullet'>Dolphins cannot find a way of escaping barriers such as fishing <span class=\"gap\">31</span></p><p>for catching tuna.</p><p class='bullet'>People wrongly thought dolphins to be smart and happy as they often have a</p><p><span class=\"gap\">32</span></p><p class='bullet'>Small-brained animals such as pigeons and <span class=\"gap\">33</span> can perform various</p><p>complex tasks.</p><p class='bullet'>Pigeons are <span class=\"gap\">34</span> of themselves.</p><p class='bullet'>Pigeons are trained to conditional responses and <span class=\"gap\">35</span> reactions.</p><p>Counter argument</p><p class='bullet'>Fatty cells in dolphin brains are linked to protective function and problem- solving</p><p>skills.</p><p>Point 2: highly intelligent</p><p>Research on dolphin behaviour</p><p class='bullet'>Billy can imitate the keepers&#x27; <span class=\"gap\">36</span> through other dolphins.</p><p class='bullet'>Karen hides a <span class=\"gap\">37</span> for more food.</p><p class='bullet'>For the past century, dolphins have been seen as <span class=\"gap\">38</span> animals.</p><p class='bullet'>Each dolphin produces a unique sound, like the <span class=\"gap\">39</span></p><p class='bullet'>They touch each other to make up after a <span class=\"gap\">40</span></p>"
+  }
+ ],
+ "2": [
+  {
+   "type": "section",
+   "n": 1
+  },
+  {
+   "type": "block",
+   "from": 1,
+   "to": 10,
+   "mode": "text",
+   "inst": [
+    "Complete the notes below.",
+    "Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer."
+   ],
+   "html": "<p>Accommodation for Countryside Holiday</p><p>Holiday Details</p><p class='bullet'>Preferred location: <span class=\"gap\">1</span></p><p class='bullet'>Try to avoid: <span class=\"gap\">2</span></p><p class='bullet'>Length of stay: a <span class=\"gap\">3</span></p><p>Special Requirements</p><p class='bullet'>Must be <span class=\"gap\">4</span></p><p class='bullet'>A good <span class=\"gap\">5</span> for children</p><p class='bullet'>A <span class=\"gap\">6</span> Nearby</p><p>Additional Requirements</p><p class='bullet'>No stairs</p><p class='bullet'>Prefer a <span class=\"gap\">7</span> instead of a balcony</p><p>Personal Details</p><p class='bullet'>Name: Mrs <span class=\"gap\">8</span></p><p class='bullet'>Contact number: <span class=\"gap\">9</span></p><p class='bullet'>Source of information: the ads from the Magazine of <span class=\"gap\">10</span></p>"
+  },
+  {
+   "type": "section",
+   "n": 2
+  },
+  {
+   "type": "block",
+   "from": 11,
+   "to": 15,
+   "mode": "text",
+   "inst": [
+    "Choose the correct answer, A, B or C."
+   ],
+   "html": "<p>An Electronic Toy Company</p><p class='q'><span class='qn'>11</span> What point is made about the history of the company?</p><ul class='opts'><li><b>A</b> It was quickly established.</li><li><b>B</b> It took a long time to establish.</li><li><b>C</b> It was set up by a relative.</li></ul><p class='q'><span class='qn'>12</span> Why should the company recruit more temporary staR?</p><ul class='opts'><li><b>A</b> It plans to develop new products.</li><li><b>B</b> The old staff are having an illness.</li><li><b>C</b> It aims to meet the new demands of customers.</li></ul><p class='q'><span class='qn'>13</span> How long will the employees work in the company?</p><ul class='opts'><li><b>A</b> a few weeks</li><li><b>B</b> half a year</li><li><b>C</b> indefinitely</li></ul><p class='q'><span class='qn'>14</span> The largest number of positions are in the department of</p><ul class='opts'><li><b>A</b> administration.</li><li><b>B</b> production.</li><li><b>C</b> package delivery.</li></ul><p class='q'><span class='qn'>15</span> What&#x27;s the current problem with the company?</p><ul class='opts'><li><b>A</b> outdated machines</li><li><b>B</b> inadequate skills</li><li><b>C</b> late payment</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 16,
+   "to": 20,
+   "mode": "text",
+   "inst": [],
+   "html": "<p>What’s the responsibility of each temporary staff member?</p><p>Choose FIVE answers from the box and write the correct letter, A-F, next to Questions</p><p>16-20</p><p>Responsibilities</p><ul class='opts'><li><b>A</b> computer</li><li><b>B</b> wage</li><li><b>C</b> production</li><li><b>D</b> maintenance</li><li><b>E</b> research and development</li><li><b>F</b> maintaining customer relationship</li></ul><p>Staff</p><p class='q'><span class='qn'>16</span> 1st person</p><p class='q'><span class='qn'>17</span> 2nd person</p><p class='q'><span class='qn'>18</span> 3rd person</p><p class='q'><span class='qn'>19</span> 4th person</p><p class='q'><span class='qn'>20</span> 5th person</p>"
+  },
+  {
+   "type": "section",
+   "n": 3
+  },
+  {
+   "type": "block",
+   "from": 21,
+   "to": 26,
+   "mode": "text",
+   "inst": [
+    "Choose the correct answer, A, B or C."
+   ],
+   "html": "<p>Project on Sports Shoes</p><p class='q'><span class='qn'>21</span> What did the students get from the website?</p><ul class='opts'><li><b>A</b> advice from others</li><li><b>B</b> ideas to fulfil the project requirements</li><li><b>C</b> relevant information about the case</li></ul><p class='q'><span class='qn'>22</span> What did Martin use as an example of the research?</p><ul class='opts'><li><b>A</b> He downloaded a diagram from the internet.</li><li><b>B</b> He took apart his old shoes.</li><li><b>C</b> He borrowed a sample from the tutor.</li></ul><p class='q'><span class='qn'>23</span> According to Martin, what other factors should be considered while designing shoes?</p><ul class='opts'><li><b>A</b> foot shape</li><li><b>B</b> foot movement</li><li><b>C</b> raw materials</li></ul><p class='q'><span class='qn'>24</span> What proportion of the essay does Martin suggest Rosie do?</p><ul class='opts'><li><b>A</b> half</li><li><b>B</b> almost all</li><li><b>C</b> every part</li></ul><p class='q'><span class='qn'>25</span> What will Martin and Rosie do this weekend?</p><ul class='opts'><li><b>A</b> carry out a plan</li><li><b>B</b> do some face-to-face interviews</li><li><b>C</b> answer the questions</li></ul><p class='q'><span class='qn'>26</span> What help can the students get from the tutor?</p><ul class='opts'><li><b>A</b> borrow equipment</li><li><b>B</b> get some advice</li><li><b>C</b> have a tutorial</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 27,
+   "to": 30,
+   "mode": "text",
+   "inst": [],
+   "html": "<p>What decision do the students make about each of the following parts of their essay?</p><p>Choose FOUR answers from the box and write the correct letter, A-F, next to Questions</p><p>27-30.</p><p>Decisions</p><ul class='opts'><li><b>A</b> change the layout</li><li><b>B</b> write it longer</li><li><b>C</b> give a detailed example</li><li><b>D</b> change to another part</li><li><b>E</b> use simple language</li><li><b>F</b> write in the last part</li></ul><p>Parts of the essay</p><p class='q'><span class='qn'>27</span> Summary ……………</p><p class='q'><span class='qn'>28</span> Result ……………</p><p class='q'><span class='qn'>29</span> Conclusion ……………</p><p class='q'><span class='qn'>30</span> Discussion ……………</p>"
+  },
+  {
+   "type": "section",
+   "n": 4
+  },
+  {
+   "type": "block",
+   "from": 31,
+   "to": 40,
+   "mode": "text",
+   "inst": [
+    "Complete the notes below.",
+    "Write ONE WORD ONLY for each answer."
+   ],
+   "html": "<p>African Clawed Frog (Xenopus Laevis)</p><p>Description:</p><p class='bullet'>They have no tongue or external ears.</p><p class='bullet'>Their skin is <span class=\"gap\">31</span></p><p class='bullet'>The mucus on their skin is for <span class=\"gap\">32</span></p><p class='bullet'>Male frogs are <span class=\"gap\">33</span> the size of female frogs.</p><p>Habitats:</p><p class='bullet'>They prefer <span class=\"gap\">34</span> water.</p><p class='bullet'>They live in oases or glacier-covered lakes.</p><p class='bullet'>They live in a condition with a high level of <span class=\"gap\">35</span></p><p class='bullet'>In the condition of drought, they can survive in <span class=\"gap\">36</span> for a long period</p><p>of time.</p><p>Diet:</p><p class='bullet'>They use the sense of <span class=\"gap\">37</span> to capture food.</p><p class='bullet'>They use their claws to tear apart ample food.</p><p class='bullet'>They use their front feet and a unique <span class=\"gap\">38</span> system when feeding.</p><p>Other information:</p><p class='bullet'>People in some states of the USA regard them as <span class=\"gap\">39</span></p><p class='bullet'>The mucus on their skin has <span class=\"gap\">40</span> properties.</p>"
+  }
+ ],
+ "3": [
+  {
+   "type": "section",
+   "n": 1
+  },
+  {
+   "type": "block",
+   "from": 1,
+   "to": 10,
+   "mode": "image",
+   "image": "r3-b1.webp"
+  },
+  {
+   "type": "section",
+   "n": 2
+  },
+  {
+   "type": "block",
+   "from": 11,
+   "to": 18,
+   "mode": "text",
+   "inst": [
+    "Complete the table below.",
+    "Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer."
+   ],
+   "html": "<p>Spring Festival</p><div class=\"tablewrap\"><table class=\"qtable\"><tr><th>Event</th><th>Location</th><th>Date and time</th><th>Other information</th></tr><tr><td>Firework display</td><td>Near the <span class=\"gap\">11</span></td><td>4 September 9 p.m.</td><td>Pack a <span class=\"gap\">12</span> and blanket</td></tr><tr><td>Display of <span class=\"gap\">13</span></td><td>Central Park</td><td>daily</td><td>Buses run from the town centre every <span class=\"gap\">14</span> minutes</td></tr><tr><td>The <span class=\"gap\">15</span> Show</td><td>Exhibition Centre</td><td>10 – 15 September 9 a.m. – 10 p.m.</td><td></td></tr><tr><td>‘Grow Your Imagination’</td><td>in the <span class=\"gap\">16</span></td><td>11 – 19 September</td><td></td></tr><tr><td>Swing in Spring</td><td>in the <span class=\"gap\">17</span></td><td>17&amp;18 September</td><td>Saturday matinee performance at <span class=\"gap\">18</span></td></tr></table></div>"
+  },
+  {
+   "type": "block",
+   "from": 19,
+   "to": 20,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letter, A, B or C."
+   ],
+   "html": "<p class='q'><span class='qn'>19</span> In the Spring Festival competition, you can win</p><ul class='opts'><li><b>A</b> a family pass to ‘Balloons Down Under’.</li><li><b>B</b> a cheque for $200.</li><li><b>C</b> a flight in a hot air balloon.</li></ul><p class='q'><span class='qn'>20</span> You can get an entry form for the competition from</p><ul class='opts'><li><b>A</b> the radio station.</li><li><b>B</b> the newspaper.</li><li><b>C</b> the festival&#x27;s website.</li></ul>"
+  },
+  {
+   "type": "section",
+   "n": 3
+  },
+  {
+   "type": "block",
+   "from": 21,
+   "to": 22,
+   "mode": "text",
+   "inst": [
+    "Choose TWO letters, A-E."
+   ],
+   "html": "<p>Which TWO points do the students most frequently make about their music background before entering music schools?</p><ul class='opts'><li><b>A</b> they had composed songs</li><li><b>B</b> they had relevant music qualifications</li><li><b>C</b> they played more than one instrument</li><li><b>D</b> they had played in public</li><li><b>E</b> they had piano lessons</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 23,
+   "to": 24,
+   "mode": "text",
+   "inst": [
+    "Choose TWO letters, A-E."
+   ],
+   "html": "<p>Which TWO points do the students most frequently make about their music practice?</p><ul class='opts'><li><b>A</b> they practised alone</li><li><b>B</b> they practised every day</li><li><b>C</b> they were motivated by fear</li><li><b>D</b> they did not have enough practice</li><li><b>E</b> they enjoyed the challenge of playing complex pieces</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 25,
+   "to": 26,
+   "mode": "text",
+   "inst": [
+    "Choose TWO letters, A-E."
+   ],
+   "html": "<p>Which TWO points do the students most frequently make about playing pieces that would be assessed?</p><ul class='opts'><li><b>A</b> they liked to hear others playing the same piece</li><li><b>B</b> they wanted to play unknown pieces</li><li><b>C</b> they played a piece by memory</li><li><b>D</b> they played a piece selected by the tutor</li><li><b>E</b> they played technical pieces</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 27,
+   "to": 30,
+   "mode": "text",
+   "inst": [],
+   "html": "<p>What comment do the students make about the following practice?</p><p>Choose FOUR answers from the box and write the correct letter, A-G, next to Questions</p><p>27-30.</p><p>Comments</p><ul class='opts'><li><b>A</b> it is beneficial</li><li><b>B</b> it is challenging but also enjoyable</li><li><b>C</b> it helps to boost confidence</li><li><b>D</b> it is pleasant to hear</li><li><b>E</b> it is time-consuming</li><li><b>F</b> need to work effectively with others</li><li><b>G</b> it happens infrequently</li></ul><p>Practice</p><p class='q'><span class='qn'>27</span> Play solo</p><p class='q'><span class='qn'>28</span> Choose a piece to play</p><p class='q'><span class='qn'>29</span> Play different musical genres</p><p class='q'><span class='qn'>30</span> Play duet</p>"
+  },
+  {
+   "type": "section",
+   "n": 4
+  },
+  {
+   "type": "block",
+   "from": 31,
+   "to": 34,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letter, A, B or C."
+   ],
+   "html": "<p class='q'><span class='qn'>31</span> The speaker initially chose to do her research project on Dodds because she had</p><ul class='opts'><li><b>A</b> wondered why interest in him was reviving.</li><li><b>B</b> been intrigued by a local building.</li><li><b>C</b> found his life extremely interesting.</li></ul><p class='q'><span class='qn'>32</span> Dodds became an architect because</p><ul class='opts'><li><b>A</b> he wanted to follow his father&#x27;s profession. &quot;</li><li><b>B</b> he wanted to depart from tradition.</li><li><b>C</b> he failed in his first choice of work.</li></ul><p class='q'><span class='qn'>33</span> The reason for Dodds returning to northeast England was that</p><ul class='opts'><li><b>A</b> he wanted to introduce a new style there.</li><li><b>B</b> there were more business opportunities there.</li><li><b>C</b> architects had a higher status there.</li></ul><p class='q'><span class='qn'>34</span> Dodds became well-known nationally when he</p><ul class='opts'><li><b>A</b> won an important architectural award.</li><li><b>B</b> was commissioned by the royal family.</li><li><b>C</b> became head of a professional association.</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 35,
+   "to": 40,
+   "mode": "text",
+   "inst": [
+    "Complete the table below.",
+    "Write NO MORE THAN TWO WORDS for each answer."
+   ],
+   "html": "<div class=\"tablewrap\"><table class=\"qtable\"><tr><th>Building and date</th><th>Description</th><th>Problem with design</th><th>Present use of the site</th></tr><tr><td>Mitten Hall 1824 – 1826</td><td>Had a dome made of glass</td><td>Windows tended to <span class=\"gap\">35</span></td><td>as a <span class=\"gap\">36</span></td></tr><tr><td>Royal Arcade 1832</td><td>Shopping centre acclaimed for its large <span class=\"gap\">37</span></td><td>Difficult to make deliveries</td><td>as a <span class=\"gap\">38</span> (for modem stores)</td></tr><tr><td>Morton Gaol 1839</td><td>Had towers based on medieval castle design</td><td>No room for prisoners to do <span class=\"gap\">39</span></td><td>as a <span class=\"gap\">40</span></td></tr></table></div>"
+  }
+ ],
+ "4": [
+  {
+   "type": "section",
+   "n": 1
+  },
+  {
+   "type": "block",
+   "from": 1,
+   "to": 10,
+   "mode": "image",
+   "image": "r4-b1.webp"
+  },
+  {
+   "type": "section",
+   "n": 2
+  },
+  {
+   "type": "block",
+   "from": 11,
+   "to": 16,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letter A, B or C."
+   ],
+   "html": "<p class='q'><span class='qn'>11</span> The park was originally the site of</p><ul class='opts'><li><b>A</b> a forest.</li><li><b>B</b> a lake.</li><li><b>C</b> a volcano.</li></ul><p class='q'><span class='qn'>12</span> The two chiefs met in the area to</p><ul class='opts'><li><b>A</b> trade.</li><li><b>B</b> end the fight.</li><li><b>C</b> celebrate their victory.</li></ul><p class='q'><span class='qn'>13</span> The park was founded in</p><ul class='opts'><li><b>A</b> 1840.</li><li><b>B</b> 1842.</li><li><b>C</b> 1942.</li></ul><p class='q'><span class='qn'>14</span> The area used for testing is the</p><ul class='opts'><li><b>A</b> duck pond.</li><li><b>B</b> formal gardens.</li><li><b>C</b> iron bridge.</li></ul><p class='q'><span class='qn'>15</span> Who provided the artwork to the village?</p><ul class='opts'><li><b>A</b> the city council</li><li><b>B</b> local residents</li><li><b>C</b> local museum</li></ul><p class='q'><span class='qn'>16</span> What is special about the Temperate House?</p><ul class='opts'><li><b>A</b> it saves a large number of endangered New Zealand plants</li><li><b>B</b> it accommodates newly discovered plants</li><li><b>C</b> it collects plants from around the world</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 17,
+   "to": 20,
+   "mode": "image",
+   "image": "r4-b4.webp"
+  },
+  {
+   "type": "section",
+   "n": 3
+  },
+  {
+   "type": "block",
+   "from": 21,
+   "to": 25,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letter A, B or C."
+   ],
+   "html": "<p class='q'><span class='qn'>21</span> What skills does Peter want to learn?</p><ul class='opts'><li><b>A</b> how to organise ideas</li><li><b>B</b> how to handle data</li><li><b>C</b> how to write a business proposal</li></ul><p class='q'><span class='qn'>22</span> What is Peter&#x27;s main strength?</p><ul class='opts'><li><b>A</b> he is a good leader</li><li><b>B</b> he can work long hours</li><li><b>C</b> he can communicate well with many people</li></ul><p class='q'><span class='qn'>23</span> What will the careers officer help Peter with?</p><ul class='opts'><li><b>A</b> CV</li><li><b>B</b> personal statement</li><li><b>C</b> school application form</li></ul><p class='q'><span class='qn'>24</span> Why did Peter choose the IT business?</p><ul class='opts'><li><b>A</b> to update his knowledge in the area</li><li><b>B</b> to be good at presentations</li><li><b>C</b> to prepare himself for lectures</li></ul><p class='q'><span class='qn'>25</span> What will Peter do for the next term?</p><ul class='opts'><li><b>A</b> continue with the same language</li><li><b>B</b> change to another language</li><li><b>C</b> discontinue the language course</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 26,
+   "to": 30,
+   "mode": "text",
+   "inst": [],
+   "html": "<p>What job opportunities are the following companies offering?</p><p>Choose FIVE answers from the box and write the correct letter, A—G, next to Questions</p><p>26— 30.</p><p>Job opportunities</p><ul class='opts'><li><b>A</b> make business contacts</li><li><b>B</b> understand customer relations</li><li><b>C</b> learn time management</li><li><b>D</b> use a foreign language</li><li><b>E</b> travel to another country</li><li><b>F</b> receive financial training</li><li><b>G</b> learn project management</li></ul><p>Companies</p><p class='q'><span class='qn'>26</span> SAIC ……………………</p><p class='q'><span class='qn'>27</span> Gemini Technologies ……………………</p><p class='q'><span class='qn'>28</span> Deloitte ……………………</p><p class='q'><span class='qn'>29</span> Kearney ……………………</p><p class='q'><span class='qn'>30</span> Vortex ……………………</p>"
+  },
+  {
+   "type": "section",
+   "n": 4
+  },
+  {
+   "type": "block",
+   "from": 31,
+   "to": 40,
+   "mode": "image",
+   "image": "r4-b9.webp"
+  }
+ ],
+ "5": [
+  {
+   "type": "section",
+   "n": 1
+  },
+  {
+   "type": "block",
+   "from": 1,
+   "to": 6,
+   "mode": "image",
+   "image": "r5-b1.webp"
+  },
+  {
+   "type": "block",
+   "from": 7,
+   "to": 10,
+   "mode": "text",
+   "inst": [],
+   "html": "<p>What is the man&#x27;s attitude towards the position of writer in the following different fields?</p><p>Write the correct letter, A, B or C, next to Questions 7-10.</p><p>Attitudes</p><ul class='opts'><li><b>A</b> very interested in</li><li><b>B</b> slightly interested in</li><li><b>C</b> not interested in</li></ul><p>Fields</p><p class='q'><span class='qn'>7</span> Sports</p><p class='q'><span class='qn'>8</span> Entertainment</p><p class='q'><span class='qn'>9</span> Soap drama</p><p class='q'><span class='qn'>10</span> Business Economy magazine</p>"
+  },
+  {
+   "type": "section",
+   "n": 2
+  },
+  {
+   "type": "block",
+   "from": 11,
+   "to": 20,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letter A, B or C."
+   ],
+   "html": "<p>Muna Island</p><p class='q'><span class='qn'>11</span> How much should vlsitors tip taXi drivers on the island?</p><ul class='opts'><li><b>A</b> as much as they feel right</li><li><b>B</b> no tip at all</li><li><b>C</b> 10% tip</li></ul><p class='q'><span class='qn'>12</span> What is mentioned about the medical service on the island?</p><ul class='opts'><li><b>A</b> It will be charged.</li><li><b>B</b> Visitors should contact their insurance company.</li><li><b>C</b> Visitors have to find the hotel doctor.</li></ul><p class='q'><span class='qn'>13</span> The tour guide says the tap water</p><ul class='opts'><li><b>A</b> contains no mineral.</li><li><b>B</b> is unsafe.</li><li><b>C</b> has an unusual taste.</li></ul><p class='q'><span class='qn'>14</span> What point is made about bottled water?</p><ul class='opts'><li><b>A</b> It is expensive.</li><li><b>B</b> The bottle is not always sealed.</li><li><b>C</b> It isn&#x27;t sold everywhere.</li></ul><p class='q'><span class='qn'>15</span> What feature is mentioned about the bus on the island?</p><ul class='opts'><li><b>A</b> frequent</li><li><b>B</b> not punctual</li><li><b>C</b> not comfortable</li></ul><p class='q'><span class='qn'>16</span> How can visitors know the destination of the bus on the island?</p><ul class='opts'><li><b>A</b> find it in front of the bus</li><li><b>B</b> check it with the driver</li><li><b>C</b> find it at the bus stop</li></ul><p class='q'><span class='qn'>17</span> What does the tour guide advise visitors to do before renting a car?</p><ul class='opts'><li><b>A</b> find a taxi company</li><li><b>B</b> go to the hotel reception</li><li><b>C</b> compare the price in advance</li></ul><p class='q'><span class='qn'>18</span> When they rent a car, it&#x27;s important for visitors to know</p><ul class='opts'><li><b>A</b> the mileage is limited.</li><li><b>B</b> what is included 1n the price.</li><li><b>C</b> fuel is included in the price.</li></ul><p class='q'><span class='qn'>19</span> How can visitors find a taxi easily?</p><ul class='opts'><li><b>A</b> call the taxi company</li><li><b>B</b> look for a taxi in advance</li><li><b>C</b> stop a taxi on the street</li></ul><p class='q'><span class='qn'>20</span> What is suggested by the tour guide about the taxi fee?</p><ul class='opts'><li><b>A</b> make sure no extra money is asked</li><li><b>B</b> check what is included in the fee</li><li><b>C</b> agree the price with the driver in advance</li></ul>"
+  },
+  {
+   "type": "section",
+   "n": 3
+  },
+  {
+   "type": "block",
+   "from": 21,
+   "to": 24,
+   "mode": "image",
+   "image": "r5-b6.webp"
+  },
+  {
+   "type": "block",
+   "from": 25,
+   "to": 28,
+   "mode": "image",
+   "image": "r5-b7.webp"
+  },
+  {
+   "type": "block",
+   "from": 29,
+   "to": 30,
+   "mode": "image",
+   "image": "r5-b8.webp"
+  },
+  {
+   "type": "section",
+   "n": 4
+  },
+  {
+   "type": "block",
+   "from": 31,
+   "to": 36,
+   "mode": "image",
+   "image": "r5-b10.webp"
+  },
+  {
+   "type": "block",
+   "from": 37,
+   "to": 40,
+   "mode": "text",
+   "inst": [],
+   "html": "<p>Which UK projects have the following features?</p><p>Write the correct letter, A, B or C, next to Questions 37-40.</p><p>Projects</p><ul class='opts'><li><b>A</b> Mole Manor</li><li><b>B</b> Hockerton</li><li><b>C</b> both Mole Manor and Hockerton</li></ul><p>Feature</p><p class='q'><span class='qn'>37</span> favourable reaction</p><p class='q'><span class='qn'>38</span> self-sufficinecy in energy</p><p class='q'><span class='qn'>39</span> low building costs</p><p class='q'><span class='qn'>40</span> luxurious accommodating</p>"
+  }
+ ],
+ "6": [
+  {
+   "type": "section",
+   "n": 1
+  },
+  {
+   "type": "block",
+   "from": 1,
+   "to": 10,
+   "mode": "image",
+   "image": "r6-b1.webp"
+  },
+  {
+   "type": "section",
+   "n": 2
+  },
+  {
+   "type": "block",
+   "from": 11,
+   "to": 16,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letter A, B or C."
+   ],
+   "html": "<p>Coconut Beach Resort</p><p class='q'><span class='qn'>11</span> Who are suitable for Coconut Beach Resort?</p><ul class='opts'><li><b>A</b> backpackers</li><li><b>B</b> couples</li><li><b>C</b> families with children</li></ul><p class='q'><span class='qn'>12</span> Which type of room does Anna prefer?</p><ul class='opts'><li><b>A</b> room with a spa bath</li><li><b>B</b> room with a private beach</li><li><b>C</b> room with an individual pool</li></ul><p class='q'><span class='qn'>13</span> Which facility was recently built?</p><ul class='opts'><li><b>A</b> picnic area</li><li><b>B</b> golf shop</li><li><b>C</b> horse ranch for horse riding</li></ul><p class='q'><span class='qn'>14</span> What impressed Anna most?</p><ul class='opts'><li><b>A</b> town</li><li><b>B</b> rainforest</li><li><b>C</b> waterfall</li></ul><p class='q'><span class='qn'>15</span> Why do the visitors like the rainforest exploration?</p><ul class='opts'><li><b>A</b> It suits all ages.</li><li><b>B</b> It is excellent for guiding.</li><li><b>C</b> It is the most interesting activity.</li></ul><p class='q'><span class='qn'>16</span> The Sound of the Birds is only opened on</p><ul class='opts'><li><b>A</b> Mondays and Tuesdays</li><li><b>B</b> Thursdays and Fridays</li><li><b>C</b> Weekends</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 17,
+   "to": 18,
+   "mode": "text",
+   "inst": [
+    "Choose TWO letters, A-E."
+   ],
+   "html": "<p>Which TWO facilities does the resort centre provide?</p><ul class='opts'><li><b>A</b> 24-hour cafe</li><li><b>B</b> free bus transfer</li><li><b>C</b> tourist shop</li><li><b>D</b> car transfer</li><li><b>E</b> tour booking office</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 19,
+   "to": 20,
+   "mode": "text",
+   "inst": [
+    "Choose TWO letters, A-E."
+   ],
+   "html": "<p>In the tour of visiting educational aboriginal tribe, visitors can</p><ul class='opts'><li><b>A</b> learn about aboriginal history.</li><li><b>B</b> watch blanket weaving.</li><li><b>C</b> meet the artists.</li><li><b>D</b> enjoy local traditional dancing.</li><li><b>E</b> learn about medicines.</li></ul>"
+  },
+  {
+   "type": "section",
+   "n": 3
+  },
+  {
+   "type": "block",
+   "from": 21,
+   "to": 30,
+   "mode": "image",
+   "image": "r6-b7.webp"
+  },
+  {
+   "type": "section",
+   "n": 4
+  },
+  {
+   "type": "block",
+   "from": 31,
+   "to": 33,
+   "mode": "text",
+   "inst": [
+    "Choose the correct letter, A, B or C."
+   ],
+   "html": "<p class='q'><span class='qn'>31</span> What impact does Marc Prensky believe digital technology has had on young people?</p><ul class='opts'><li><b>A</b> It has altered their thinking patterns.</li><li><b>B</b> It has harmed their physical development.</li><li><b>C</b> It has limited their brain capacity.</li></ul><p class='q'><span class='qn'>32</span> ‘Digital immigrants’ tend to access computers</p><ul class='opts'><li><b>A</b> using their native language.</li><li><b>B</b> less efficiently than young people.</li><li><b>C</b> for less important information.</li></ul><p class='q'><span class='qn'>33</span> What example is given of having a ‘digital accent’?</p><ul class='opts'><li><b>A</b> having less effective typing skills</li><li><b>B</b> doing things the old-fashioned way</li><li><b>C</b> being unable to understand instructions</li></ul>"
+  },
+  {
+   "type": "block",
+   "from": 34,
+   "to": 40,
+   "mode": "text",
+   "inst": [],
+   "html": "<p>Which theorist makes each of the following points?</p><p>Write the correct letter, A, B or C, next to Questions 34-40.</p><p>Theorists</p><ul class='opts'><li><b>A</b> Allen</li><li><b>B</b> James</li><li><b>C</b> Vander</li></ul><p>Points made</p><p class='q'><span class='qn'>34</span> Current teaching methods don&#x27;t work.</p><p class='q'><span class='qn'>35</span> Many students don&#x27;t understand computers.</p><p class='q'><span class='qn'>36</span> Computer technology doesn&#x27;t interest all students.</p><p class='q'><span class='qn'>37</span> Students can still learn the traditional way.</p><p class='q'><span class='qn'>38</span> Students still need to learn research skills.</p><p class='q'><span class='qn'>39</span> We should use computer games to teach.</p><p class='q'><span class='qn'>40</span> Computers can&#x27;t replace educators.</p>"
+  }
+ ]
+}
