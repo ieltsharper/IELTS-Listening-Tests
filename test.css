@@ -176,20 +176,6 @@
   text-align: center;
 }
 
-.original {
-  margin-top: 8px;
-}
-
-.original summary {
-  cursor: pointer;
-  color: var(--brand);
-  font-weight: 600;
-}
-
-.original .paper {
-  margin-top: 10px;
-}
-
 .hint {
   margin: 8px 0 0;
   font-size: 0.9rem;

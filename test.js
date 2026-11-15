@@ -179,8 +179,8 @@
   const bandFor = (raw) => (BAND.find(([min]) => raw >= min) || [0, 'below 2.5'])[1];
   const openTapescript = () => {
     if (!data.tapescript) return;
-    $('tape-locked').hidden = true;
-    $('btn-tape').hidden = false;
+    const card = $('tape-card'); // (a page cached from before the card was hidden has none)
+    if (card) card.hidden = false;
   };
 
 

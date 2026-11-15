@@ -87,21 +87,10 @@ def question_book(t, rat7=False):
     return "\n".join(out)
 
 
-def original_pages(t, n):
-    return f"""
-    <details class="original">
-      <summary>Show the original book pages (picture)</summary>
-      <a class="paper" href="img/{t['image']}" target="_blank" rel="noopener">
-        <img src="img/{t['image']}" alt="The question book for Listening Test {n}: Sections 1 to 4, Questions 1 to 40." loading="lazy">
-      </a>
-      <p class="plain hint">Tap or click the pages to open them full size in a new tab.</p>
-    </details>"""
-
-
-TAPE_SECTION = """  <section class="card tapescript" aria-labelledby="t-title">
+TAPE_SECTION = """  <section class="card tapescript" id="tape-card" aria-labelledby="t-title" hidden>
     <h2 class="section-title" id="t-title">Tapescript</h2>
-    <p class="plain locked" id="tape-locked">Check your answers first, then the tapescript opens here.</p>
-    <button type="button" id="btn-tape" hidden>Show tapescript</button>
+    <p id="tape-locked" hidden></p>
+    <button type="button" id="btn-tape">Show tapescript</button>
     <div id="tape-body" hidden></div>
   </section>
 """
@@ -152,7 +141,7 @@ def page(t, rat7=False):
     <h2 class="section-title" id="q-title">Listening and questions</h2>
     <div class="qbook" id="qbook">
 {question_book(t, rat7)}
-    </div>{"" if rat7 else original_pages(t, n)}
+    </div>
   </section>
 
   <section class="card" aria-labelledby="sheet-title">
