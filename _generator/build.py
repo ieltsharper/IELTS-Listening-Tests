@@ -130,7 +130,9 @@ def page(t, rat7=False):
         else "Then press <strong>Check answers</strong> to see your\n      score and your estimated band, and read the tapescript to see where each answer came from."
     )
     return (
-        HEAD.format(title=e(f"{'Recent Actual Test 7 · ' if rat7 else ''}Listening Test {n} – IELTS Harper"))
+        HEAD.format(title=e(f"{'Recent Actual Test 7 · ' if rat7 else ''}Listening Test {n} – IELTS Harper")).replace(
+            "</head>", '  <link rel="stylesheet" href="ih-annotate.css">' + chr(10) + "</head>", 1
+        )
         + TOPBAR.format(extra=extra)
         + f"""
 <main class="container">
@@ -168,6 +170,7 @@ def page(t, rat7=False):
 
 <script id="test" type="application/json">{blob}</script>
 <script src="test.js"></script>
+<script src="ih-annotate.js" data-roots=".qblock, #tape-body" data-skip=".fb, .fbs, .gn, .sec-score"></script>
 </body>
 </html>
 """
