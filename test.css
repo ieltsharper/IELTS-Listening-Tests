@@ -103,6 +103,14 @@
   color: var(--muted);
 }
 
+/* the title line of a note, form or table: centred and bold */
+.qblock .qtitle {
+  margin: 4px 0 12px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+}
+
 .qblock .bullet {
   padding-left: 18px;
   position: relative;

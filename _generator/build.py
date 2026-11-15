@@ -48,6 +48,7 @@ def question_book(t, rat7=False):
     assert len(t["audio"]) == 4 and sum(b["type"] == "section" for b in blocks) == 4, f"test {n}"
     if not rat7:
         blocks = inline.repair(n, blocks)  # option lists the PDF text broke
+    blocks = inline.tidy(blocks)  # instruction pieces back into the instruction; mark the title line
     controls = inline.render(blocks, t["key"])
     for i, b in enumerate(blocks):
         if b["type"] == "section":

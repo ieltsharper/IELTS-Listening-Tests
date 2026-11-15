@@ -211,3 +211,54 @@ def repair(n, blocks):
             b = dict(b, html=h)
         out.append(b)
     return out
+
+
+# ---- Titles: the heading line of a note, form or table (such as "The Elizabeth House") is centred and bold
+LEAD = re.compile(r"<p>([^<]*)</p>")
+INSTRUCTION_START = re.compile(r"^(Fill in|Write|Complete|Choose|Circle)\b")
+
+
+def _is_title(text):
+    t = text.strip()
+    return (
+        0 < len(t.split()) <= 10
+        and re.search(r"[A-Za-z]", t)
+        and not re.search(r"[:?.]$|:|\?", t)
+        and not re.match(r"^(NUMBER|ONLY|THAN|Which|What|Who|Match|Choose|Example)\b", t)
+    )
+
+
+def tidy(blocks):
+    """Copies of the blocks where instruction pieces that landed in the text go back into the instruction and
+    the title line is marked <p class="qtitle"> (centred and bold in test.css)."""
+    out = []
+    for b in blocks:
+        if b["type"] != "block" or b["mode"] != "text":
+            out.append(b)
+            continue
+        h, inst = b["html"], list(b["inst"])
+        h = h.replace("<p>Architecture roles in people’s lives Implementation plan:</p>",
+                      "<p>Architecture roles in people’s lives</p><p>Implementation plan:</p>")
+        # leaked pieces of the instruction, a watermark line
+        while True:
+            m = LEAD.match(h)
+            if not m:
+                break
+            text = m.group(1).strip()
+            cut = False
+            if re.match(r"^https?://", text):
+                cut = True
+            elif inst and not re.search(r"[.?!:]$", inst[-1]) and text.endswith(".") and not re.search(r"[a-z] [a-z]+ [a-z]+ [a-z]+ [a-z]+", text):
+                inst.append(text)  # "Write ONE WORD" + "ONLY for each answer."
+                cut = True
+            elif not inst and INSTRUCTION_START.match(text) and len(text.split()) > 4:
+                inst.append(text)  # the instruction came as a paragraph
+                cut = True
+            if not cut:
+                break
+            h = h[m.end():]
+        m = LEAD.match(h)
+        if m and _is_title(m.group(1)) and not h[m.end():].startswith("<ul"):  # a stem above its options is no title
+            h = f'<p class="qtitle">{m.group(1).strip()}</p>' + h[m.end():]
+        out.append(dict(b, html=h, inst=inst))
+    return out
